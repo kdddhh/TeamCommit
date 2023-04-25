@@ -13,14 +13,36 @@
 
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500i,700|Roboto:300,400,500,700&display=swap" rel="stylesheet">
 
-    <link rel = "stylesheet" href = "../res/css/vendor/icomoon/style.css">
-    <link rel = "stylesheet" href = "../res/css/vendor/owl.carousel.min.css">
-    <link rel = "stylesheet" href = "../res/css/vendor/aos.css">
-    <link rel = "stylesheet" href = "../res/css/vendor/animate.min.css">
-    <link rel = "stylesheet" href = "../res/css/vendor/bootstrap.css">
+    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/icomoon/style.css">
+    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/owl.carousel.min.css">
+    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/aos.css">
+    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/animate.min.css">
+    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/bootstrap.css">
 
     <!-- Theme Style -->
-    <link rel="stylesheet" href="../res/css/style.css">
+    <link rel="stylesheet" href="/TeamCommit/res/css/style.css">
+    
+    <script src="/TeamCommit/res/js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="/TeamCommit/res/js/vendor/popper.min.js"></script>
+    <script src="/TeamCommit/res/js/vendor/bootstrap.min.js"></script>
+
+    <script src="/TeamCommit/res/js/vendor/owl.carousel.min.js"></script>
+    
+    <script src="/TeamCommit/res/js/vendor/jarallax.min.js"></script>
+    <script src="/TeamCommit/res/js/vendor/jarallax-element.min.js"></script>
+    <script src="/TeamCommit/res/js/vendor/ofi.min.js"></script>
+
+    <script src="/TeamCommit/res/js/vendor/aos.js"></script>
+
+    <script src="/TeamCommit/res/js/vendor/jquery.lettering.js"></script>
+    <script src="/TeamCommit/res/js/vendor/jquery.sticky.js"></script>
+
+    <script src="/TeamCommit/res/js/vendor/TweenMax.min.js"></script>
+    <script src="/TeamCommit/res/js/vendor/ScrollMagic.min.js"></script>
+    <script src="/TeamCommit/res/js/vendor/scrollmagic.animation.gsap.min.js"></script>
+    <script src="/TeamCommit/res/js/vendor/debug.addIndicators.min.js"></script>
+
+    <script src="/TeamCommit/res/js/main.js"></script>
 
     <title>LuxuryHotel Free HTML Template by Untree.co</title>
   </head>
@@ -118,7 +140,7 @@
 
         <div class="owl-carousel owl-hero">
 
-          <div class="untree_co--site-hero overlay" style="background-image: url('images/slider_2.jpg')">
+          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/res/images/slider_2.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-8">
@@ -133,7 +155,7 @@
             </div>
           </div>
 
-          <div class="untree_co--site-hero overlay"  style="background-image: url('images/slider_1.jpg')">
+          <div class="untree_co--site-hero overlay"  style="background-image: url('/TeamCommit/res/images/slider_1.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-7">
@@ -145,7 +167,7 @@
             </div>
           </div>
 
-          <div class="untree_co--site-hero overlay" style="background-image: url('images/room_1_a.jpg')">
+          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/res/images/room_1_a.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-10">
@@ -176,11 +198,11 @@
                 <div class="image-stack">
                   <div class="image-stack-item image-stack-item-top" data-jarallax-element="-50">
                     <div class="overlay"></div>
-                    <img src="images/room_1_a.jpg" alt="Image" class="img-fluid pic1">
+                    <img src="/TeamCommit/res/images/room_1_a.jpg" alt="Image" class="img-fluid pic1">
                   </div>
                   <div class="image-stack-item image-stack-item-bottom">
                     <div class="overlay"></div>
-                    <img src="images/room_1_b.jpg" alt="Image" class="img-fluid pic2">
+                    <img src="/TeamCommit/res/images/room_1_b.jpg" alt="Image" class="img-fluid pic2">
                   </div>
                 </div>
               </div> <!-- .suite -->
@@ -200,11 +222,11 @@
                 <div class="image-stack">
                   <div class="image-stack-item image-stack-item-top">
                     <div class="overlay"></div>
-                    <img src="images/room_2_a.jpg" alt="Image" class="img-fluid pic1">
+                    <img src="/TeamCommit/res/images/room_2_a.jpg" alt="Image" class="img-fluid pic1">
                   </div>
                   <div class="image-stack-item image-stack-item-bottom" data-jarallax-element="-50">
                     <div class="overlay"></div>
-                    <img src="images/room_2_b.jpg" alt="Image" class="img-fluid pic2">
+                    <img src="/TeamCommit/res/images/room_2_b.jpg" alt="Image" class="img-fluid pic2">
                   </div>
                 </div>
               </div>
@@ -235,7 +257,7 @@
               <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="media-29191 text-center h-100">
                   <div class="media-29191-icon">
-                    <img src="images/svg/parking.svg" alt="Image" class="img-fluid">
+                    <img src="TeamCommit/res/images/svg/parking.svg" alt="Image" class="img-fluid">
                   </div>
                   <h3>Free Self-Parking</h3>
                   <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
@@ -246,7 +268,7 @@
               <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="media-29191 text-center h-100">
                   <div class="media-29191-icon">
-                    <img src="images/svg/internet.svg" alt="Image" class="img-fluid">
+                    <img src="/TeamCommit/res/images/svg/internet.svg" alt="Image" class="img-fluid">
                   </div>
                   <h3>High speed Internet access</h3>
                   <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
@@ -256,7 +278,7 @@
               <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="media-29191 text-center h-100">
                   <div class="media-29191-icon">
-                    <img src="images/svg/wifi.svg" alt="Image" class="img-fluid">
+                    <img src="/TeamCommit/res/images/svg/wifi.svg" alt="Image" class="img-fluid">
                   </div>
                   <h3>Complimentary WiFi in public areas</h3>
                   <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
@@ -267,7 +289,7 @@
               <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="media-29191 text-center h-100">
                   <div class="media-29191-icon">
-                    <img src="images/svg/elevator.svg" alt="Image" class="img-fluid">
+                    <img src="TeamCommit/res/images/svg/elevator.svg" alt="Image" class="img-fluid">
                   </div>
                   <h3>Elevators</h3>
                   <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
@@ -278,7 +300,7 @@
               <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="media-29191 text-center h-100">
                   <div class="media-29191-icon">
-                    <img src="images/svg/partners.svg" alt="Image" class="img-fluid">
+                    <img src="TeamCommit/res/images/svg/partners.svg" alt="Image" class="img-fluid">
                   </div>
 
                   <h3>Meeting rooms</h3>
@@ -289,7 +311,7 @@
               <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="media-29191 text-center h-100">
                   <div class="media-29191-icon">
-                    <img src="images/svg/washing-machine.svg" alt="Image" class="img-fluid">
+                    <img src="/TeamCommit/res/images/svg/washing-machine.svg" alt="Image" class="img-fluid">
                   </div>
                   <h3>Laundry and Valet service</h3>
                   <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
@@ -317,7 +339,7 @@
               </div>
               <div class="col-md-4">
                 <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
-                  <a href="#" class="thumb"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="#" class="thumb"><img src="/TeamCommit/res/images/img_1.jpg" alt="Image" class="img-fluid"></a>
                   <div class="post-entry-contents">
                     <h3><a href="#">How algorithms shape our world</a></h3>
                     <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>
@@ -329,7 +351,7 @@
 
               <div class="col-md-4">
                 <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
-                  <a href="#" class="thumb"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="#" class="thumb"><img src="/TeamCommit/res/images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   <div class="post-entry-contents">
                     <h3><a href="#">How algorithms shape our world</a></h3>
                     <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>
@@ -452,27 +474,5 @@
       </div>
     </div>
 
-    <script src="../res/js/vendor/jquery-3.3.1.min.js"></script>
-    <script src="../res/js/vendor/popper.min.js"></script>
-    <script src="../res/js/vendor/bootstrap.min.js"></script>
-
-    <script src="../res/js/vendor/owl.carousel.min.js"></script>
-    
-    <script src="../res/js/vendor/jarallax.min.js"></script>
-    <script src="../res/js/vendor/jarallax-element.min.js"></script>
-    <script src="../res/js/vendor/ofi.min.js"></script>
-
-    <script src="../res/js/vendor/aos.js"></script>
-
-    <script src="../res/js/vendor/jquery.lettering.js"></script>
-    <script src="../res/js/vendor/jquery.sticky.js"></script>
-
-    <script src="../res/js/vendor/TweenMax.min.js"></script>
-    <script src="../res/js/vendor/ScrollMagic.min.js"></script>
-    <script src="../res/js/vendor/scrollmagic.animation.gsap.min.js"></script>
-    <script src="../res/js/vendor/debug.addIndicators.min.js"></script>
-
-
-    <script src="../res/js/main.js"></script>
   </body>
 </html>
