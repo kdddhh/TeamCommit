@@ -140,7 +140,7 @@
 
         <div class="owl-carousel owl-hero">
 
-          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/res/images/slider_2.jpg')">
+          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/res/images/main1.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-8">
@@ -155,7 +155,7 @@
             </div>
           </div>
 
-          <div class="untree_co--site-hero overlay"  style="background-image: url('/TeamCommit/res/images/slider_1.jpg')">
+          <div class="untree_co--site-hero overlay"  style="background-image: url('/TeamCommit/res/images/main2.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-7">
@@ -167,7 +167,7 @@
             </div>
           </div>
 
-          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/res/images/room_1_a.jpg')">
+          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/res/images/main3.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-10">
