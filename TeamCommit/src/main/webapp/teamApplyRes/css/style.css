@@ -2078,14 +2078,14 @@ ol {
 	color: #999999;
 	text-align: center;
 	background: #f5f5f5;
-	border-top: 1px solid #6AB963;
+	border-top: 1px solid rgb(255, 192, 144);
 	padding: 12px 0 12px;
 	margin-bottom: 75px;
 }
 
 .checkout h6 span {
 	font-size: 16px;
-	color: #6AB963;
+	color: rgb(255, 192, 144);
 	margin-right: 5px;
 }
 
