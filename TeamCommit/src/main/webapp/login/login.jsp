@@ -57,6 +57,6 @@
     </div>
   </div>
 </div>
-<script src = "/TeamCommit/loginres/js/login.js"></script>
+	<script src = "/TeamCommit/loginres/js/login.js"></script>
 </body>
 </html>
