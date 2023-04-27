@@ -1,11 +1,8 @@
-/*
-* Template Name: LuxuryHotel
-* Template Author: Untree.co
-* Tempalte URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   background-color: #fff;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.5);
@@ -52,7 +49,7 @@ body.offcanvas:before {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #000;
 }
 
@@ -157,7 +154,7 @@ a, a:hover {
   height: 70px;
   width: 100%;
   padding: 20px 40px;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 2rem;
   text-align: center;
   border: none;
@@ -193,7 +190,7 @@ a, a:hover {
 }
 
 .search-wrap .heading {
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 3rem;
   text-align: center;
 }
@@ -242,7 +239,7 @@ a, a:hover {
   font-size: 5rem;
   color: #fff;
   line-height: 0;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 900;
 }
 
@@ -289,7 +286,7 @@ a, a:hover {
   font-size: 5rem;
   color: #000;
   line-height: 0;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 900;
 }
 
@@ -502,7 +499,7 @@ a, a:hover {
   margin-bottom: 30px;
   line-height: 0;
   font-weight: 700;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .suite-wrap.overlap-image-1 .suite-contents .suite-title > span {
@@ -606,7 +603,7 @@ a, a:hover {
   margin-bottom: 30px;
   line-height: 0;
   font-weight: 700;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .suite-wrap.overlap-image-2 .suite-contents .suite-title > span {
@@ -639,7 +636,7 @@ a, a:hover {
   padding-bottom: 20px;
   margin-bottom: 20px;
   font-weight: 700;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .section-heading h3:after {
@@ -721,15 +718,15 @@ a, a:hover {
 }
 
 .readmore.primary {
-  color: #ff896b;
+  color: #f7f6dc;
 }
 
 .readmore.primary:before {
-  background: #ff896b;
+  background: #f7f6dc;
 }
 
 .readmore.primary:hover {
-  color: #ff896b;
+  color: #f7f6dc;
 }
 
 .readmore.reverse:before {
@@ -1048,7 +1045,7 @@ a, a:hover {
 }
 
 .sticky-wrapper .untree_co--site-nav.dark .site-nav-ul > li > a:before {
-  background: #ff896b;
+  background: #f7f6dc;
 }
 
 .sticky-wrapper .untree_co--site-nav.dark .burger:before, .sticky-wrapper .untree_co--site-nav.dark .burger span, .sticky-wrapper .untree_co--site-nav.dark .burger:after {
@@ -1077,7 +1074,7 @@ a, a:hover {
 }
 
 .sticky-wrapper.is-sticky .untree_co--site-nav .site-nav-ul > li > a:before {
-  background: #ff896b;
+  background: #b1d7b4;
 }
 
 .sticky-wrapper.is-sticky .icons-top li a {
@@ -1087,7 +1084,7 @@ a, a:hover {
 }
 
 .sticky-wrapper.is-sticky .icons-top li a:hover {
-  background: #ff896b;
+  background: #b1d7b4;
   color: #fff;
 }
 
@@ -1183,7 +1180,7 @@ a, a:hover {
 }
 
 .untree_co--site-mobile-menu ul a:hover, .untree_co--site-mobile-menu ul li a:hover {
-  color: #ff896b;
+  color: #f7f6dc;
 }
 
 .untree_co--site-mobile-menu ul > li > ul > li > a {
@@ -1431,7 +1428,7 @@ span[data-jarallax-element] {
 }
 
 .bg-body-darker {
-  background: #e6e6e6;
+  background: #b1d7b4;
 }
 
 .cta {
@@ -1441,7 +1438,7 @@ span[data-jarallax-element] {
 .cta h3 {
   font-size: 2rem;
   color: #000;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .cta h3 a {
@@ -1453,7 +1450,7 @@ span[data-jarallax-element] {
 
 .cta h3 a:before {
   content: "";
-  background: #ff896b;
+  background: #f7f6dc;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1478,7 +1475,7 @@ span[data-jarallax-element] {
 .testimony-29101 .text {
   width: 60%;
   padding: 7rem 4rem;
-  background: #ff896b;
+  background: #f7f6dc;
 }
 
 .testimony-29101 .text blockquote {
@@ -1571,13 +1568,13 @@ span[data-jarallax-element] {
   display: inline-block;
   width: 15px;
   height: 3px;
-  background: rgba(255, 137, 107, 0.4);
+  background: rgb(255, 192, 144);
   margin: 3px;
 }
 
 .slide-one-item .owl-dots .owl-dot.active > span {
   width: 15px;
-  background: #ff896b;
+  background: #ffc090;
 }
 
 .thumbnail {
@@ -1950,7 +1947,7 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
 }
 
 .slider-counter {
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 20px;
   position: absolute;
   left: 0px;
@@ -1990,7 +1987,7 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
 .media-29190 p {
   font-size: 2rem;
   line-height: 1.5;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .media-29190 p:last-child {

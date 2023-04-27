@@ -104,11 +104,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #ff896b;
+  color: #b1d7b4;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #ff4c1f;
+    color: rgb(127, 183, 126)​;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -124,7 +124,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 1em; }
 
 pre {
