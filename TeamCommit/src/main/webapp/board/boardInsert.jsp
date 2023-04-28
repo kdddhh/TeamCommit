@@ -5,53 +5,111 @@
 
 <%-- <%@include file="../includes/header.jsp"%>--%>
 
-<div class="row" style="margin-bottom:20px; margin-left:1px;">
-<div class="col-lg-12">
-<h1 class="page-header">등록 페이지</h1>
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+	* {
+		font-family: 'Noto Sans KR', sans-serif;
+		padding: 0; 
+		margin: 0;
+	}
+	panel, panel-body
+	button
+	h1 {
+		text-align: center;
+		font-style: bold;
+	}
+	
+	.formInline {
+		margin-bottom : 1em;
+		width: 90px;
+	}
+	
+	.form-control {
+		width: 400px;
+	}
+	
+	body {
+		position: relative;
+		top: 30%;
+		left: 25%;
+		margin-top: 5em;
+		margin-bottom: 10em;
+	}
+	
+	#boardWriter {
+		float: right;
+		position: absolute;
+		right: 60%;
+	}
+	
+	.upload {
+		clear: both;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}	
+	
+	.table-responsive {
+		margin-top: 3em;
+	}
+	
+	label {
+		font-style: bold;
+	}
+	
+	button {
+		margin: 0 auto;
+	}
+	
+	textarea {
+		resize: none;
+	}
+	
+	
+</style>
+</head>
+<body style="overflow-x: hidden">
+
+<h1>등록 페이지</h1>
+
+<form role="form" action="/board/create_action" method="post">
+<div class="table-responsive">
+		
+		<span class="formInline">
+		<label for="board_title">제목</label>
+		<input type="text" id="board_title"
+				name="board_title" class="form-control">
+		</span>
+		
+		<span id="boardWriter" class="formWriter">
+		<label for="board_writer" class="writer">작성자</label>
+		</span>
+		
+		<div class="upload">
+			<legend>사진 첨부</legend>
+            <input type="file" name="upload_file" accept="image/*">
+		</div>
+		
+		<div class="content">
+		<label for="board_content">내용</label><br>
+			<textarea id="board_content" name="board_content" cols="100" rows="10"
+					class="form-content"></textarea>
+		</div>
+		
+		
+			
 </div>
+<div>
+	<button type="submit" class="btn_submit">등록</button>
+	<button type="reset" class="btn_reset">취소</button>
 </div>
 
-<div class="panel" style="margin-left:1px;">
-<div id="contAreaBox">
-<div class="panel">
-<div class="panel-body">
-<form role="form" action="/board/create_action" method="post">
-<div class="table-responsive" style="text-align:center;">
-	<table id="datatable-scroller"
-		class="table table-bordered tbl_Form">
-		<caption></caption>
-		<colgroup>
-			<col width="250px" />
-			<col />
-		</colgroup>
-		<tbody>
-			<tr>
-				<th class="active" >작성자</th>
-				<td class="form-inline"><input type="text" id="board_writer"
-					name="board_writer" class="form-control" style="width: 200px" />
-				</td>
-			</tr>
-			<tr>
-				<th class="active">제목</th>
-				<td class="form-inline"><input type="text" id="board_title"
-					name="board_title" class="form-control" style="width: 840px" />
-				</td>
-			</tr>
-			<tr>
-				<th class="active" >내용</th>
-				<td class="form-inline"><textarea 
-						id="board_content" name="board_content" cols="100" rows="10"
-						class="form-control"></textarea></td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-<div style="margin-left:1px;">
-	<button type="submit" class="btn btn-primary">등록</button>
-	<a href="/board/list" class="btn btn-danger">취소</a>
-</div>
 </form>
-</div>
-</div>
-</div>
-</div>
+
+</body>
+</html>
+
