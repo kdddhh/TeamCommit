@@ -11513,7 +11513,7 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-  color: #ff896b !important
+  color: var(--green-hover) !important
 }
 
 a.text-primary:focus,
