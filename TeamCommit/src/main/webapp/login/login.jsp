@@ -7,39 +7,28 @@
 <meta charset="UTF-8">
 <link rel = "stylesheet" href = "/TeamCommit/loginres/css/login.css">
 
-<title>Insert title here</title>
+<title>Kick Off login page</title>
 </head>
 <body>
-<h2>Weekly Coding Challenge #1: Sign in/up Form</h2>
 <div class="container" id="container">
   <div class="form-container sign-up-container">
     <form action="#">
-      <h1>Create Account</h1>
-      <div class="social-container">
-        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-      </div>
+      <h1>회원가입</h1>
       <span>or use your email for registration</span>
-      <input type="text" placeholder="Name" />
-      <input type="email" placeholder="Email" />
-      <input type="password" placeholder="Password" />
-      <button>Sign Up</button>
+      <input type="text" placeholder="이름" />
+      <input type="email" placeholder="이메일" />
+      <input type="password" placeholder="비밀번호" />
+      <button>회원가입</button>
     </form>
   </div>
   <div class="form-container sign-in-container">
     <form action="#">
-      <h1>Sign in</h1>
-      <div class="social-container">
-        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-      </div>
+      <h1>로그인</h1>
       <span>or use your account</span>
-      <input type="email" placeholder="Email" />
-      <input type="password" placeholder="Password" />
-      <a href="#">Forgot your password?</a>
-      <button>Sign In</button>
+      <input type="email" placeholder="이메일" />
+      <input type="password" placeholder="비밀번호" />
+      <a href="#">비밀번호 찾기</a>
+      <button>로그인</button>
     </form>
   </div>
   <div class="overlay-container">

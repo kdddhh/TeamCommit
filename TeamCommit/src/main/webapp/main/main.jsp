@@ -44,7 +44,7 @@
 
     <script src="/TeamCommit/res/js/main.js"></script>
 
-    <title>LuxuryHotel Free HTML Template by Untree.co</title>
+    <title>kickoff main page</title>
   </head>
   <body>
 
@@ -70,17 +70,18 @@
 
 
     <div class="untree_co--site-wrap">
-
+		<!-- 상단바 -->
       <nav class="untree_co--site-nav js-sticky-nav">
         <div class="container d-flex align-items-center">
           <div class="logo-wrap">
-            <a href="index.html" class="untree_co--site-logo">LuxuryHotel</a>
+            <a href="index.html" class="untree_co--site-logo">Kick Off</a>
           </div>
           <div class="site-nav-ul-wrap text-center d-none d-lg-block">
             <ul class="site-nav-ul js-clone-nav">
-              <li class="active"><a href="index.html">Home</a></li>
+              <li class="active"><a href="index.html">예약</a></li>
               <li class="has-children">
-                <a href="rooms.html">Rooms</a>
+                <a href="rooms.html">매칭</a>
+                <!-- 마우스 대면 세부 메뉴 나옴 -->
                 <ul class="dropdown">
                   <li class="has-children">
                     <a href="#">King Bedroom</a>
@@ -104,28 +105,13 @@
                   </li>
                 </ul>
               </li>
-              <li><a href="amenities.html">Amenities</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="amenities.html">자유 게시판</a></li>
+              <li><a href="gallery.html">팀</a></li>
+              <li><a href="about.html">용병</a></li>
             </ul>
           </div>
           <div class="icons-wrap text-md-right">
 
-            <ul class="icons-top d-none d-lg-block">
-              <li class="mr-4">
-                <a href="#" class="js-search-toggle"><span class="icon-search2"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="icon-facebook"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="icon-twitter"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="icon-instagram"></span></a>
-              </li>
-            </ul>
 
             <!-- Mobile Toggle -->
             <a href="#" class="d-block d-lg-none burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -145,9 +131,9 @@
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-8">
                   <div class="site-hero-contents text-center" data-aos="fade-up">
-                    <h1 class="hero-heading">LuxuryHotel by Untree.co</h1>
+                    <h1 class="hero-heading">Kick Off</h1>
                     <div class="sub-text">
-                      <p>Another free awesome templates for Hotels and any kind of website by <a href="https://untree.co/" target="_blank" class="text-white font-weight-bold">Untree.co</a>. See our <a href="https://untree.co/license/" class="text-white font-weight-bold">license page</a> for more usage details</p>
+                      <p class="text-white font-weight-bold">4조 짱 최고 커밋 조</p>
                     </div>
                   </div>
                 </div>
@@ -160,7 +146,7 @@
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-7">
                   <div class="site-hero-contents text-center" data-aos="fade-up">
-                    <h1 class="hero-heading">Enjoy Your Stay</h1>
+                    <h1 class="hero-heading">킥오프 흥해라</h1>
                   </div>
                 </div>
               </div>
@@ -172,7 +158,7 @@
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-10">
                   <div class="site-hero-contents text-center" data-aos="fade-up">
-                    <h1 class="hero-heading">Away from the Hustle and Bustle of City Life</h1>
+                    <h1 class="hero-heading">코딩천재 스님 나무아미타불관세음보살</h1>
                   </div>
                 </div>
               </div>
@@ -181,6 +167,7 @@
 
         </div>
 
+		<!-- 
         <div class="untree_co--site-section float-left pb-0 featured-rooms">
 
           <div class="container pt-0 pb-5">
@@ -205,7 +192,7 @@
                     <img src="/TeamCommit/res/images/room_1_b.jpg" alt="Image" class="img-fluid pic2">
                   </div>
                 </div>
-              </div> <!-- .suite -->
+              </div> 
 
               <div class="suite-contents" data-jarallax-element="50">
                 <h2 class="suite-title">King Bedroom</h2>
@@ -321,13 +308,10 @@
 
             </div>
           </div>
-        </div>
-        
+        </div> -->
 
-        
-        
 
-        <div class="untree_co--site-section">
+        <div class="TeamCommit--site-section">
           <div class="container">
             <div class="row">
               <div class="col-md-4 section-heading" data-aos="fade-up">
@@ -364,27 +348,18 @@
           </div>
         </div>
 
-    
-        <div class="untree_co--site-section py-5 bg-body-darker cta">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 text-center">
-                <h3 class="m-0 p-0">If you have any special requests, please feel free to call us. <a href="tel://+123456789012">+12.345.678.9012</a></h3>
-              </div>
-            </div>
-          </div>
-        </div>
 
 
       </div>
-      <footer class="untree_co--site-footer">
+      <footer class="TeamCommit--site-footer">
 
         <div class="container">
           <div class="row">
             <div class="col-md-4 pr-md-5">
-              <h3>About Us</h3>
-              <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+              <h3>KICK OFF</h3>
+              <p>풋살만을 위한 사이트</p>
               <p><a href="#" class="readmore">Read more</a></p>
+              <!-- Read more => 이용약관으로 변환 -->
             </div>
             <div class="col-md-8 ml-auto">
               <div class="row">
@@ -414,15 +389,7 @@
                     </div>
                   </div>
 
-                  <h3 class="mb-0">Join our newsletter</h3>
-                  <p>Be the first to know our latest updates and news!</p>
-                  <form action="#" method="" class="form-subscribe">
-                    <div class="form-group d-flex">
-                      <input type="email" class="form-control mr-2" placeholder="Enter your email">
-                      <input type="submit" value="Subscribe" class="btn btn-black px-4 text-white">
-                    </div>
-                  </form>
-                </div>
+             
                 
               </div>
             </div>
@@ -431,25 +398,12 @@
             <div class="col-md-6 text-md-left">
               <!-- Link back to Untree.co can't be removed. Template is licensed under CC BY 3.0. If you purchased a license you can remove this. -->
               <p>
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="index.html">Untree.co</a>. All Rights Reserved. Design by <a href="https://untree.co/" target="_blank" class="text-primary">Untree.co</a>
+               
               </p>
             <!-- Link back to Untree.co can't be removed. Template is licensed under CC BY 3.0. If you purchased a license you can remove this. -->
             </div>
             <div class="col-md-6 text-md-right">
-              <ul class="icons-top icons-dark">
-              <li>
-                <a href="#"><span class="icon-facebook"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="icon-twitter"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="icon-instagram"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="icon-tripadvisor"></span></a>
-              </li>
-            </ul>
+            
 
             </div>
           </div>
@@ -458,21 +412,6 @@
       </footer>
     </div>
 
-    <!-- Search -->
-    <div class="search-wrap">
-      <a href="#" class="close-search js-search-toggle">
-        <span>Close</span>
-      </a>
-      <div class="container">
-        <div class="row justify-content-center align-items-center text-center">
-          <div class="col-md-12">
-            <form action="#">
-              <input type="search" name="s" id="s" placeholder="Type a keyword and hit enter..."  autocomplete="false">
-            </form>    
-          </div>
-        </div>
-      </div>
-    </div>
 
   </body>
 </html>
