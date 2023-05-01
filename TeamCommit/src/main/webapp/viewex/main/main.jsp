@@ -13,36 +13,36 @@
 
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500i,700|Roboto:300,400,500,700&display=swap" rel="stylesheet">
 
-    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/icomoon/style.css">
-    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/owl.carousel.min.css">
-    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/aos.css">
-    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/animate.min.css">
-    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/bootstrap.css">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/owl.carousel.min.css">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/aos.css">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/animate.min.css">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/bootstrap.css">
 
     <!-- Theme Style -->
-    <link rel="stylesheet" href="/TeamCommit/res/css/style.css">
+    <link rel="stylesheet" href="/TeamCommit/resource/main/css/style.css">
     
-    <script src="/TeamCommit/res/js/vendor/jquery-3.3.1.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/popper.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/bootstrap.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/popper.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/bootstrap.min.js"></script>
 
-    <script src="/TeamCommit/res/js/vendor/owl.carousel.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/owl.carousel.min.js"></script>
     
-    <script src="/TeamCommit/res/js/vendor/jarallax.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/jarallax-element.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/ofi.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/jarallax.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/jarallax-element.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/ofi.min.js"></script>
 
-    <script src="/TeamCommit/res/js/vendor/aos.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/aos.js"></script>
 
-    <script src="/TeamCommit/res/js/vendor/jquery.lettering.js"></script>
-    <script src="/TeamCommit/res/js/vendor/jquery.sticky.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/jquery.lettering.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/jquery.sticky.js"></script>
 
-    <script src="/TeamCommit/res/js/vendor/TweenMax.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/ScrollMagic.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/scrollmagic.animation.gsap.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/debug.addIndicators.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/TweenMax.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/ScrollMagic.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/scrollmagic.animation.gsap.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/debug.addIndicators.min.js"></script>
 
-    <script src="/TeamCommit/res/js/main.js"></script>
+    <script src="/TeamCommit/resource/main/js/main.js"></script>
 
     <title>kickoff main page</title>
   </head>
@@ -78,10 +78,10 @@
           </div>
           <div class="site-nav-ul-wrap text-center d-none d-lg-block">
             <ul class="site-nav-ul js-clone-nav">
-              <li class="active"><a href="index.html">예약</a></li>
-              <li class="has-children">
+              <li><a href="index.html">예약</a></li>
+				<li class="has-children">
                 <a href="rooms.html">매칭</a>
-                <!-- 마우스 대면 세부 메뉴 나옴 
+
                 <ul class="dropdown">
                   <li class="has-children">
                     <a href="#">King Bedroom</a>
@@ -104,7 +104,7 @@
                     <a href="#">Le Voila Suite</a>
                   </li>
                 </ul>
-              </li>-->
+              </li>
               <li><a href="amenities.html">자유 게시판</a></li>
               <li><a href="gallery.html">팀</a></li>
               <li><a href="about.html">용병</a></li>
@@ -126,7 +126,7 @@
 
         <div class="owl-carousel owl-hero">
 
-          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/res/images/main1.jpg')">
+          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/resource/main/images/main1.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-8">
@@ -141,7 +141,7 @@
             </div>
           </div>
 
-          <div class="untree_co--site-hero overlay"  style="background-image: url('/TeamCommit/res/images/main2.jpg')">
+          <div class="untree_co--site-hero overlay"  style="background-image: url('/TeamCommit/resource/main/images/main2.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-7">
@@ -153,7 +153,7 @@
             </div>
           </div>
 
-          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/res/images/main3.jpg')">
+          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/resource/main/images/main3.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-10">
@@ -323,7 +323,7 @@
               </div>
               <div class="col-md-4">
                 <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
-                  <a href="#" class="thumb"><img src="/TeamCommit/res/images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="#" class="thumb"><img src="/TeamCommit/resource/main/images/img_1.jpg" alt="Image" class="img-fluid"></a>
                   <div class="post-entry-contents">
                     <h3><a href="#">How algorithms shape our world</a></h3>
                     <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>
@@ -335,7 +335,7 @@
 
               <div class="col-md-4">
                 <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
-                  <a href="#" class="thumb"><img src="/TeamCommit/res/images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="#" class="thumb"><img src="/TeamCommit/resource/main/images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   <div class="post-entry-contents">
                     <h3><a href="#">How algorithms shape our world</a></h3>
                     <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>

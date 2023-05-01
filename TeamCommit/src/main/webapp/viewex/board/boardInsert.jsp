@@ -3,76 +3,33 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 
 
-<%-- <%@include file="../includes/header.jsp"%>--%>
-
-
 <!doctype html>
 <html>
 <head>
 <meta charset="UTF-8" />
-<style>
-	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
-	* {
-		font-family: 'Noto Sans KR', sans-serif;
-		padding: 0; 
-		margin: 0;
-	}
-	panel, panel-body
-	button
-	h1 {
-		text-align: center;
-		font-style: bold;
-	}
-	
-	.formInline {
-		margin-bottom : 1em;
-		width: 90px;
-	}
-	
-	.form-control {
-		width: 400px;
-	}
-	
-	body {
-		position: relative;
-		top: 30%;
-		left: 25%;
-		margin-top: 5em;
-		margin-bottom: 10em;
-	}
-	
-	#boardWriter {
-		float: right;
-		position: absolute;
-		right: 60%;
-	}
-	
-	.upload {
-		clear: both;
-		margin-top: 1em;
-		margin-bottom: 1em;
-	}	
-	
-	.table-responsive {
-		margin-top: 3em;
-	}
-	
-	label {
-		font-style: bold;
-	}
-	
-	button {
-		margin: 0 auto;
-	}
-	
-	textarea {
-		resize: none;
-	}
-	
-	
-</style>
+<!-- include할 문서에 스타일, js -->
+ <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+    
+    <script src="/TeamCommit/resource/includes/js/jquery-3.3.1.min.js"></script>
+
+    <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
+    <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
+
+
+    <script src="/TeamCommit/resource/includes/js/ScrollMagic.min.js"></script>
+    <script src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
+
+
+    <script src="/TeamCommit/resource/includes/js/main.js"></script>
+<!-- 여기까지 복붙하기 -->    
+
+<link rel = "stylesheet" href = "/TeamCommit/resource/boardInsert/css/style.css" />
+
 </head>
 <body style="overflow-x: hidden">
+
+<%// header 위치에 선언하기 %>
+<%@include file="/resource/includes/header.jsp"%>
 
 <h1>등록 페이지</h1>
 
