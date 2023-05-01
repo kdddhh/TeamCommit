@@ -4,12 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel = "stylesheet" href = "/TeamCommit/resource/login/css/login.css">
+<link rel = "stylesheet" href = "/TeamCommit/resource/emp/css/fixInfo.css">
 <title>Kick Off login page</title>
 </head>
 <body style="overflow-y: hidden">
 	<div class="container" id="container">
-	  <div class="form-container sign-up-container">
 	    <form action="#">
 	      <h1>회원가입</h1>
 	      <br />
@@ -34,7 +33,6 @@
 	      <button><a href="#a" class="open">회원가입</button>
 	    </form>
 	     
-	  </div>
-	<script src = "/TeamCommit/resource/login/js/login.js"></script>
+	 </div>
 </body>
 </html>

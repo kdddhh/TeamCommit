@@ -60,8 +60,10 @@
                             <div class="col-lg-6">
                                     <div class="checkout__input">
                                         <p>성별<span>*</span></p>
-                                        <label><input typr="radio" name="gender" value="남성">남성</label>
-                                        <label><input typr="radio" name="gender" value="여성">여성</label>
+                                        <select >
+                                        	<option>남성</option>
+                                        	<option>여성</option>
+                                        </select>
                                     </div>
                             </div>
                             <div class="checkout__input">
