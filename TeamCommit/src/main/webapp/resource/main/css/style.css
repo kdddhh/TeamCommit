@@ -63,7 +63,7 @@ a, a:hover {
   text-decoration: none !important;
 }
 
-.untree_co--site-section {
+.TeamCommit--site-section {
   padding: 7rem 0;
   position: relative;
   clear: both;
@@ -71,7 +71,7 @@ a, a:hover {
 }
 
 @media (max-width: 991.98px) {
-  .untree_co--site-section {
+  .TeamCommit--site-section {
     padding: 4rem 0;
   }
 }
@@ -1622,7 +1622,7 @@ span[data-jarallax-element] {
 
 footer {
   padding: 7rem 0;
-  font-size: 15px;
+  font-size: 15px;​
 }
 
 footer h3 {
