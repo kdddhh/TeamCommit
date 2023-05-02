@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Custom styles for this page -->
+    <link href="/TeamCommit/resource/emp/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="/TeamCommit/resource/emp/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -521,11 +523,7 @@
 			                <!-- /.container-fluid -->
 								</section>
 
-							<!-- Section -->
-								<section>
-									
-								</section>
-
+							
 						</div>
 					</div>
 
@@ -583,6 +581,14 @@
 			<script src="/TeamCommit/resource/emp/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="/TeamCommit/resource/emp/js/main.js"></script>
+			
+			
+    <!-- Page level plugins-->
+    <script src="/TeamCommit/resource/emp/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="/TeamCommit/resource/emp/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="/TeamCommit/resource/emp/js/demo/datatables-demo.js"></script>
 
 	</body>
 </html>
