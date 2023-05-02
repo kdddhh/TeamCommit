@@ -79,7 +79,7 @@ a, a:hover {
 
 .sticky-wrapper .untree_co--site-nav .untree_co--site-logo {
   font-size: 1.3rem;
-  color: #b1d7b4;
+  color: #7fb77e;
   font-weight: 700;
   margin-left: 200px;
 }
@@ -106,7 +106,7 @@ a, a:hover {
   letter-spacing: .05rem;
   font-size: 12px;
   position: relative;
-  color: #b1d7b4;
+  color: #000;
 }
 
 .sticky-wrapper .untree_co--site-nav .site-nav-ul > li > a:before {
@@ -115,7 +115,7 @@ a, a:hover {
   content: "";
   position: absolute;
   height: 1px;
-  background: #b1d7b4;
+  background: #000;
   bottom: 0;
   width: 0%;
   -webkit-transition: .2s width ease-in-out;
@@ -124,7 +124,7 @@ a, a:hover {
 }
 
 .sticky-wrapper .untree_co--site-nav .site-nav-ul > li > a:hover {
-  color: #b1d7b4;
+  color: #000;
 }
 
 .sticky-wrapper .untree_co--site-nav .site-nav-ul > li > a:hover:before {
@@ -172,11 +172,11 @@ a, a:hover {
   padding-left: 30px;
   padding-right: 30px;
   display: block;
-  color: #b1d7b4;
+  color: #000;
 }
 
 .sticky-wrapper .untree_co--site-nav .site-nav-ul > li.has-children > .dropdown > li a:hover, .sticky-wrapper .untree_co--site-nav .site-nav-ul > li.has-children > ul > li a:hover {
-  color: #7fb77e;
+  color: #000;
   background: #f9f9f9;
   padding-left: 30px;
 }

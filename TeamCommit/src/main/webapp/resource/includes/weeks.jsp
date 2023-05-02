@@ -1,14 +1,16 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 
+<!DOCTYPE html>
 
-	<%-- include할 곳에 이거 복붙하시면 됩니당
-	 
-	<link rel = "stylesheet" href = "/TeamCommit/resource/includes/week.css" />
-	<script src="/TeamCommit/resource/includes/js/week.js"></script>  
-	
-	--%>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>weeks</title>
+	<link rel = "stylesheet" href = "/TeamCommit/resource/includes/css/week.css" />
+	<script src="/TeamCommit/resource/includes/js/week.js"></script>
+</head>
 
-
+<body>
 	<div class="calendar-wrap">
 		<div class="date-wrap slick-initialized slick-slider">
 			<div class="slick-list draggable">
@@ -80,3 +82,5 @@
 			</div>
 		</div>	
 	</div>
+</body>
+</html>

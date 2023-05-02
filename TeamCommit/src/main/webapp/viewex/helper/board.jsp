@@ -25,27 +25,8 @@
     <!-- Custom styles for this page -->
     <link href="/TeamCommit/resource/helper/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
     
-    <style>
-    	.calender {
-    		text-align: center;
-    	}
-    	
-    	span {
-    		padding-left: 50px;
-    		padding-right: 50px;
-    		
-    	}
-    	
-    	#sunday {
-    		color: red;
-    	}
-    	
-    	#saturday {
-    		color: blue;
-    	}
-    	
-    </style>
-
+    <link rel = "stylesheet" href = "/TeamCommit/resource/includes/css/week.css" />
+ 
 </head>
 
 <body id="page-top">
@@ -63,15 +44,8 @@
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-                    <!-- Sidebar Toggle (Topbar) -->
-                    <form class="form-inline">
-                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                    </form>
                                     
-                </nav>
+                </nav> 
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
@@ -82,7 +56,7 @@
                     <div class="card shadow mb-4">
                     <div class = "calender">
                         <div class="card-header py-3">
-							<span id = "sunday">일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span id = "saturday">토</span>
+							<%@include file = "/resource/includes/weeks.jsp" %>
                         </div>
                         </div>
                         <div class="card-body">
@@ -620,13 +594,7 @@
 
     <!-- Bootstrap core JavaScript-->
     <script src="/TeamCommit/resource/helper/vendor/jquery/jquery.min.js"></script>
-    <script src="/TeamCommit/resource/helper/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Core plugin JavaScript-->
-    <script src="/TeamCommit/resource/helper/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="/TeamCommit/resource/helper/js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
     <script src="/TeamCommit/resource/helper/vendor/datatables/jquery.dataTables.min.js"></script>
@@ -634,10 +602,8 @@
 
     <!-- Page level custom scripts -->
     <script src="/TeamCommit/resource/helper/js/demo/datatables-demo.js"></script>
-
     
-
-
+    
     <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
     <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
 
@@ -647,6 +613,9 @@
 
 
     <script src="/TeamCommit/resource/includes/js/main.js"></script>
+    <script src="/TeamCommit/resource/includes/js/week.js"></script>
+
+    
 
 </body>
 
