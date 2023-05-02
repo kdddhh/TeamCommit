@@ -9,72 +9,57 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Board Page</title>
-    
+    <title>Kick Off: 자유게시판</title>
+
+	<link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+
+    <!-- Custom fonts for this template -->
+    <link href="/TeamCommit/resource/board/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="/TeamCommit/resource/board/css/sb-admin-2.min.css" rel="stylesheet">
 
     <!-- Custom styles for this page -->
     <link href="/TeamCommit/resource/board/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-    
-    <!-- Bootstrap core JavaScript-->
-    <script src="/TeamCommit/resource/board/vendor/jquery/jquery.min.js"></script>
-    <script src="/TeamCommit/resource/board/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="/TeamCommit/resource/board/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="/TeamCommit/resource/board/js/sb-admin-2.min.js"></script>
-
-    <!-- Page level plugins -->
-    <script src="/TeamCommit/resource/board/vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="/TeamCommit/resource/board/vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="/TeamCommit/resource/board/js/demo/datatables-demo.js"></script>  
-    
-    <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
-    
-    <script src="/TeamCommit/resource/includes/js/jquery-3.3.1.min.js"></script>
-
-    <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
-    <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
-
-
-    <script src="/TeamCommit/resource/includes/js/ScrollMagic.min.js"></script>
-    <script src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
-
-
-    <script src="/TeamCommit/resource/includes/js/main.js"></script> 
 
 </head>
-<body id="page-top">
-	
-    <!-- Page Wrapper -->
-    <div id="wrapper">      
 
-		<!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar"></ul>
-		
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+	<%@include file="/resource/includes/header.jsp"%>
+
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
             <!-- Main Content -->
             <div id="content">
-            
-            	<!-- Topbar -->
+
+                <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-					<%@include file="/resource/includes/header.jsp"%>
-				</nav>
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <form class="form-inline">
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </form>
+                                    
+                </nav>
+                <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Page Heading-->
+					<!-- Page Heading-->
                     <h1 class="h3 mb-2 text-gray-800">자유게시판</h1>
                     <br/>
-
+                    
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-body">
@@ -82,24 +67,14 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
-                                            <th>Salary</th>
+                                            <th>번호</th>
+                                            <th>제목</th>
+                                            <th>작성자</th>
+                                            <th>조회수</th>
+                                            <th>날짜</th>
+                                            <th>댓글수</th>
                                         </tr>
                                     </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
-                                            <th>Salary</th>
-                                        </tr>
-                                    </tfoot>
                                     <tbody>
                                         <tr>
                                             <td>Tiger Nixon</td>
@@ -569,7 +544,7 @@
             </div>
             <!-- End of Main Content -->
 
-			<!-- Footer -->
+            <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
@@ -578,7 +553,7 @@
                 </div>
             </footer>
             <!-- End of Footer -->
-            
+
         </div>
         <!-- End of Content Wrapper -->
 
@@ -589,6 +564,51 @@
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="/TeamCommit/resource/board/vendor/jquery/jquery.min.js"></script>
+    <script src="/TeamCommit/resource/board/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="/TeamCommit/resource/board/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="/TeamCommit/resource/board/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="/TeamCommit/resource/board/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="/TeamCommit/resource/board/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="/TeamCommit/resource/board/js/demo/datatables-demo.js"></script>
+
+    <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
+    <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
+    
+    <script src="/TeamCommit/resource/includes/js/ScrollMagic.min.js"></script>
+    <script src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
+
+    <script src="/TeamCommit/resource/includes/js/main.js"></script>
 
 </body>
 
