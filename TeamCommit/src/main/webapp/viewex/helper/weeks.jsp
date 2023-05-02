@@ -138,6 +138,7 @@
 	var days = ['일', '월', '화', '수', '목', '금', '토'];
 
 	function weekCalendar() {
+		
 	    for(var i = 0; i < 7; i++) {
 	        var change = new Date(new Date().setDate(nowDate.getDate() + i));
 	        var dayNum = change.getDay();
@@ -180,13 +181,13 @@
 	}
 	
 	function prevWeek() {
-        nowDate.setDate(nowDate.getDate() - 7);
-        weekCalendar();    
+        nowDate = new Date(nowDate.getFullYear(), nowDate.getMonth() - 1, nowDate.getDate());   // 현재 달을 1 감소
+        weekCalendar();
     }
 
     function nextWeek() {
-    	nowDate.setDate(nowDate.getDate() + 7);  
-        weekCalendar();   
+        nowDate = new Date(nowDate.getFullYear(), nowDate.getMonth() + 1, nowDate.getDate());   // 현재 달을 1 증가
+        weekCalendar(); 
     }
 	</script>
 </head>
