@@ -22,10 +22,14 @@
     <link rel="stylesheet" href="/TeamCommit/resource/teamRegister/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/teamRegister/css/style.css" type="text/css">
     
+    <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+    
+
+    
 </head>
 
 <body>
-          
+    <%@include file="/resource/includes/header.jsp"%>
     <!-- Checkout Section Begin -->
     <section class="checkout spad">
         <div class="container">
@@ -38,7 +42,7 @@
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
                                         <p>팀 이름<span>*</span></p>
-                                        <input type="text">
+                                        <input type="text" placeholder="데이터 받아오기">
                                     </div>
                                 </div>
                             </div>
@@ -102,24 +106,13 @@
                                    <option>GOLEIRO(골레이로):골키퍼</option>
                                 </select><br /><br />
                             </div>
-                             <div class="checkout__input">
-                                <p>팀 등급<span>*</span></p>
-                                <p class="notice">처음 등록시엔 레벨 1로 선택해주세요.</p>
-                                <select >
-                                   <option>레벨 1</option>
-                                   <option>레벨 2</option>
-                                   <option>레벨 3</option>
-                                   <option>레벨 4</option>
-                                   <option>레벨 5</option>
-                                </select><br /><br />
-                            </div>
                            <div class="checkout__input2">
                                 <p>모집 상태<span>*</span></p>
                                 <label><input type="radio" name="status" value="ing" checked>모집중</label>
                                 <label><input type="radio" name="status" value="end">모집완료</label>
                             </div>
                             <div class="checkout__input">
-                                <p>기타 사항<span>*</span></p>
+                                <p>기타 사항</p>
                                 <input type="text" cols="100" rows="10">
                             </div>
                         <div>
@@ -142,6 +135,17 @@
     <script src="/TeamCommit/resource/teamRegister/js/mixitup.min.js"></script>
     <script src="/TeamCommit/resource/teamRegister/js/owl.carousel.min.js"></script>
     <script src="/TeamCommit/resource/teamRegister/js/main.js"></script>
+    
+    
+    <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
+    <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
+
+
+    <script src="/TeamCommit/resource/includes/js/ScrollMagic.min.js"></script>
+    <script src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
+
+
+    <script src="/TeamCommit/resource/includes/js/main.js"></script>
 
  
 

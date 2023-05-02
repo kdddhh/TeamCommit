@@ -521,10 +521,6 @@
 			                <!-- /.container-fluid -->
 								</section>
 
-							<!-- Section -->
-								<section>
-									
-								</section>
 
 						</div>
 					</div>
