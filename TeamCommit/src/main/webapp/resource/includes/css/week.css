@@ -80,6 +80,10 @@
 			color: #fff;
 		}
 		
+		.btn:focus {
+			border: none;
+		}
+		
 		.preBtn:hover,
 		.preBtn.active,
 		.nextBtn:hover,
@@ -97,6 +101,10 @@
 		.selected {
 			background-color: #7FB77E;
 			color: #fff !important;
+		}
+		
+		.selected:focus {
+			border: none;
 		}
 		
 		.sun {

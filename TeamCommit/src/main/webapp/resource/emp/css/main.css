@@ -2306,6 +2306,12 @@
 		margin: 0 0 1em 0;
 	}
 
+	.col-sm-12.col-md-6,
+	.col-sm-12.col-md-6.dataTables_length,
+	.col-sm-12.col-md-6.dataTables_filter {
+		display: inline-block;
+	}
+	
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
