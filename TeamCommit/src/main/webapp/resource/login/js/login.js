@@ -25,8 +25,7 @@ function moveClose() {
 }
 
 /*$(document).ready(function(){
-	$(".open").on('click'.function(){
+	$("#open").on('click'.function(){
 		$(".popup").show();
 	});
 });*/
-
