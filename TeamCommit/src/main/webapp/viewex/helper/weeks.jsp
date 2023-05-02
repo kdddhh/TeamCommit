@@ -6,8 +6,7 @@
 	<link rel = "stylesheet" href = "/TeamCommit/resource/includes/week.css" />
 	<script src="/TeamCommit/resource/includes/js/week.js"></script>  
 	
-	--%>
-
+  --%>
 
 	<div class="calendar-wrap">
 		<div class="date-wrap slick-initialized slick-slider">

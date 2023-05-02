@@ -36,7 +36,7 @@
 
     <script src="/TeamCommit/resource/main/js/vendor/jquery.lettering.js"></script>
     <script src="/TeamCommit/resource/main/js/vendor/jquery.sticky.js"></script>
-
+    
     <script src="/TeamCommit/resource/main/js/vendor/TweenMax.min.js"></script>
     <script src="/TeamCommit/resource/main/js/vendor/ScrollMagic.min.js"></script>
     <script src="/TeamCommit/resource/main/js/vendor/scrollmagic.animation.gsap.min.js"></script>
