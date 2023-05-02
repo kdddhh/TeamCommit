@@ -9,6 +9,65 @@
 	--%>
 
 
+<<<<<<< HEAD
+=======
+	function weekCalendar() {
+		
+	    for(var i = 0; i < 7; i++) {
+	        var change = new Date(new Date().setDate(nowDate.getDate() + i));
+	        var dayNum = change.getDay();
+
+	        document.getElementById("day" + (i + 1)).innerHTML = change.getDate() + '<br>' + days[dayNum];
+	        
+	        var buttons = document.getElementsByClassName("btn");
+	        if(days[dayNum] == "일") {
+	        	buttons[i].classList.add("sun");
+	        }
+	        else if(days[dayNum] == "토") {
+	        	buttons[i].classList.add("sat");
+	        }
+	        else {
+	        	buttons[i].classList.remove("sun");
+	        	buttons[i].classList.remove("sat");
+	        }
+	        	
+	    }
+
+	    var buttons = document.getElementsByClassName("btn");
+	    for(var j = 0; j < buttons.length; j++) {
+	        if(buttons[j].firstChild.textContent.trim() == today.getDate()) {
+	            selectButton(buttons[j]);
+	        } else {
+	            buttons[j].classList.remove("selected");
+	        }
+	    }
+	}
+
+	function selectButton(button) {
+	    var buttons = document.getElementsByClassName("btn");
+	    for(var i = 0; i < buttons.length; i++) {
+	        if(buttons[i].id == button.id) {
+	            buttons[i].classList.add("selected");
+	        } else {
+	            buttons[i].classList.remove("selected");
+	        }
+	    }
+	}
+	
+	function prevWeek() {
+        nowDate = new Date(nowDate.getFullYear(), nowDate.getMonth() - 1, nowDate.getDate());   // 현재 달을 1 감소
+        weekCalendar();
+    }
+
+    function nextWeek() {
+        nowDate = new Date(nowDate.getFullYear(), nowDate.getMonth() + 1, nowDate.getDate());   // 현재 달을 1 증가
+        weekCalendar(); 
+    }
+	</script>
+</head>
+
+<body>
+>>>>>>> 7e0d17f2192a39a04a1bb97a747e7ef13968b8c9
 	<div class="calendar-wrap">
 		<div class="date-wrap slick-initialized slick-slider">
 			<div class="slick-list draggable">
