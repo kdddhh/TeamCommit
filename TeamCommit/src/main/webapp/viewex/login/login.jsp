@@ -65,11 +65,10 @@
   </div>
   <div class="form-container sign-in-container">
     <form action="#">
-      <h1>로그인</h1>
-      <span>or use your account</span>
-      <input type="email" placeholder="이메일" />
+      <h1>개인 회원 로그인</h1><br /><br />
+      <input type="text" placeholder="아이디" />
       <input type="password" placeholder="비밀번호" />
-      <a href="#">아이디/비밀번호 찾기</a>
+      <a href="/TeamCommit/viewex/login/findPw.jsp">아이디/비밀번호 찾기</a>
       <button>로그인</button>
     </form>
   </div>
