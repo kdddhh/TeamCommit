@@ -9551,8 +9551,8 @@ opacity
 }
 
 .bg-gradient-primary {
-	background-color: #B1D7B4;
-	background-image: #7FB77E;
+	background-color: none;
+	background-image: none;
 	background-size: cover
 }
 

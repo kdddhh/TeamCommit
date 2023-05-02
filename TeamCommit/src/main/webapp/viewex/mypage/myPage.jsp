@@ -6,7 +6,7 @@
 	<title>Insert title here</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="/TeamCommit/mypageres/css/main.css" />
+		<link rel="stylesheet" href="/TeamCommit/resource/myPage/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -241,11 +241,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="/TeamCommit/mypageres/js/jquery.min.js"></script>
-			<script src="/TeamCommit/mypageres/js/skel.min.js"></script>
-			<script src="/TeamCommit/mypageres/js/util.js"></script>
+			<script src="/TeamCommit/resource/myPage/js/jquery.min.js"></script>
+			<script src="/TeamCommit/resource/myPage/js/skel.min.js"></script>
+			<script src="/TeamCommit/resource/myPage/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="/TeamCommit/mypageres/js/main.js"></script>
+			<script src="/TeamCommit/resource/myPage/js/main.js"></script>
 
 	</body>
 </html>
