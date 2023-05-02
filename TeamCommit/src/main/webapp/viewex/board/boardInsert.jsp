@@ -38,8 +38,7 @@
 		
 		<span class="formInline">
 		<label for="board_title">제목</label>
-		<input type="text" id="board_title"
-				name="board_title" class="form-control">
+		<input type="text" id="board_title" name="board_title" class="form-control">
 		</span>
 		
 		<span id="boardWriter" class="formWriter">
@@ -53,16 +52,15 @@
 		
 		<div class="content">
 		<label for="board_content">내용</label><br>
-			<textarea id="board_content" name="board_content" cols="100" rows="10"
-					class="form-content"></textarea>
+			<textarea id="board_content" name="board_content" cols="100" rows="20" class="form-content"></textarea>
 		</div>
 		
 		
 			
 </div>
 <div>
-	<button type="submit" class="btn_submit">등록</button>
 	<button type="reset" class="btn_reset">취소</button>
+	<button type="submit" class="btn_submit">등록</button>
 </div>
 
 </form>
