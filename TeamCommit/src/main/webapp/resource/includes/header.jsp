@@ -25,7 +25,7 @@
                   </li>
                 </ul>
               </li>
-              <li><a href="amenities.html">자유 게시판</a></li>
+              <li><a href="board.jsp">자유 게시판</a></li>
               <li><a href="gallery.html">팀</a></li>
               <li><a href="about.html">용병</a></li>
             </ul>
