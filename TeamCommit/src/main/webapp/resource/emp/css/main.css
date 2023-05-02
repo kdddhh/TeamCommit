@@ -78,7 +78,7 @@
 		clear: both;
 		height: 0;
 	}
-	*/
+	
 	.row.uniform > * > :first-child {
 		margin-top: 0;
 	}
@@ -4071,7 +4071,7 @@
 	
 .card {
   position: relative;
-  display: flex;
+  display: flex;  
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
