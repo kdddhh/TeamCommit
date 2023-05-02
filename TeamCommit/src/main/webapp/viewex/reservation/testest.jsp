@@ -43,7 +43,7 @@
 	<button type="button" class="naver"><img src="images/calendar.png"></button>
 	<button type="button" class="calendar">달력</button>
 	
-	<input type="text" id="parent" />
+	전달할 값: <input type="text" id="parent" />
 	<button type="button" class="test">test</button>
 </body>
 
@@ -66,12 +66,12 @@
 	
 	/* 자식창 -> 부모창 값 전달 테스트(팝업 달력 테스트) */
 	const button3 = document.querySelector('.test');
-	let openWin = "";
+	let openWin;
 	
 	button3.addEventListener("click", function(){
-		window.open("calendar.jsp", "CALENDAR", "width=500, height=450, left=300");
+		window.name = "testest";
+		openWin = window.open("calendar.jsp", "CALENDAR", "width=500, height=450, left=300");
 	});
-	
 	
 	
 </script>
