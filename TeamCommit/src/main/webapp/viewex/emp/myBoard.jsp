@@ -578,11 +578,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="/TeamCommit/emp/js/jquery.min.js"></script>
-			<script src="/TeamCommit/emp/js/skel.min.js"></script>
-			<script src="/TeamCommit/emp/js/util.js"></script>
+			<script src="/TeamCommit/resource/emp/js/jquery.min.js"></script>
+			<script src="/TeamCommit/resource/emp/js/skel.min.js"></script>
+			<script src="/TeamCommit/resource/emp/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="/TeamCommit/emp/js/main.js"></script>
+			<script src="/TeamCommit/resource/emp/js/main.js"></script>
 
 	</body>
 </html>
