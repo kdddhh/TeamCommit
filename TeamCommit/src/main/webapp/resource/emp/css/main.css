@@ -63,10 +63,11 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+		display: flex;
+		justify-content: Space-between;
 	}
 
 	.row > * {
-		float: center;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -2306,11 +2307,19 @@
 		margin: 0 0 1em 0;
 	}
 
-	.col-sm-12.col-md-6,
-	.col-sm-12.col-md-6.dataTables_length,
-	.col-sm-12.col-md-6.dataTables_filter {
+/* 	.col-sm-12.col-md-6 {
 		display: inline-block;
+	} */
+	
+	.col-sm-12.col-md-6.dataTables_length {
+		margin-right: auto;
 	}
+
+	
+	.col-sm-12.col-md-6.dataTables_filter {
+		margin-left: auto;
+	}
+
 	
 	input[type="text"],
 	input[type="password"],
