@@ -85,7 +85,8 @@
         let nowMonth = new Date();  // 현재 달을 페이지를 로드한 날의 달로 초기화
         let today = new Date();     // 페이지를 로드한 날짜를 저장
         today.setHours(0, 0, 0, 0);    // 비교 편의를 위해 today의 시간을 초기화
-
+        let newDIV;
+		
         // 달력 생성 : 해당 달에 맞춰 테이블을 만들고, 날짜를 채워 넣는다.
         function buildCalendar() {
 
@@ -111,7 +112,7 @@
                 let nowColumn = nowRow.insertCell();        // 새 열을 추가하고
 
 
-                let newDIV = document.createElement("p");
+                newDIV = document.createElement("p");
                 newDIV.innerHTML = leftPad(nowDay.getDate());        // 추가한 열에 날짜 입력
                 nowColumn.appendChild(newDIV);
 
@@ -142,7 +143,7 @@
         }
         
         function setStartDate() {
-        	opener.document.getElementById("parent").value = document.getElementById("choiceDay").value;
+        	opener.document.getElementById("parent").value = document.getElementById("startDay").value;
         }
 
         // 이전달 버튼 클릭
@@ -191,8 +192,9 @@
 			<tbody>
 			</tbody>
 		</table>
-<!-- 		<button type="button" class="insert" onclick="setStartDate()">등록</button>
-		<button type="button" class="cancle">취소</button> -->
+ 		<button type="button" class="insert" onclick="setStartDate()">등록</button>
+		<button type="button" class="cancle">취소</button>
+		<input type="hidden" id="startDay">
 	</div>
 
 </body>
