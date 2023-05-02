@@ -16,6 +16,10 @@
 		font-style: bold;
 	}
 	
+	h1 {
+	border-bottom: 1px solid #B1D7B4;
+	}
+	
 	.formInline {
 		margin-bottom : 1em;
 		width: 90px;
@@ -55,12 +59,36 @@
 		font-style: bold;
 	}
 	
-	button {
-		margin: 0 auto;
-	}
-	
 	textarea {
-		resize: none;
+	width: 100%;
+	height: 100px;
+	border: 1px solid #ebebeb;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #b2b2b2;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	resize: none;
 	}
 	
+	input {
+	width: 100%;
+	height: 46px;
+	border: 1px solid #ebebeb;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #b2b2b2;
+	border-radius: 4px;
+	}
 	
+	button {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 800;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 13px 30px 12px;
+	background: #B1D7B4;
+	border: none;
+	margin: 0 auto;
+	}
