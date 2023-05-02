@@ -25,7 +25,6 @@ div.dataTables_wrapper div.dataTables_length label {
 	font-weight: normal;
 	text-align: left;
 	white-space: nowrap;
-	margin-right: 870px;
 }
 
 div.dataTables_wrapper div.dataTables_length select {
@@ -40,7 +39,7 @@ div.dataTables_wrapper div.dataTables_filter {
 div.dataTables_wrapper div.dataTables_filter label {
 	font-weight: normal;
 	white-space: nowrap;
-	text-align: left
+	text-align: right;
 }
 
 div.dataTables_wrapper div.dataTables_filter input {
@@ -209,7 +208,7 @@ div.dataTables_scrollHead table.table-bordered {
 }
 
 div.table-responsive>div.dataTables_wrapper>div.row {
-	margin: 0
+	margin: 0;
 }
 
 div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:first-child
@@ -219,5 +218,7 @@ div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:first-child
 
 div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:last-child
 	{
-	padding-right: 0
+	padding-right: 0;
+	margin-left: auto;
+	flex: auto;
 }
