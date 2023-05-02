@@ -23,7 +23,7 @@
     <script src="/TeamCommit/resource/includes/js/main.js"></script>
 <!-- 여기까지 복붙하기 -->    
 
-<link rel = "stylesheet" href = "/TeamCommit/resource/boardInsert/css/style.css" />
+<link rel = "stylesheet" href = "/TeamCommit/resource/board/css/boardInsertstyle.css" />
 
 </head>
 <body style="overflow-x: hidden">

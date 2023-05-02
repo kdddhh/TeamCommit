@@ -13,7 +13,6 @@
     <form action="#">
       <h1>회원가입</h1>
       <br />
-      <br />
       <div class="signupform" style="overflow:auto; width:350px; height:350px; background:#F7F6DC​; border-radius: 10px;">
       	<input type="text" placeholder="아이디" />
       	<button>중복확인</button>
@@ -86,6 +85,7 @@
     </div>
   </div>
 </div>
+	<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
 	<script src = "/TeamCommit/resource/login/js/login.js"></script>
 </body>
 </html>
