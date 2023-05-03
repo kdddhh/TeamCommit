@@ -20,10 +20,6 @@ h1 {
   margin: 0;
 }
 
-h2 {
-  text-align: center;
-}
-
 p {
   font-size: 14px;
   font-weight: 100;
@@ -37,8 +33,8 @@ span {
 }
 
 a {
-  color: #333;
-  font-size: 14px;
+  color: #FFF;
+  font-size: 12px;
   text-decoration: none;
   margin: 15px 0;
 }
@@ -64,9 +60,27 @@ button:focus {
   outline: none;
 }
 
-button.ghost {
+button.signIn {
   background-color: transparent;
   border-color: #FFFFFF;
+}
+
+button.signUp {
+  background-color: transparent;
+  border-color: #FFFFFF;
+}
+
+button.open {
+   border-radius: 20px;
+  border: 1px solid #7FB77E;
+  background-color: #7FB77E;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
 }
 
 form {
@@ -113,7 +127,13 @@ input {
   top: 0;
   height: 100%;
   transition: all 0.6s ease-in-out;
+  color: #111;
 }
+
+.form-container h1{
+  color: #111;
+}
+
 
 .sign-in-container {
   left: 0;
@@ -130,6 +150,7 @@ input {
   width: 50%;
   opacity: 0;
   z-index: 1;
+  font-size: 15px;
 }
 
 .container.right-panel-active .sign-up-container {
