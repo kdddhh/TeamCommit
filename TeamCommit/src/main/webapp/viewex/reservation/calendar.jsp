@@ -80,13 +80,12 @@
     </style>
 
     <script>
-        window.onload = function () { buildCalendar(); }    // 웹 페이지가 로드되면 buildCalendar 실행
+        function () { buildCalendar(); }    // 웹 페이지가 로드되면 buildCalendar 실행
 
         let nowMonth = new Date();  // 현재 달을 페이지를 로드한 날의 달로 초기화
         let today = new Date();     // 페이지를 로드한 날짜를 저장
         today.setHours(0, 0, 0, 0);    // 비교 편의를 위해 today의 시간을 초기화
-        let newDIV;
-		
+
         // 달력 생성 : 해당 달에 맞춰 테이블을 만들고, 날짜를 채워 넣는다.
         function buildCalendar() {
 
@@ -112,7 +111,7 @@
                 let nowColumn = nowRow.insertCell();        // 새 열을 추가하고
 
 
-                newDIV = document.createElement("p");
+                let newDIV = document.createElement("p");
                 newDIV.innerHTML = leftPad(nowDay.getDate());        // 추가한 열에 날짜 입력
                 nowColumn.appendChild(newDIV);
 
@@ -141,10 +140,6 @@
             }
             newDIV.classList.add("choiceDay");           // 선택된 날짜에 "choiceDay" class 추가
         }
-        
-        function setStartDate() {
-        	opener.document.getElementById("parent").value = document.getElementById("startDay").value;
-        }
 
         // 이전달 버튼 클릭
         function prevCalendar() {
@@ -169,33 +164,36 @@
 </head>
 
 <body>
-	<div>
-		<table class="Calendar" id="table">
-			<thead>
-				<tr>
-					<td onClick="prevCalendar();" style="cursor: pointer;">&#60;</td>
-					<td colspan="5">
-						<span id="calYear"></span>년 
-						<span id="calMonth"></span>월</td>
-					<td onClick="nextCalendar();" style="cursor: pointer;">&#62;</td>
-				</tr>
-				<tr>
-					<td>일</td>
-					<td>월</td>
-					<td>화</td>
-					<td>수</td>
-					<td>목</td>
-					<td>금</td>
-					<td>토</td>
-				</tr>
-			</thead>
-			<tbody>
-			</tbody>
-		</table>
- 		<button type="button" class="insert" onclick="setStartDate()">등록</button>
+	<input id="btn_toggle">토글버튼
+     <div id="Toggle" style="display:none">
+     <div>
+        <table class="Calendar">
+            <thead>
+                <tr>
+                    <td onClick="prevCalendar();" style="cursor:pointer;">&#60;</td>
+                    <td colspan="5">
+                        <span id="calYear"></span>년
+                        <span id="calMonth"></span>월
+                    </td>
+                    <td onClick="nextCalendar();" style="cursor:pointer;">&#62;</td>
+                </tr>
+                <tr>
+                    <td>일</td>
+                    <td>월</td>
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td>토</td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button type="button" class="insert" onclick="setStartDate()">등록</button>
 		<button type="button" class="cancle">취소</button>
-		<input type="hidden" id="startDay">
-	</div>
+    </div>
+    </div>
 
 </body>
 
