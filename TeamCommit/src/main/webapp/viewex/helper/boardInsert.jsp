@@ -22,9 +22,30 @@
 
     <script src="/TeamCommit/resource/includes/js/main.js"></script>
 
-
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+:root {
+  --button-color: #ffffff;
+  --button-bg-color: #0d6efd;
+  --button-hover-bg-color: #025ce2;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: #B1D7B4 !important;
+  color: #FFF;
+  width: 100%;
+  text-align:center;
+  box-sizing: border-box;
+  height: 200px;
+  text-align: center;
+}
+
+.bg-dark .py-5 {
+	height: 200px;
+	text-align: center;
+}
 
 * {
 	font-family: 'Noto Sans KR', sans-serif;
@@ -38,7 +59,7 @@ body {
 #level {
 	  position: absolute;
 	  left: 30%;
-	  top: 28%;
+	  top: 50%;
 }
 
 .selectBox {
@@ -47,7 +68,7 @@ body {
   height: 35px;
   border-radius: 4px;
   border: 2px solid #b1d7b4;
-  top: 27.1%;
+  top: 49.1%;
   left: 33%;
   
 }
@@ -69,7 +90,7 @@ body {
 
 .reservationBox{
 	position: absolute;
-	top: 34%;
+	top: 56%;
 	left: 30%;
 }
 
@@ -123,6 +144,7 @@ input[type="number"]::-webkit-inner-spin-button {
 h1 {
 	text-align: center;
 	margin-top: 90px;
+	padding-top: 50px;
 }
 
 .reservation {
@@ -132,26 +154,26 @@ h1 {
 
 #matchBox {
 	position: absolute;
-	top: 55%;
+	top: 77.5%;
 	left: 35.25%;
 }
 
 #match {
 	  position: absolute;
 	  left: 30%;
-	  top: 55.8%;
+	  top: 78.5%;
 }
 
 .helperBox {
 	position: absolute;
 	  left: 50%;
-	  top: 27.1%;
+	  top: 49%;
 }
 
 .genderBox {
 	position: absolute;
 	  left: 50%;
-	  top: 35%;
+	  top: 57.5%;
 }
 
 
@@ -176,42 +198,157 @@ h1 {
 #positionBox {
 position: absolute;
 	  left: 53.8%;
-	  top: 41.1%;
+	  top: 63.2%;
 }
 
 #position {
 position: absolute;
 	  left: 50%;
-	  top: 42%;
+	  top: 64.2%;
 }
 
 .moneyBox {
 	position: absolute;
 	  left: 50%;
-	  top: 48%;
+	  top: 70.5%;
 }
+
+.btnbtn {
+	position: absolute;
+	left: 50%;
+	top: 78.4%;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  background: var(--button-bg-color);
+  color: var(--button-color);
+  
+  margin: 0;
+
+  
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  
+  border: none;
+  border-radius: 4px;
+  
+  display: inline-block;
+  width: auto;
+  
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  
+  cursor: pointer;
+  
+  transition: 0.5s;
+}
+
+.btn {
+	  padding: 0.5rem 1rem;
+	  font-size: 1em;
+}
+
+button:active,
+button:hover,
+button:focus {
+  background: var(--button-hover-bg-color);
+  outline: 0;
+}
+button:disabled {
+  opacity: 0.5;
+}
+
+button.btn, .reservation {
+  --button-bg-color: #b1d7b4;
+  --button-hover-bg-color: #7fb77e;
+}
+
+
+.modal_wrap{
+        display: none;
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        margin: -250px 0 0 -250px;
+        background-color: #f6f5f7;
+        z-index: 2;
+    }
+    .black_bg{
+        display: none;
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color:rgba(0, 0,0, 0.5);
+        top:0;
+        left: 0;
+        z-index: 1;
+    }
+    .reservationClose {
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        top: -30px;
+        right: 0;
+    }
+    .reservationClose > a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        background:url(https://img.icons8.com/metro/26/000000/close-window.png);
+        text-indent: -9999px;
+    }
+
 
 </style>
 
-<!-- <script>
-	function reservation() {
-		alert("머리 아파..");
-		
-	}
+<script>
+    window.onload = function() {
+ 
+    function onClick() {
+        document.querySelector('.modal_wrap').style.display ='block';
+        document.querySelector('.black_bg').style.display ='block';
+        document.querySelector('.selectBox > .select').style.display ='none';
+        document.querySelector('.selectBox > .select').style.display ='none';
+        document.querySelector('#matchBox > .select').style.display ='none';
+        document.querySelector('#positionBox > .select').style.display ='none';
+    }   
+    function offClick() {
+        document.querySelector('.modal_wrap').style.display ='none';
+        document.querySelector('.black_bg').style.display ='none';
+    }
+ 
+    document.getElementById('reservation').addEventListener('click', onClick);
+    document.querySelector('.reservationClose').addEventListener('click', offClick);
+ 
+};
 </script>
- -->
-<title>Kick Off: 용병모집</title>
 
+
+<title>Kick Off: 용병모집</title>
 </head>
 <body style="overflow-x: hidden">
 
 <%@include file="/resource/includes/header.jsp"%>
 
 
-<h1>용병 모집 등록</h1>
-
-<form role="form" action="/board/create_action" method="post">
-<div class="table-responsive"> 
+<div class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">용병 모집 등록</h1>
+                <p class="lead fw-normal text-white-50 mb-0">경기 정보와 용병 모집 유형을 입력해주세요!</p>
+            </div>
+        </div>
+    </div>
+    
+<form method="post">
 		
 		<span id = "level">레벨: </span>
 		<div class="selectBox">
@@ -223,7 +360,7 @@ position: absolute;
 		    <option value="4">레벨 4</option>
 		    <option value="5">레벨 5</option>
 		  </select>
-		  <span class="icoArrow"><img src="https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png" alt=""></span>
+		  <span class="icoArrow"><img src="https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.img" alt=""></span>
 		</div>
 		
 		<div class = "reservationBox">
@@ -231,9 +368,17 @@ position: absolute;
 			<input type = "text" name = "name" id = "name" placeholder = " 업체명"/><br />
 			<input type = "text" name = "location" id = "location" placeholder = " 업체위치"/><br />
 			<input type = "text" name = "matchTime" id = "matchTime" placeholder = " 매치시간"/><br />
-			<button type = "button" class = "reservation">내역조회</button>
-		</div>
+			<button type = "button" class = "reservation" id = "reservation">내역조회</button>
+		</div>	
 		
+		<div class="black_bg"></div>
+		<div class="modal_wrap">
+		    <div class="reservationClose"><a href="#">close</a></div>
+		    <div>
+		        예약 내역 테이블
+		    </div>
+		</div>    
+				
 		<span id = "match">매치 형태: </span>
 		<div class="selectBox" id = "matchBox">
 		  <select name="match" class="select">
@@ -274,6 +419,11 @@ position: absolute;
 		<div class = "moneyBox">
 			<label>참가비:</label>&nbsp;
 			<input type = "number" name = "money" id = "money" />&nbsp;<span>원</span>
+		</div>
+		
+		<div class = "btnbtn">
+		<button type = "button" class = "btn" id = "btn">등록</button>
+		<button type = "button" class = "btn" id = "btn">취소</button>
 		</div>
 </div> 
 
