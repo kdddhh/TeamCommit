@@ -43,18 +43,21 @@
 				                	<div class="container-fluid">
 				                    <!-- Page Heading -->
 				                    <h1 class="h3 mb-2 text-gray-800">풋살장 등록</h1>
-				                    <div class="filebox bs3-primary preview-image">
-              						<input class="upload-name" value="파일선택" disabled="disabled" style="width: 200px;">
-              						<label for="input_file">업로드</label> 
-              						<input type="file" id="input_file" class="upload-hidden"> 
-       								</div>
+				                    
 				                	<div class="checkout spad">
 								    	<div class="container">
 								    	<!-- 이미지 class 추가 -->
 								    	<div class="checkout__form">
-								        	<form id="frm" name="frm" action="#" method="POST">
-								            	<div class="row">
+								    		<div class="futsal">								    		
+								        	<form id="frm" name="frm" action="#" method="POST">								            	
 								                	<div class="col-lg-8 col-md-6">
+								                		<div class="checkout__input">
+								                		<div class="filebox bs3-primary preview-image">
+											    			<p>풋살장 이미지<span>*</span></p>
+						              						<input class="upload-name" value="파일선택" disabled="disabled" style="width: 500px;">
+						              						<label for="input_file">업로드</label> 
+						              						<input type="file" id="input_file" class="upload-hidden"> 
+			       										</div>
 														<div class="checkout__input">
 							                               <p>풋살장<span>*</span></p>
 							                               <input type="text" value="여기에 '풋살장 이름' 가져오기 (입력 비활성화)" readonly>
@@ -135,8 +138,9 @@
 						                               	<textarea class="etc"></textarea>
 						                            </div>
 						                        </div>
-						                      </div>
+						                        </div>						                     
 				                            </form>
+				                            </div>
 				                        </div>
 				                    	</div>
 				                    </div>
