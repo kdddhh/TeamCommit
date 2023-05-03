@@ -16,7 +16,7 @@
 		padding: 0;
 	}
 	
-	.formInline {
+	#formInline {
 		margin-bottom : 1em;
 		width: 90px;
 	}
@@ -27,12 +27,8 @@
 	
 	body {
 		background: #f6f5f7;
-  		display: flex;
-		justify-content: center;
-		align-items: center;
 		flex-direction: column;
 		font-family: 'Noto Sans KR', sans-serif;
-		margin-top: 100px;
 	}
 	
 	#boardWriter {
