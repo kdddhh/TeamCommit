@@ -77,9 +77,10 @@
 					</tbody>
 				</table>
 			</div>
-			<br />
-			<hr style="color: #B1D7B4;">
 			
+			<br />
+			<hr />
+
 			<!-- 댓글 -->
 			<div class="reply">
 				<table id="tblListComment" class="table table-bordered">
@@ -94,7 +95,8 @@
 						<tr>
 							<td>${ cdto.content } <span>${ cdto.name }. ${ cdto.regdate }</span>
 							</td>
-							<td><input type="button" value="삭제하기" class="btn btn-default"
+							<td><input type="button" value="삭제하기"
+								class="btn btn-default"
 								onclick="location.href='/myapp/board/delcomment.do?seq=${ cdto.seq }&pseq=${ dto.seq }';" />
 							</td>
 						</tr>
@@ -118,7 +120,8 @@
 
 			<div class="btn_boarddetail">
 				<button type="reset" class="btn_reset" onclick="location.href='/TeamCommit/viewex/board/board.jsp';">목록</button>
-				<button class="btn_delete" onclick="location.href='/TeamCommit/viewex/board/boardReport.jsp';">신고</button>
+				<button class="btn_update" onclick="location.href='/TeamCommit/viewex/board/boardUpdate.jsp';">수정</button>
+				<button class="btn_delete" onclick="location.href='/TeamCommit/viewex/board/board.jsp';">삭제</button>
 			</div>
 		</div>
 	</form>

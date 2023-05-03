@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel = "stylesheet" href = "/TeamCommit/resource/login/css/login.css">
+<script src = "/TeamCommit/resource/login/js/login.js"></script>
 <title>Kick Off: 회원 로그인</title>
 </head>
 <body style="overflow-y: hidden">
@@ -58,6 +59,5 @@
     </div>
   </div>
 </div>
-	<script src = "/TeamCommit/resource/login/js/login.js"></script>
 </body>
 </html>
