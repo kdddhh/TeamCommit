@@ -13,7 +13,7 @@
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-
+	
     <!-- Css Styles -->
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/font-awesome.min.css" type="text/css">
@@ -24,6 +24,14 @@
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/style.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+    
+    <!-- calendar -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />    
+	
 </head>
 
 <body>
@@ -91,10 +99,20 @@
                                 	<input type="radio" name="placeForm" value="outdoor" onclick='getPlaceForm(event)' />&nbsp실외
                                 </label>
                             </div>
-                            <div class="checkout__input">
-                                <p>예약 날짜<span>*</span></p>
-                                <input type="text" class="">
-                            </div>
+                            <div class="row">
+                            	<div class="col-lg-6">
+                           			<div class="checkout__input">
+                                		<p>예약 시작<span>*</span></p>
+                               			<input id="setStartDate" onChange="getStartDate()" />
+                           			</div>
+                           		</div>
+                           		<div class="col-lg-6">
+                           			<div class="checkout__input">
+                           				<p>예약 종료<span>*</span></p>
+                          				<input id="setEndDate" onChange="getEndDate()" />
+                          			</div>
+                          		</div>
+                          	</div>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
@@ -134,6 +152,15 @@
                                 </div>
                             </div>
                             <div class="checkout__input">
+                                <p>예약 상태<span>*</span></p>
+                                <label>
+                                	<input type="radio" name="status" value="예약 중" onclick='getStatus(event)' checked/>&nbsp예약
+                                </label>
+                                <label>
+                                	<input type="radio" disabled/>&nbsp예약 완료
+                                </label>
+                            </div>
+                            <div class="checkout__input">
                                 <p>가격<span>*</span></p>
                                 <input type="number" class="inputPrice" id="inputPrice" onChange="getPrice()" placeholder="ex) 50000">
                             </div>
@@ -155,9 +182,11 @@
 									<li>코트<span id="court"></span></li>
 									<li>위치<span>주소주소</span></li>
 									<li>형태<span id="placeForm"></span></li>
-									<li>예약 날짜<span></span></li>
+									<li>예약 시작<span id="startDate"></span></li>
+									<li>예약 종료<span id="endDate"></span></li>
 									<li>시작 시간<span id="startTime"></span></li>
 									<li>종료 시간<span id="endTime"></span></li>
+									<li>예약 상태<span id="status">예약</span></li>
 									<li>가격<span id="price"></span></li>
 								</ul>
 								<a href="#this" id="insert" class="site-btn-insert">등록</a>
@@ -236,7 +265,7 @@
 							</p>
 						</div>
 						<div class="footer__copyright__payment">
-							<img src="img/payment-item.png" alt="">
+						<img src="img/payment-item.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -244,9 +273,30 @@
 		</div>
 	</footer>
 	<!-- Footer Section End -->
+
+	<script type="text/javascript">
+		/* calendar */
+		var today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+		$('#setStartDate').datepicker({
+			format: "yyyy-mm-dd",
+		    uiLibrary: 'bootstrap4',
+		    iconsLibrary: 'fontawesome',
+		    minDate: today,
+		    maxDate: function () {
+		        return $('#endDate').val();
+		    }
+		});
+		$('#setEndDate').datepicker({
+			format: "yyyy-mm-dd",
+		    uiLibrary: 'bootstrap4',
+		    iconsLibrary: 'fontawesome',
+		    minDate: function () {
+		        return $('#startDate').val();
+		    }
+		});
+	</script>
 	
     <!-- Js Plugins -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/TeamCommit/resource/reservation/js/jquery-3.3.1.min.js"></script>
     <script src="/TeamCommit/resource/reservation/js/bootstrap.min.js"></script>
     <script src="/TeamCommit/resource/reservation/js/jquery.nice-select.min.js"></script>

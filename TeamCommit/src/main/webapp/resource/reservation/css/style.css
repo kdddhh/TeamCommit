@@ -679,23 +679,28 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .inputPrice:hover,
 select:hover,
-.etc:hover {
+.etc:hover,
+.form-control:hover {
 	border-color: #ffc090;
 }
 
 .inputPrice:focus,
 select:focus,
-.etc:focus {
-	border-color: #ffc090;
+.etc:focus,
+.form-control:focus {
+	border-color: #ffc090 !important;
   	box-shadow: 0 0 1px 2px rgba(255, 192, 144, 0.5);
   	color: #b2b2b2;
 }
 
 .inputPrice:disabled,
 select:disabled,
-.etc:disabled {
+.etc:disabled,
+.form-control:disabled {
   opacity: 0.5;
 }
+
+
 
 .checkout__input input.checkout__input__add {
 	margin-bottom: 20px;

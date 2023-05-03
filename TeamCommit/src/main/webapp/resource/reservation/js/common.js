@@ -33,11 +33,31 @@ function getEndTime(e) {
 	document.getElementById('endTime').innerText = text;
 }
 
+/* status */
+function getStatus(event) {
+	document.getElementById('status').innerText = event.target.value;
+}
+
 /* input text */
+/* price*/
 function getPrice()  {
 	const text = document.getElementById('inputPrice').value;
 	
 	document.getElementById('price').innerText = text;
+}
+
+/* startDate */
+function getStartDate()  {
+	const text = document.getElementById('setStartDate').value;
+	
+	document.getElementById('startDate').innerText = text;
+}
+
+/* endDate */
+function getEndDate()  {
+	const text = document.getElementById('setEndDate').value;
+	
+	document.getElementById('endDate').innerText = text;
 }
 
 /* check */
@@ -52,8 +72,6 @@ $(document).ready(function() {
 		fn_openReservation();
 	});
 });
-
-
 
 /* insert check */
 function fn_insertReservation(){
