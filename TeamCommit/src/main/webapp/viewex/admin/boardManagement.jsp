@@ -3,10 +3,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Insert title here</title>
+	<title>Kick Off: 관리자-게시물 관리</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Custom styles for this page -->
+    <link href="/TeamCommit/resource/emp/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="/TeamCommit/resource/admin/css/main.css" />
+		<link rel="stylesheet" href="/TeamCommit/resource/emp/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -28,7 +30,7 @@
 			                	<section>
 				                	<div class="container-fluid">
 				                    <!-- Page Heading -->
-				                    <h1 class="h3 mb-2 text-gray-800">게시글 관리</h1>                    
+				                    <h1 class="h3 mb-2 text-gray-800">게시글 관리</h1><br /><br />                 
 				
 				                    <!-- DataTales Example -->
 				                    <div class="card shadow mb-4">
@@ -521,7 +523,7 @@
 			                <!-- /.container-fluid -->
 								</section>
 
-
+							
 						</div>
 					</div>
 
@@ -565,11 +567,19 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="/TeamCommit/admin/js/jquery.min.js"></script>
-			<script src="/TeamCommit/admin/js/skel.min.js"></script>
-			<script src="/TeamCommit/admin/js/util.js"></script>
+			<script src="/TeamCommit/resource/emp/js/jquery.min.js"></script>
+			<script src="/TeamCommit/resource/emp/js/skel.min.js"></script>
+			<script src="/TeamCommit/resource/emp/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="/TeamCommit/admin/js/main.js"></script>
+			<script src="/TeamCommit/resource/emp/js/main.js"></script>
+			
+			
+    <!-- Page level plugins-->
+    <script src="/TeamCommit/resource/emp/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="/TeamCommit/resource/emp/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="/TeamCommit/resource/emp/js/demo/datatables-demo.js"></script>
 
 	</body>
 </html>

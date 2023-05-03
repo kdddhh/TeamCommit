@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel = "stylesheet" href = "/TeamCommit/resource/findPw/css/loginFind.css">
-<title>findIdPw</title>
+<title>Kick Off: 아이디, 비밀번호 찾기</title>
 </head>
 <body style="overflow-y: hidden">
 <div class="container" id="container">
