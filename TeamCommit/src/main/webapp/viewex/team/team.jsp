@@ -9,42 +9,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kick Off: 팀 페이지</title>
+    <title>Kick Off: 풋살팀 페이지</title>
 
 	<link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
 
     <!-- Custom fonts for this template -->
-    <link href="/TeamCommit/resource/helper/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="/TeamCommit/resource/team/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/TeamCommit/resource/helper/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="/TeamCommit/resource/team/css/sb-admin-2.min.css" rel="stylesheet">
 
     <!-- Custom styles for this page -->
-    <link href="/TeamCommit/resource/helper/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-    
-    <style>
-    	.calender {
-    		text-align: center;
-    	}
-    	
-    	span {
-    		padding-left: 50px;
-    		padding-right: 50px;
-    		
-    	}
-    	
-    	#sunday {
-    		color: red;
-    	}
-    	
-    	#saturday {
-    		color: blue;
-    	}
-    	
-    </style>
+    <link href="/TeamCommit/resource/team/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -86,7 +65,7 @@
                     <div class="card shadow mb-4">
                     <div class = "calender">
                         <div class="card-header py-3">
-							<span id = "sunday">일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span id = "saturday">토</span>
+							<a href="/TeamCommit/viewex/team/teamRank.jsp">팀 랭킹</a>
                         </div>
                         </div>
                         <div class="card-body">
@@ -623,21 +602,21 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="/TeamCommit/resource/helper/vendor/jquery/jquery.min.js"></script>
-    <script src="/TeamCommit/resource/helper/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/TeamCommit/resource/team/vendor/jquery/jquery.min.js"></script>
+    <script src="/TeamCommit/resource/team/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="/TeamCommit/resource/helper/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/TeamCommit/resource/team/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="/TeamCommit/resource/helper/js/sb-admin-2.min.js"></script>
+    <script src="/TeamCommit/resource/team/js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
-    <script src="/TeamCommit/resource/helper/vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="/TeamCommit/resource/helper/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="/TeamCommit/resource/team/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="/TeamCommit/resource/team/vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="/TeamCommit/resource/helper/js/demo/datatables-demo.js"></script>
+    <script src="/TeamCommit/resource/team/js/demo/datatables-demo.js"></script>
 
     
 
