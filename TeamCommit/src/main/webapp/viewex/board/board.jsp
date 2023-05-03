@@ -534,10 +534,12 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                                <div class="btn_insert">
+                                <a href="boardInsert.jsp"><button type="insert" class="btn_insert">글 등록</button></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <!-- /.container-fluid -->
 

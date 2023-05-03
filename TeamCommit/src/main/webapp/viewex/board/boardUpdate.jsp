@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<title>Kick Off: 자유게시판 글 등록</title>
+<title>Kick Off: 자유게시판 글 수정</title>
 <!-- include할 문서에 스타일, js -->
  <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
     
@@ -33,7 +33,7 @@
     <div class="bg-dark py-5">
         <div class="container px-4 px-lg-5 my-5">
             <div class="text-center text-white">
-                <h1 class="display-4 fw-bolder">자유게시판 게시글 등록</h1>
+                <h1 class="display-4 fw-bolder">자유게시판 게시글 수정</h1>
                 <p class="lead fw-normal text-white-50 mb-0">풋살 관련 이야기할 주제들을 자유롭게 게시해주세요.</p>
             </div>
         </div>
@@ -42,7 +42,7 @@
 <br>
 <br>
 <form role="form" action="/board/create_action" method="post">
-<h4>게시글 등록</h4>
+<h4>게시글 수정</h4>
 <div class="table-responsive">
 		
 		<div class="board_title">
@@ -71,12 +71,10 @@
 		</div>
 		
 		<div class="btn_board">
-		<button type="reset" class="btn_reset" onclick="location.href='/TeamCommit/viewex/board/board.jsp';">취소</button>
-		<a href="boardDetail.jsp"><button type="submit" class="btn_submit">등록</button></a>
+		<button type="reset" class="btn_reset" onclick="location.href='/TeamCommit/viewex/board/boardDetail.jsp';">취소</button>
+		<button type="submit" class="btn_submit">수정</button>
 		</div>
-</div>
-			
-</div>
+</div>	
 </form>
 
 </body>

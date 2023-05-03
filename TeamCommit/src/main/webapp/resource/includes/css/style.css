@@ -293,11 +293,11 @@ a, a:hover {
 }
 
 .sticky-wrapper.is-sticky .untree_co--site-nav a {
-  color: #b1d7b4;
+  color: #7FB77E;
 }
 
 .sticky-wrapper.is-sticky .untree_co--site-nav .site-nav-ul li a {
-  color: #b1d7b4;
+  color: #000;
 }
 
 .sticky-wrapper.is-sticky .untree_co--site-nav .site-nav-ul > li > a:before {

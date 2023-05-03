@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel = "stylesheet" href = "/TeamCommit/resource/loginEmp/css/loginEmp.css">
-<title>Kick Off login page</title>
+<link rel = "stylesheet" href = "/TeamCommit/resource/login/css/login.css">
+<title>Kick Off: 업체 로그인</title>
 </head>
 <body style="overflow-y: hidden">
 <div class="container" id="container">
   <div class="form-container sign-up-container">
     <form action="#">
-      <h1>회원가입</h1>
+      <h1>업체 회원가입</h1>
       <br />
       <br />
       <div class="signupform" style="overflow:auto; width:350px; height:350px; background:#F7F6DC​; border-radius: 10px;">
@@ -30,39 +30,10 @@
       <br />
       <button><a href="#a" class="open">회원가입</button>
     </form>
-     <!--  <div class="popup">
-      	<h4>이용약관</h4>
-				<br /> 
-				<br /> 
-				<label for="agree_all"> 
-				<input type="checkbox"name="agree_all" id="agree_all"> <span>모두 동의합니다</span>
-				</label> 
-				<label for="agree"> 
-				<input type="checkbox" name="agree" value="1"> 
-				<span>이용약관 동의<strong>(필수)</strong></span>
-				</label> 
-				<label for="agree"> 
-				<input type="checkbox" name="agree" value="2"> 
-				<span>개인정보 수집, 이용 동의<strong>(필수)</strong></span>
-				</label> 
-				<label for="agree"> 
-				<input type="checkbox" name="agree" value="3"> 
-				<span>개인정보 이용 동의<strong>(필수)</strong></span>
-				</label> 
-				<label for="agree"> 
-				<input type="checkbox" name="agree" value="4"> 
-				<span>이벤트, 혜택정보 수신동의<strong class="select_disable">(선택)</strong></span>
-				</label> 
-				<br />
-				<div class="btn_btn">
-					<button id="btn1" onclick="self.close();">비동의</button>
-					<button id="btn2" onclick="moveClose();">동의</button>
-				</div>
-      </div>-->
   </div>
   <div class="form-container sign-in-container">
     <form action="#">
-      <h1>업체 회원 로그인</h1><br /><br />
+      <h1>업체 로그인</h1><br /><br />
       <input type="text" placeholder="아이디" />
       <input type="password" placeholder="비밀번호" />
       <a href="/TeamCommit/viewex/login/findEmp.jsp">아이디/비밀번호 찾기</a>
@@ -72,17 +43,17 @@
   <div class="overlay-container">
     <div class="overlay">
       <div class="overlay-panel overlay-left">
-        <h1>환영합니다!</h1>
-        <p>To keep connected with us please login with your personal info</p>
-        <button class="ghost" id="signIn">로그인</button>
+        <h1>어서오세요!</h1>
+        <p>회원 가입 시 입력하신 아이디과 비밀번호를 입력하여 로그인해주세요.</p>
+        <button class="signIn" id="signIn">로그인</button>
       </div>
       <div class="overlay-panel overlay-right">
-        <h1>Hello, Friend!</h1>
-        <p>Enter your personal details and start journey with us</p>
-        <button class="ghost" id="signUp">회원가입</button>
+        <h1>환영합니다!</h1>
+        <p>회원가입을 하시면 저희 서비스를 이용하실 수 있습니다.</p>
+        <button class="signUp" id="signUp">회원가입</button>
     </div>
   </div>
 </div>
-	<script src = "/TeamCommit/resource/loginEmp/js/loginEmp.js"></script>
+	<script src = "/TeamCommit/resource/login/js/loginEmp.js"></script>
 </body>
 </html>
