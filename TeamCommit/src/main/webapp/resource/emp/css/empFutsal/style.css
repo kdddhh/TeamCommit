@@ -143,7 +143,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .checkout__input select {
-	width: 100%;
+	width: 500px;
 	height: 46px;
 	border: 1px solid #ebebeb;
 	padding-left: 20px;
@@ -319,7 +319,7 @@ select:disabled,
 
 /* named upload */
 .filebox .upload-name {
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 20px;
   display: inline-block;
   padding: .5em .75em;
@@ -373,3 +373,7 @@ select:disabled,
   background-color: #B1D7B4;
   border-color: #B1D7B4;
 }
+
+.futsal {
+		border-bottom: solid 1px transparent;
+	}
