@@ -81,33 +81,21 @@
               <li><a href="index.html">예약</a></li>
 				<li class="has-children">
                 <a href="rooms.html">매칭</a>
-
-                <ul class="dropdown">
-                  <li class="has-children">
-                    <a href="#">King Bedroom</a>
-                    <ul class="dropdown">
-                      <li>
-                        <a href="#">King Bedroom</a>
-                      </li>
-                      <li>
-                        <a href="#">Queen &amp; Double Bedroom</a>
-                      </li>
-                      <li>
-                        <a href="#">Le Voila Suite</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">Queen &amp; Double Bedroom</a>
-                  </li>
-                  <li>
-                    <a href="#">Le Voila Suite</a>
-                  </li>
-                </ul>
               </li>
               <li><a href="amenities.html">자유 게시판</a></li>
               <li><a href="gallery.html">팀</a></li>
-              <li><a href="about.html">용병</a></li>
+              <li class = "has-children"><a href="rooms.html">용병</a>
+
+                <ul class="dropdown">
+                  <li>
+                    <a href="#">모집 목록</a>
+                  </li>
+                  <li>
+                    <a href="#">용병 모집 등록</a>
+                  </li>
+                </ul>
+              </li>
+              
             </ul>
           </div>
           <div class="icons-wrap text-md-right">
