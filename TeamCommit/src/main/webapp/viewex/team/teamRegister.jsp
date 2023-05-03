@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/team/css/style.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
 </head>
 
@@ -182,7 +182,18 @@
     <script src="/TeamCommit/resource/main/js/vendor/jquery.sticky.js"></script>
     <script src="/TeamCommit/resource/main/js/vendor/ScrollMagic.min.js"></script>
     <script src="/TeamCommit/resource/main/js/vendor/scrollmagic.animation.gsap.min.js"></script>
-    <script src="/TeamCommit/resource/main/js/main.js"></script>
+    <script src="/TeamCommit/resource/team/js/main.js"></script>
+    
+     <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
+    <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
+
+
+    <script src="/TeamCommit/resource/includes/js/ScrollMagic.min.js"></script>
+    <script src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
+
+
+    <script src="/TeamCommit/resource/includes/js/main.js"></script>
+  
 	
 </body>
 		

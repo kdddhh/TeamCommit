@@ -6845,10 +6845,6 @@ textarea.form-control-lg {
 .p-12 {
   padding: 16rem !important; }
 
-.px-0 {
-  padding-right: 0 !important;
-  padding-left: 0 !important; }
-
 .px-1 {
   padding-right: 0.25rem !important;
   padding-left: 0.25rem !important; }
@@ -13213,12 +13209,7 @@ textarea.form-control-lg {
         color: #344767 !important; }
     .dark-version .sidenav .collapse .nav-item .nav-link i {
       color: #fff !important; }
-  .dark-version .fixed-plugin .btn.bg-gradient-dark, .dark-version .fixed-plugin .btn.btn-outline-dark {
-    color: #fff !important;
-    border: 1px solid #fff !important; }
-  .dark-version .fixed-plugin .btn.active {
-    background: #fff !important;
-    color: #344767 !important; }
+
   .dark-version .bg-gradient-dark {
     background-image: linear-gradient(195deg, #323a54, #1a2035); }
   .dark-version .card,
@@ -13578,18 +13569,6 @@ body.dark-version {
     height: auto;
     z-index: 0;
     transform: translateX(-50%) translateY(-50%); }
-
-.fixed-plugin .fixed-plugin-button {
-  background: #fff;
-  border-radius: 50%;
-  bottom: 30px;
-  right: 30px;
-  font-size: 1.25rem;
-  z-index: 990;
-  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.16);
-  cursor: pointer; }
-  .fixed-plugin .fixed-plugin-button i {
-    pointer-events: none; }
 
 .fixed-plugin .card {
   position: fixed !important;
@@ -15917,7 +15896,8 @@ hr.horizontal {
 
 .table.align-items-center td,
 .table.align-items-center th {
-  vertical-align: middle; }
+  vertical-align: middle;
+  text-align: center; }
 
 .table tbody tr:last-child td {
   border-width: 0; }
@@ -16089,10 +16069,6 @@ h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .h6 {
 
 h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4 {
   letter-spacing: -0.05rem; }
-
-a {
-  letter-spacing: 0rem;
-  color: #344767; }
 
 .text-sm {
   line-height: 1.5; }
