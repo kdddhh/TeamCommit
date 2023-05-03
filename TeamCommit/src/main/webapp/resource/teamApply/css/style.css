@@ -8,7 +8,10 @@ body {
 	font-smoothing: antialiased;
 }
 
-h1,
+h1 {
+	color: #FFF;
+}
+
 h2,
 h3,
 h4,
@@ -91,26 +94,36 @@ button {
 	border: none;
 }
 
-#site-btn1 {
-	font-size: 14px;
-	color: #ffffff;
+.site-btn-insert, .site-btn-cancle {
+	font-size: 15px;
+	color: #FFF;
 	font-weight: 800;
-	text-transform: uppercase;
 	display: inline-block;
 	padding: 13px 30px 12px;
-	background: rgb(177, 215, 180)​;
+	background: #7FB77E;
 	border: none;
+	border-radius: 5px;
+	text-align: center;
 }
 
-#site-btn2 {
-	font-size: 14px;
-	color: #ffffff;
-	font-weight: 800;
-	text-transform: uppercase;
-	display: inline-block;
-	padding: 13px 30px 12px;
-	background: rgb(177, 215, 180)​;
-	border: none;
+.checkout__order a.site-btn-insert {
+	font-size: 15px;
+    letter-spacing: 2px;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.checkout__order a.site-btn-cancle {
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 40%;
+    margin-top: 10px;
+}
+
+.site-btn-insert:hover, .site-btn-cancle:hover {
+    background: #7FB77E;
 }
 
 /* Preloder */
@@ -970,4 +983,9 @@ textarea {
 	.blog__details__hero__text h2 {
 		font-size: 24px;
 	}
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: #B1D7B4 !important;
 }

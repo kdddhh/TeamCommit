@@ -24,15 +24,16 @@
     
     <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
     
+    <script src="/TeamCommit/resource/teamApply/js/common.js"></script>
+    <script src="/TeamCommit/resource/teamApply/js/jquery.slicknav.js"></script>
+    
     <script src="/TeamCommit/resource/includes/js/jquery-3.3.1.min.js"></script>
 
     <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
     <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
 
-
     <script src="/TeamCommit/resource/includes/js/ScrollMagic.min.js"></script>
     <script src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
-
 
     <script src="/TeamCommit/resource/includes/js/main.js"></script>
 </head>
@@ -40,6 +41,17 @@
 <body>
 	
     <%@include file="/resource/includes/header.jsp"%>
+    
+    <!-- Header -->
+    <div class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">풋살팀 팀원 지원</h1>
+                <p class="lead fw-normal text-white-50 mb-0">함께 열정적인 풋살을 즐길 수 있는 팀에 지원하세요.</p>
+            </div>
+        </div>
+    </div>
+    
     <!-- Checkout Section Begin -->
     <section class="checkout spad">
         <div class="container">
@@ -50,14 +62,11 @@
                         <div class="col-lg-8 col-md-6">
                             <div class="checkout__input">
                                   <p>이름<span>*</span></p>
-                                  <input type="text">
+                                  <input type="text" placeholder="이름">
                             </div>
                             <div class="checkout__input">
                                  <p>성별<span>*</span></p>
-                                 	<select name="gender">
-      									<option placeholder="남성">남성</option>
-      									<option placeholder="여성">여성</option>
-      								</select>
+                                 	<input type="text" placeholder="성별">
                             </div>
                             <div class="checkout__input">
                                 <p>핸드폰 번호<span>*</span></p>
@@ -65,7 +74,8 @@
                             </div>
                             <div class="checkout__input">
                                 <p>포지션<span>*</span></p>
-                                <select name="position">
+                                <select id="position" name="position" onChange="selectPosition(this)">
+                                			<option placeholder="">포지션 선택</option>
       										<option placeholder="pivo">PIVO(피보): 공격수</option>
       										<option placeholder="ala">ALA(아라): 미드필더</option>
       										<option placeholder="fixo">FIXO(픽소): 수비수</option>
@@ -74,29 +84,34 @@
                             </div>
                             <div class="checkout__input">
                                 <p>하고 싶은 말<span>*</span></p>
-                                <textarea id="teamApply_content" name="teamApply_content" cols="100" rows="100" class="form-content"></textarea>
-                            </div>
-                            <button type="submit" class="site-btn1">취소</button>  
-                        	<button type="submit" class="site-btn2">지원</button>  
+                                <textarea id="teamApply_content" name="teamApply_content" cols="100" rows="100" class="form-content" placeholder="팀장에게 하고 싶은 말을 적어주세요."></textarea>
+                            </div> 
+                            
                         </div>
+                        
+                        <!-- Check List -->
+						<div class="col-lg-4 col-md-6">
+							<div class="checkout__order">
+								<h4>Check List</h4>
+								<div class="checkout__order__products">
+									Title<span>Content</span>
+								</div>
+								<ul>
+									<li>이름<span>이름 가져오기</span></li>
+									<li>성별<span>성별 가져오기</span></li>
+									<li>핸드폰 번호<span>번호 가져오기</span></li>
+									<li>포지션<span id="position"></span></li>
+								</ul>
+									<a href="#this" id="insert" class="site-btn-insert">등록</a>
+									<a href="#this" id="cancle" class="site-btn-cancle">취소</a>
+							</div>
+						</div>
                     </div>
                 </form>
             </div>
         </div>
     </section>
     <!-- Checkout Section End -->
-
-    <!-- Js Plugins -->
-    <script src="/TeamCommit/teamApplyRes/js/jquery-3.3.1.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/bootstrap.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/jquery.nice-select.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/jquery-ui.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/jquery.slicknav.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/mixitup.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/owl.carousel.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/main.js"></script>
-
- 
 
 </body>
 

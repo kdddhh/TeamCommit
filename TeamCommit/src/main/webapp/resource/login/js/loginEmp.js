@@ -4,7 +4,7 @@ const container = document.getElementById('container');
 
 signUpButton.addEventListener('click', () => {
   container.classList.add("right-panel-active");
-  window.open("loginpopup.jsp", "LOGINPOPUP", "width=700, height=1000");
+  window.open("loginpopupEmp.jsp", "LOGINPOPUPEMP", "width=700, height=1000");
 });
 
 signInButton.addEventListener('click', () => {
