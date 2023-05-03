@@ -6,14 +6,19 @@
 	<title>Kick Off: 관리자-회원 관리</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="/TeamCommit/resource/emp/css/main.css" />
+		<link rel="stylesheet" href="/TeamCommit/resource/admin/css/main.css" />
 		
 		
 		<link rel="stylesheet" href="/TeamCommit/resource/admin/css/theme.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	
-		<link href="/TeamCommit/resource/admin/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+		<!-- Fontfaces CSS-->
+		<link href="/TeamCommit/resource/admin/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+		  <!-- Vendor CSS-->
+		 <link href="/TeamCommit/resource/admin/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+		
 		
 		
 	</head>
@@ -219,9 +224,11 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                    <!--
                                     <div class="user-data__footer">
                                         <button class="au-btn au-btn-load">load more</button>
                                     </div>
+                                    -->
                                 </div>
                                 <!-- END USER DATA-->
                             </div>
@@ -275,12 +282,19 @@
 			<script src="/TeamCommit/resource/admin/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="/TeamCommit/resource/admin/js/main.js"></script>
+			
 		
    <!-- Jquery JS-->
     <script src="/TeamCommit/resource/admin/vendor/jquery-3.2.1.min.js"></script>
     <script src="/TeamCommit/resource/admin/vendor/counter-up/jquery.waypoints.min.js"></script>
     <script src="/TeamCommit/resource/admin/vendor/counter-up/jquery.counterup.min.js"></script>
+    
+    
+    <!-- Vendor JS       -->
     <script src="/TeamCommit/resource/admin/vendor/select2/select2.min.js"></script>
+    
+    
+    </script>
    
  <!-- Main JS-->
     <script src="/TeamCommit/resource/admin/js/user.js"></script>

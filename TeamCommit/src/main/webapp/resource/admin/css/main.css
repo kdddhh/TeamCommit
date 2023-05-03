@@ -2315,10 +2315,6 @@
 	input[type="url"],
 	select,
 	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
 		background: #ffffff;
 		border-radius: 0.375em;
 		border: none;
@@ -2328,8 +2324,9 @@
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		width: 100%;
 	}
+
+
 
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
@@ -2403,10 +2400,6 @@
 
 	input[type="checkbox"],
 	input[type="radio"] {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
 		display: block;
 		float: left;
 		margin-right: -2em;
@@ -2943,10 +2936,6 @@
 	input[type="button"],
 	button,
 	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
