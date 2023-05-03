@@ -68,7 +68,6 @@
 
 .select2-container .select2-search--inline .select2-search__field::-webkit-search-cancel-button
 	{
-	-webkit-appearance: none
 }
 
 .select2-dropdown {
@@ -132,7 +131,6 @@
 
 .select2-search--dropdown .select2-search__field::-webkit-search-cancel-button
 	{
-	-webkit-appearance: none
 }
 
 .select2-search--dropdown.select2-search--hide {
@@ -367,7 +365,7 @@
 	border: none;
 	outline: 0;
 	box-shadow: none;
-	-webkit-appearance: textfield
+
 }
 
 .select2-container--default .select2-results>.select2-results__options {

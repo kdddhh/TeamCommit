@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" href="/TeamCommit/resource/Management/img/favicon.png">
   <title>Kick Off: 풋살팀 랭킹</title>
   
-  <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+  
   
   
   <!--     Fonts and icons     -->
@@ -26,6 +26,7 @@
   <!-- CSS Files -->
   <link id="pagestyle" href="/TeamCommit/resource/Management/css/material-dashboard.css?v=3.0.0" rel="stylesheet" />
   
+ 	<link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
  
 </head>
 
@@ -333,7 +334,7 @@
   <script src="/TeamCommit/resource/Management/js/material-dashboard.min.js?v=3.0.0"></script>
   
   
-   <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
+    <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
     <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
 
 
@@ -342,8 +343,6 @@
 
 
     <script src="/TeamCommit/resource/includes/js/main.js"></script>
-    <script src="/TeamCommit/resource/includes/js/week.js"></script>
-  
   
   
 </body>
