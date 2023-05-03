@@ -2951,8 +2951,7 @@
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color:  #7FB77E;
 		border-radius: 0.375em;
-		border: 1px solid #7FB77E;
-		box-shadow: inset 0 0 0 2px #B1D7B4;
+		border: 1px solid #7FB77E;		
 		color: #FFFFFF !important;
 		cursor: pointer;
 		display: inline-block;

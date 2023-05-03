@@ -30,7 +30,7 @@
 			                	<section>
 				                	<div class="container-fluid">
 				                    <!-- Page Heading -->
-				                    <h1 class="h3 mb-2 text-gray-800">게시글 관리</h1>                    
+				                    <h1 class="h3 mb-2 text-gray-800">내 풋살장 목록</h1>                    
 				
 				                    <!-- DataTales Example -->
 				                    <div class="card shadow mb-4">
