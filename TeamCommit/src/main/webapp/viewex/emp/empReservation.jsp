@@ -255,7 +255,7 @@
 											<span class="opener">풋살장 관리</span>
 											<ul>
 												<li><a href="empFutsal.jsp">풋살장 등록</a></li>
-												<li><a href="empFutsal.jsp">풋살장 수정</a></li>												
+												<li><a href="empFutsalFix.jsp">풋살장 수정</a></li>												
 											</ul>
 										</li>										
 									</ul>

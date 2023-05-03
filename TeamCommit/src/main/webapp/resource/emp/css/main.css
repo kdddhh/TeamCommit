@@ -63,7 +63,7 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
-		display: flex;
+		/*display: flex;*/
 		justify-content: Space-between;
 	}
 
@@ -2329,10 +2329,10 @@
 	input[type="url"],
 	select,
 	textarea {
-		-moz-appearance: none;
+		/*-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
+		appearance: none; */
 		background: #ffffff;
 		border-radius: 0.375em;
 		border: none;
@@ -2415,12 +2415,11 @@
 		padding: 0.75em 1em;
 	}
 
-	input[type="checkbox"],
-	input[type="radio"] {
-		-moz-appearance: none;
+	input[type="checkbox"] {
+		/*-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
+		appearance: none;*/
 		display: block;
 		float: left;
 		margin-right: -2em;
@@ -2429,8 +2428,7 @@
 		z-index: -1;
 	}
 
-		input[type="checkbox"] + label,
-		input[type="radio"] + label {
+		input[type="checkbox"] + label{
 			text-decoration: none;
 			color: #7f888f;
 			cursor: pointer;
@@ -2442,8 +2440,7 @@
 			position: relative;
 		}
 
-			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
+			input[type="checkbox"] + label:before{
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				font-family: FontAwesome;
@@ -2452,8 +2449,7 @@
 				text-transform: none !important;
 			}
 
-			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
+			input[type="checkbox"] + label:before {
 				background: #ffffff;
 				border-radius: 0.375em;
 				border: solid 1px rgba(210, 215, 217, 0.75);
@@ -2468,16 +2464,14 @@
 				width: 1.65em;
 			}
 
-		input[type="checkbox"]:checked + label:before,
-		input[type="radio"]:checked + label:before {
+		input[type="checkbox"]:checked + label:before{
 			background: #3d4449;
 			border-color: #3d4449;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
-		input[type="checkbox"]:focus + label:before,
-		input[type="radio"]:focus + label:before {
+		input[type="checkbox"]:focus + label:before{
 			border-color: #7FB77E;
 			box-shadow: 0 0 0 1px #B1D7B4;
 		}
@@ -2486,9 +2480,6 @@
 		border-radius: 0.375em;
 	}
 
-	input[type="radio"] + label:before {
-		border-radius: 100%;
-	}
 
 	::-webkit-input-placeholder {
 		color: #9fa3a6 !important;
