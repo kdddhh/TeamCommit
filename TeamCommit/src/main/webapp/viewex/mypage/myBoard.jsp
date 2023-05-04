@@ -540,9 +540,9 @@
 										<li><a href="myReservation.jsp">예약 내역</a></li>
 										<li><a href="myBoard.jsp">내 게시글</a></li>
 										<li><a href="fixInfo.jsp">회원 정보 수정</a></li>
-										<li><a href="empFutsal.jsp">팀</a></li>
-										<li><a href="empFutsalFix.jsp">메시지</a></li>	
-										<li><a href="empFutsalFix.jsp">용병</a></li>											
+										<li><a href="myTeam.jsp">팀</a></li>
+										<li><a href="myMessage.jsp">메시지</a></li>	
+										<li><a href="myHelper.jsp">용병</a></li>											
 									</ul>
 								</nav>
 
