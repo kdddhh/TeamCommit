@@ -78,22 +78,22 @@
           </div>
           <div class="site-nav-ul-wrap text-center d-none d-lg-block">
             <ul class="site-nav-ul js-clone-nav">
-              <li><a href="index.html">예약</a></li>
+              <li><a href="/TeamCommit/viewex/reservation/reservation.jsp">예약</a></li>
 				<li class="has-children">
-                <a href="rooms.html">매칭</a>
+                <a href="/TeamCommit/viewex/game/game.jsp">매칭</a>
               </li>
-              <li><a href="amenities.html">자유 게시판</a></li>
-              <li><a href="gallery.html">팀</a></li>
-              
-              <li class = "has-children"><a href="rooms.html">용병</a>
-	                <ul class="dropdown">
-	                  <li>
-	                    <a href="#">모집 목록</a>
-	                  </li>
-	                  <li>
-	                    <a href="#">용병 모집 등록</a>
-	                  </li>
-	                </ul>
+              <li><a href="/TeamCommit/viewex/board/board.jsp">자유 게시판</a></li>
+              <li><a href="/TeamCommit/viewex/team/team.jsp">팀</a></li>
+              <li class = "has-children"><a href="/TeamCommit/viewex/helper/helperList.jsp">용병</a>
+
+                <ul class="dropdown">
+                  <li>
+                    <a href="/TeamCommit/viewex/helper/helperList.jsp">모집 목록</a>
+                  </li>
+                  <li>
+                    <a href="/TeamCommit/viewex/helper/helperInsert.jsp">용병 모집 등록</a>
+                  </li>
+                </ul>
               </li>
               
             </ul>

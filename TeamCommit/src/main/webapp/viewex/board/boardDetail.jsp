@@ -10,8 +10,7 @@
 <meta charset="UTF-8" />
 <title>Kick Off: 자유게시판 글 상세보기</title>
 <!-- include할 문서에 스타일, js -->
-<link rel="stylesheet"
-	href="/TeamCommit/resource/includes/css/style.css">
+<link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
 
 <script src="/TeamCommit/resource/includes/js/jquery-3.3.1.min.js"></script>
 
@@ -27,8 +26,7 @@
 <script src="/TeamCommit/resource/includes/js/main.js"></script>
 <!-- 여기까지 복붙하기 -->
 
-<link rel="stylesheet"
-	href="/TeamCommit/resource/board/css/boardDetail.css" />
+<link rel="stylesheet" href="/TeamCommit/resource/board/css/boardDetail.css" />
 
 </head>
 <body>
@@ -78,7 +76,7 @@
 				</table>
 			</div>
 			<br />
-			<hr style="color: #B1D7B4;">
+			<hr>
 			
 			<!-- 댓글 -->
 			<div class="reply">
