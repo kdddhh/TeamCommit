@@ -8,7 +8,7 @@
 	--red: #e74a3b; 
 	--orange: #fd7e14; 
 	--yellow: #f6c23e; 
-	--green: #1cc88a; 
+	--green: #7fb77e; 
 	--teal: #20c9a6; 
 	--cyan: #36b9cc; 
 	--white: #fff; 
@@ -31,6 +31,58 @@
 	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
 		"Liberation Mono", "Courier New", monospace
 }
+
+/* 내가 추가 */
+
+button {
+	border-radius: 20px;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 800;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 13px 30px 12px;
+	background: #B1D7B4;
+	border: none;
+	margin: 0 auto;
+	margin-bottom: 3em;
+	margin-top: 3em;
+	display:block;
+	}
+	
+th.fs-name {
+	width: 180px;
+}
+
+th.fs-gender, th.fs-number, th.fs-startDate, th.fs-endDate, th.fs-status
+{
+	width: 100px;
+}
+
+button.btn-end {
+	width: 80%;
+	background: #d6d6d6;
+	display: block;
+	margin: 0 auto;
+}
+
+button.btn-ing {
+	width: 80%;
+	background: #5cb0ff;
+	display: block;
+	margin: 0 auto;
+}
+
+
+img {
+	width: 40px;
+	height: 40px;
+}
+
+
+
+
+
 
 *, ::after, ::before {
 	box-sizing: border-box;
@@ -146,14 +198,18 @@ sup {
 }
 
 a {
-	color: #4e73df;
+	color: black;
 	text-decoration: none;
-	background-color: transparent
+	background-color: transparent;
 }
 
 a:hover {
-	color: #224abe;
+	color: ​#7fb77e;
 	text-decoration: underline
+}
+
+a:visited {
+	color: black;
 }
 
 a:not([href]):not([class]) {
@@ -214,26 +270,22 @@ label {
 	margin-bottom: .5rem
 }
 
-button {
-	border-radius: 0
-}
 
 button:focus:not(:focus-visible) {
 	outline: 0
 }
 
-button, input, optgroup, select, textarea {
+input, optgroup, select, textarea {
 	margin: 0;
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit
 }
 
-button, input {
+input {
 	overflow: visible
 }
-
-button, select {
+select {
 	text-transform: none
 }
 
@@ -245,7 +297,7 @@ select {
 	word-wrap: normal
 }
 
-[type=button], [type=reset], [type=submit], button {
+[type=button], [type=reset], [type=submit] {
 	-webkit-appearance: button
 }
 
@@ -1457,7 +1509,7 @@ pre code {
 
 .table td, .table th {
 	padding: .75rem;
-	vertical-align: top;
+	vertical-align: center;
 	border-top: 1px solid #e3e6f0
 }
 
@@ -5569,12 +5621,6 @@ to {
 .close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover
 	{
 	opacity: .75
-}
-
-button.close {
-	padding: 0;
-	background-color: transparent;
-	border: 0
 }
 
 a.close.disabled {

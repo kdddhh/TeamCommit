@@ -65,7 +65,10 @@
                     <div class="card shadow mb-4">
                     <div class = "calender">
                         <div class="card-header py-3">
-							<a href="/TeamCommit/viewex/team/teamRank.jsp">팀 랭킹</a>
+							<a href="/TeamCommit/viewex/team/teamRank.jsp" style="font-size: 18px;">
+     							 <img src="/TeamCommit/resource/team/img/free-icon-trophy-3176355.png"/>&nbsp; 팀 랭킹
+  							</a>
+  						
                         </div>
                         </div>
                         <div class="card-body">
@@ -73,40 +76,31 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
-                                            <th>Salary</th>
+                                            <th class="fs-name">풋살팀 이름</th>
+                                            <th class="fs-gender">풋살팀 성별</th>
+                                            <th class="fs-number">모집 인원</th>
+                                            <th class="fs-startDate">모집 시작일</th>
+                                            <th class="fs-endDate">모집 종료일</th>
+                                            <th class="fs-status">모집 상태</th>
                                         </tr>
                                     </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
-                                            <th>Salary</th>
-                                        </tr>
-                                    </tfoot>
+                               
                                     <tbody>
                                         <tr>
-                                            <td>Tiger Nixon</td>
-                                            <td>System Architect</td>
-                                            <td>Edinburgh</td>
-                                            <td>61</td>
-                                            <td>2011/04/25</td>
-                                            <td>$320,800</td>
+                                            <th>4조 FC</th>
+                                            <th>혼성</th>
+                                            <th>5명</th>
+                                            <th>2023.04.04</th>
+                                            <th>2023.05.16</th>
+                                            <th><button class="btn-end">모집 완료</button></th>
                                         </tr>
-                                        <tr>
-                                            <td>Garrett Winters</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>63</td>
-                                            <td>2011/07/25</td>
-                                            <td>$170,750</td>
+                                         <tr>
+                                            <th>4조 FC</th>
+                                            <th>혼성</th>
+                                            <th>5명</th>
+                                            <th>2023.04.04</th>
+                                            <th>2023.05.16</th>
+                                            <th><button class="btn-ing">모집 중</button></th>
                                         </tr>
                                         <tr>
                                             <td>Ashton Cox</td>
@@ -551,6 +545,7 @@
                                     </tbody>
                                 </table>
                             </div>
+                            <button onclick="location.href='/TeamCommit/viewex/team/teamRegister.jsp';">팀 등록</button>
                         </div>
                     </div>
 

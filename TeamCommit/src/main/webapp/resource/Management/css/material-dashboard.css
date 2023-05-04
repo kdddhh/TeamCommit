@@ -56,6 +56,37 @@
   --bs-body-bg: #fff;
   --bs-green: #b1d7b4​
    }
+   
+
+/* 내가 추가 */
+
+img {
+	width: 35px;
+	height: 35px;
+}
+
+img.trophy {
+	width: 50px;
+	height: 50px;
+}   
+   
+button {
+	border-radius: 20px;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 800;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 13px 30px 12px;
+	background: #B1D7B4;
+	border: none;
+	margin: 0 auto;
+	margin-bottom: 3em;
+	margin-top: 3em;
+	display: block;
+}
+   
+   
 
 *,
 *::before,
@@ -269,14 +300,11 @@ th {
 label {
   display: inline-block; }
 
-button {
-  border-radius: 0; }
 
 button:focus:not(:focus-visible) {
   outline: 0; }
 
 input,
-button,
 select,
 optgroup,
 textarea {
@@ -285,7 +313,6 @@ textarea {
   font-size: inherit;
   line-height: inherit; }
 
-button,
 select {
   text-transform: none; }
 
@@ -4059,6 +4086,7 @@ textarea.form-control-lg {
   border-top-right-radius: 0.125rem;
   border-bottom-right-radius: 0.125rem; }
 
+/*
 .badge {
   display: inline-block;
   padding: 0.55em 0.9em;
@@ -4070,6 +4098,13 @@ textarea.form-control-lg {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.45rem; }
+*/  
+
+.badge {
+  font-weight: 700;
+}
+  
+  
   .badge:empty {
     display: none; }
 
@@ -5515,7 +5550,9 @@ textarea.form-control-lg {
   vertical-align: top !important; }
 
 .align-middle {
-  vertical-align: middle !important; }
+  vertical-align: middle !important; 
+  width: 65%;
+  }
 
 .align-bottom {
   vertical-align: bottom !important; }
@@ -7029,8 +7066,6 @@ textarea.form-control-lg {
 .pb-1 {
   padding-bottom: 0.25rem !important; }
 
-.pb-2 {
-  padding-bottom: 0.5rem !important; }
 
 .pb-3 {
   padding-bottom: 1rem !important;
@@ -7073,7 +7108,9 @@ textarea.form-control-lg {
   padding-left: 0.5rem !important; }
 
 .ps-3 {
-  padding-left: 1rem !important; }
+	font-size: 20px;
+	
+}
 
 .ps-4 {
   padding-left: 1.5rem !important; }
@@ -7197,9 +7234,10 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   color: #e91e63 !important; }
-
+/*
 .text-secondary {
   color: #7b809a !important; }
+*/
 
 .text-success {
   color: #4CAF50 !important; }
@@ -13933,11 +13971,14 @@ label,
 .bg-gradient-primary {
   background-image: linear-gradient(195deg, #b1d7b4 0%, #7fb77e 100%); }
 
+/*
 .bg-gradient-secondary {
   background-image: linear-gradient(195deg, #747b8a 0%, #495361 100%); }
 
 .bg-gradient-success {
   background-image: linear-gradient(195deg, #66BB6A 0%, #43A047 100%); }
+*/  
+
 
 .bg-gradient-info {
   background-image: linear-gradient(195deg, #49a3f1 0%, #1A73E8 100%); }
@@ -15875,10 +15916,11 @@ hr.horizontal {
       color: #329874; }
 
 .table thead th {
-  padding: 0.75rem 1.5rem;
+  
   text-transform: capitalize;
   letter-spacing: 0px;
-  border-bottom: 1px solid #f0f2f5; }
+  border-bottom: 1px solid #f0f2f5;
+   }
 
 .table th {
   font-weight: 600; }
@@ -15897,7 +15939,8 @@ hr.horizontal {
 .table.align-items-center td,
 .table.align-items-center th {
   vertical-align: middle;
-  text-align: center; }
+  text-align: end;
+   }
 
 .table tbody tr:last-child td {
   border-width: 0; }
@@ -16074,7 +16117,11 @@ h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4 {
   line-height: 1.5; }
 
 .text-xs {
-  line-height: 1.25; }
+  line-height: 1.25;
+  margin-right: 7px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+   }
 
 p, .p {
   font-size: 1rem; }
@@ -16092,10 +16139,13 @@ p, .p {
   font-size: 0.875rem !important; }
 
 .text-xs {
-  font-size: 0.75rem !important; }
+ }
 
 .text-xxs {
-  font-size: 0.65rem !important; }
+  font-size: 1rem !important;
+  color: black;
+  font-weight: bold;
+   }
 
 p {
   line-height: 1.625;
