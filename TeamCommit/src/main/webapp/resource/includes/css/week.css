@@ -53,6 +53,10 @@
 			justify-content: center;
 		}
 		
+		.preBtn, .nextBtn {
+			background: #e4e4e4 !important;
+		}
+		
 		.btn,
 		.preBtn,
 		.nextBtn {

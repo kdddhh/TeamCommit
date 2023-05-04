@@ -541,6 +541,9 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                                <div class="btn_insert">
+                                <a href="#"><button type="button" class="btn_insert">등록</button></a>
+                                </div>
                             </div>
                         </div>
                     </div>

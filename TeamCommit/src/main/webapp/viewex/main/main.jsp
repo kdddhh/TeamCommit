@@ -84,16 +84,16 @@
               </li>
               <li><a href="amenities.html">자유 게시판</a></li>
               <li><a href="gallery.html">팀</a></li>
+              
               <li class = "has-children"><a href="rooms.html">용병</a>
-
-                <ul class="dropdown">
-                  <li>
-                    <a href="#">모집 목록</a>
-                  </li>
-                  <li>
-                    <a href="#">용병 모집 등록</a>
-                  </li>
-                </ul>
+	                <ul class="dropdown">
+	                  <li>
+	                    <a href="#">모집 목록</a>
+	                  </li>
+	                  <li>
+	                    <a href="#">용병 모집 등록</a>
+	                  </li>
+	                </ul>
               </li>
               
             </ul>
