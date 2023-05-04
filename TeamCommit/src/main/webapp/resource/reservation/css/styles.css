@@ -102,6 +102,22 @@ body {
 	margin-bottom: 5px;
 }
 
+/* header */
+.logo-wrap {
+	left: 380px !important;
+}
+
+.site-nav-ul-wrap {
+	margin-left: 20px !important;
+	margin-top: -4px !important;
+}
+
+.header-container {
+	padding-top: 1rem;
+	border-bottom: 1px solid #f2f2f2;
+	height: 50px;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -120,6 +136,13 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
+
+.header-container {
+	padding-top: 1rem;
+	border-bottom: 1px solid #f2f2f2;
+	height: 50px;
+}
+
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
@@ -270,6 +293,7 @@ pre {
   overflow: auto;
   font-size: 0.875em;
 }
+
 pre code {
   font-size: inherit;
   color: inherit;
@@ -3504,6 +3528,7 @@ textarea.form-control-lg {
   --bs-dropdown-header-color: #adb5bd;
 }
 
+
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -3515,6 +3540,7 @@ textarea.form-control-lg {
   position: relative;
   flex: 1 1 auto;
 }
+
 .btn-group > .btn-check:checked + .btn,
 .btn-group > .btn-check:focus + .btn,
 .btn-group > .btn:hover,
@@ -8161,7 +8187,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: #B1D7B4 !important;
+  background-color: rgba(var(--bs-header-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
@@ -10823,4 +10849,5 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+
 }

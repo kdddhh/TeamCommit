@@ -10,70 +10,21 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Kick off: 풋살장 예약 목록</title>
+    <link href="https://fonts.google.com/noto/specimen/Noto+Sans+KR?subset=korean&noto.script=Kore" rel="stylesheet">
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="/TeamCommit/teamRes/assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/TeamCommit/resource/reservation/assets/favicon.ico" />
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/TeamCommit/resource/reservation/css/styles.css" rel="stylesheet" />
+    <link href="/TeamCommit/resource/includes/css/style.css" rel="stylesheet" />
 </head>
 <body>
-	<!-- Navigation 메인이랑 헤더메뉴 통일-->
-	<nav class="untree_co--site-nav js-sticky-nav">
-		<div class="container d-flex align-items-center">
-			<div class="logo-wrap">
-				<a href="index.html" class="untree_co--site-logo">Kick Off</a>
-			</div>
-			<div class="site-nav-ul-wrap text-center d-none d-lg-block">
-				<ul class="site-nav-ul js-clone-nav">
-					<li class="active">
-						<a href="index.html">예약</a>
-					</li>
-					<li class="has-children">
-						<a href="rooms.html">매칭</a>
-					</li>
-					<li>
-						<a href="amenities.html">자유 게시판</a>
-					</li>
-					<li>
-						<a href="gallery.html">팀</a>
-					</li>
-					<li>
-						<a href="about.html">용병</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+	<div class="header-container">
+		<%@include file="/resource/includes/header.jsp"%>
+	</div>
 	
-	<div class="icons-wrap text-md-right"></div>
-
-
-	<!-- Navigation 메인이랑 헤더메뉴 통일-->
-	<!-- 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	    <div class="container px-4 px-lg-5">
-	        <a class="navbar-brand" href="#!">Start Bootstrap</a>
-	        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-	        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-	                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-	                <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-	                <li class="nav-item dropdown">
-	                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-	                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-	                        <li><a class="dropdown-item" href="#!">All Products</a></li>
-	                        <li><hr class="dropdown-divider" /></li>
-	                        <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-	                        <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-	                    </ul>
-	                </li>
-	            </ul>
-	        </div>
-	    </div>
-	</nav> -->
-	
-    <!-- Header-->
+    <!-- title -->
     <header class="bg-dark py-5">
         <div class="container px-4 px-lg-5 my-5">
             <div class="text-center text-white">
@@ -82,6 +33,7 @@
             </div>
         </div>
     </header>
+    
     <!-- Section-->
     <section class="py-5">
         <div class="container px-4 px-lg-5 mt-5">
@@ -303,7 +255,12 @@
     </footer>	
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="/TeamCommit/resource/team/js/scripts.js"></script>
+    
+    <script src="/TeamCommit/resource/includes/js/jquery-3.3.1.min.js"></script>
+    <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
+    <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
+    <script src="/TeamCommit/resource/includes/js/ScrollMagic.min.js"></script>
+    <script src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
+    <script src="/TeamCommit/resource/includes/js/main.js"></script>
 </body>
 </html>

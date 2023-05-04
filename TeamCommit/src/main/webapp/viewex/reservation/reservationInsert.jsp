@@ -12,7 +12,7 @@
     <title>Kick off: 풋살장 예약 등록</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/noto/specimen/Noto+Sans+KR?subset=korean&noto.script=Kore" rel="stylesheet">
 	
     <!-- Css Styles -->
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/bootstrap.min.css" type="text/css">
@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/style.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/style.css" type="text/css">
     
     <!-- calendar -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -35,26 +35,12 @@
 </head>
 
 <body>
-<%@include file="/resource/includes/header.jsp"%>
-	<!-- 상단바 -->
-	<nav class="untree_co--site-nav js-sticky-nav">
-		<div class="container d-flex align-items-center">
-			<div class="site-nav-ul-wrap text-center d-none d-lg-block">
-				<ul class="site-nav-ul js-clone-nav">
-					<li class="active"><a href="index.html">예약</a></li>
-					<li class="has-children"><a href="rooms.html">매칭</a></li>
-					<li><a href="amenities.html">자유 게시판</a></li>
-					<li><a href="gallery.html">팀</a></li>
-					<li><a href="about.html">용병</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<div class="icons-wrap text-md-right"></div>
+	<div class="header-container">
+		<%@include file="/resource/includes/header.jsp"%>
+	</div>
 
 	<!-- Header -->
-    <div class="bg-dark py-5">
+    <div class="bg-dark py-5" style="background-color: #7fb77e !important;">
         <div class="container px-4 px-lg-5 my-5">
             <div class="text-center text-white">
                 <h1 class="display-4 fw-bolder">풋살장 예약 등록</h1>
@@ -99,20 +85,10 @@
                                 	<input type="radio" name="placeForm" value="outdoor" onclick='getPlaceForm(event)' />&nbsp실외
                                 </label>
                             </div>
-                            <div class="row">
-                            	<div class="col-lg-6">
-                           			<div class="checkout__input">
-                                		<p>예약 시작<span>*</span></p>
-                               			<input id="setStartDate" onChange="getStartDate()" />
-                           			</div>
-                           		</div>
-                           		<div class="col-lg-6">
-                           			<div class="checkout__input">
-                           				<p>예약 종료<span>*</span></p>
-                          				<input id="setEndDate" onChange="getEndDate()" />
-                          			</div>
-                          		</div>
-                          	</div>
+                   			<div class="checkout__input">
+                        		<p>예약 날짜<span>*</span></p>
+                       			<input id="setDate" onChange="getDate()" />
+                   			</div>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
@@ -182,8 +158,7 @@
 									<li>코트<span id="court"></span></li>
 									<li>위치<span>주소주소</span></li>
 									<li>형태<span id="placeForm"></span></li>
-									<li>예약 시작<span id="startDate"></span></li>
-									<li>예약 종료<span id="endDate"></span></li>
+									<li>예약 날짜<span id="date"></span></li>
 									<li>시작 시간<span id="startTime"></span></li>
 									<li>종료 시간<span id="endTime"></span></li>
 									<li>예약 상태<span id="status">예약</span></li>
@@ -276,23 +251,9 @@
 
 	<script type="text/javascript">
 		/* calendar */
-		var today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
-		$('#setStartDate').datepicker({
+		$('#setDate').datepicker({
 			format: "yyyy-mm-dd",
 		    uiLibrary: 'bootstrap4',
-		    iconsLibrary: 'fontawesome',
-		    minDate: today,
-		    maxDate: function () {
-		        return $('#endDate').val();
-		    }
-		});
-		$('#setEndDate').datepicker({
-			format: "yyyy-mm-dd",
-		    uiLibrary: 'bootstrap4',
-		    iconsLibrary: 'fontawesome',
-		    minDate: function () {
-		        return $('#startDate').val();
-		    }
 		});
 	</script>
 	
