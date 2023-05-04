@@ -9,11 +9,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="/TeamCommit/resource/Management/img/apple-icon.png">
   <link rel="icon" type="image/png" href="/TeamCommit/resource/Management/img/favicon.png">
-  <title>Kick Off: 풋살팀 랭킹</title>
+
+  <title>Kick Off: 풋살팀 랭킹</title>  
+
+
   
   
   <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
   
+
   
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
