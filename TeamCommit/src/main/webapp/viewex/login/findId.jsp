@@ -11,9 +11,9 @@
 <div class="container" id="container">
   <div class="form-container sign-in-container">
     <form action="#">
-      <h1>비밀번호 찾기</h1>
+      <h1>아이디 찾기</h1>
       <br />
-	      <p>정보에 해당되는 비밀번호입니다.</p><br /><br />
+	      <p>정보에 해당되는 아이디입니다.</p><br /><br />
 	      <button href = "/TeamCommit/viewex/login/loginAll.jsp">로그인</button><br /><br /><br />
     </form>
   </div>

@@ -12,22 +12,22 @@
   <div class="form-container sign-up-container">
     <form action="#">
       <h1>비밀번호 찾기</h1>
-      <h4>업체 회원용</h4>
+      <h4>개인 회원용</h4>
       <br />
 	      <input type="text" placeholder="아이디" />
-	      <input type="text" placeholder="사업자 번호" />
-	      <button class="confirm" id="confirmNumber">사업자 번호 인증</button><br /><br />
+	      <input type="text" placeholder="핸드폰 번호" />
+	      <button class="confirm" id="confirmNumber">휴대폰 인증</button><br /><br />
 	      <button href = "/TeamCommit/viewex/login/findPw.css">비밀번호 찾기</button>
     </form>
   </div>
   <div class="form-container sign-in-container">
     <form action="#">
       <h1>아이디 찾기</h1>
-      <h4>업체 회원용</h4>
+      <h4>개인 회원용</h4>
       <br />
-	      <input type="text" placeholder="업체명" />
-	      <input type="text" placeholder="사업자 번호" />
-	      	      <button class="confirm" id="confirmNumber">사업자 번호 인증</button><br /><br />
+	      <input type="text" placeholder="이름" />
+	      <input type="text" placeholder="핸드폰 번호" />
+	      <button class="confirm" id="confirmNumber">휴대폰 인증</button><br /><br />
 	      <button href = "/TeamCommit/viewex/login/findId.css">아이디 찾기</button>
     </form>
   </div>

@@ -80,8 +80,8 @@
                                                     </td>
                                                     <td>name</td>
                                                     <td>role</td>
-                                                    <td>type</td>
-                                                    <td></td>
+                                                    <td>status</td>
+                                                    <td>management</td>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -105,18 +105,13 @@
                                                     </td>
                                                     <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
-                                                            <select class="js-select2" name="property">
-                                                                <option selected="selected">Full Control</option>
-                                                                <option value="">Post</option>
-                                                                <option value="">Watch</option>
-                                                            </select>
+                                                            <span class="status-active">활동</span>
                                                             <div class="dropDownSelect2"></div>
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <span class="more">
-                                                            <i class="zmdi zmdi-more"></i>
-                                                        </span>
+                                                        <button class="btn-stop">정지</button>
+                                                        <button class="btn-out">탈퇴</button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -139,18 +134,13 @@
                                                     </td>
                                                     <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
-                                                            <select class="js-select2" name="property">
-                                                                <option value="">Full Control</option>
-                                                                <option value="" selected="selected">Post</option>
-                                                                <option value="">Watch</option>
-                                                            </select>
+                                                            <span class="status-stop">정지</span>
                                                             <div class="dropDownSelect2"></div>
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <span class="more">
-                                                            <i class="zmdi zmdi-more"></i>
-                                                        </span>
+                                                        <button class="btn-stop">정지</button>
+                                                        <button class="btn-out">탈퇴</button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -169,22 +159,17 @@
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <span class="role user">user</span>
+                                                        <span class="role user">User</span>
                                                     </td>
                                                     <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
-                                                            <select class="js-select2" name="property">
-                                                                <option value="">Full Control</option>
-                                                                <option value="" selected="selected">Post</option>
-                                                                <option value="">Watch</option>
-                                                            </select>
+                                                           		<span class="status-active">활동</span>
                                                             <div class="dropDownSelect2"></div>
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <span class="more">
-                                                            <i class="zmdi zmdi-more"></i>
-                                                        </span>
+                                                        <button class="btn-stop">정지</button>
+                                                        <button class="btn-out">탈퇴</button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -203,22 +188,17 @@
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <span class="role member">member</span>
+                                                        <span class="role member">Master</span>
                                                     </td>
                                                     <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
-                                                            <select class="js-select2" name="property">
-                                                                <option selected="selected">Full Control</option>
-                                                                <option value="">Post</option>
-                                                                <option value="">Watch</option>
-                                                            </select>
+                                                           <span class="status-active">활동</span>
                                                             <div class="dropDownSelect2"></div>
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <span class="more">
-                                                            <i class="zmdi zmdi-more"></i>
-                                                        </span>
+                                                        <button class="btn-stop">정지</button>
+                                                        <button class="btn-out">탈퇴</button>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -246,30 +226,10 @@
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="/TeamCommit/viewex/admin/pageManagement.jsp">회원 관리</a></li>
-										<li><a href="/TeamCommit/viewex/admin/boardManagement.jsp">게시글 관리</a></li>
+										<li><a href="/TeamCommit/viewex/admin/userManagement.jsp">회원 관리</a></li>
+										<li><a href="/TeamCommit/viewex/admin/boardManagement.jsp">신고 게시글 관리</a></li>
 									</ul>
 								</nav>
-
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-									<ul class="contact">
-										<li class="fa-envelope-o"><a href="#">information@untitled.tld</a></li>
-										<li class="fa-phone">(000) 000-0000</li>
-										<li class="fa-home">1234 Somewhere Road #8254<br />
-										Nashville, TN 00000-0000</li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
 
 						</div>
 					</div>
