@@ -105,7 +105,7 @@
                 <a href="/TeamCommit/viewex/login/loginAll.jsp"><span class="icon-sign-in"></span></a>
               </li>
               <li>
-                <a href="/TeamCommit/viewex/mypage/myPage.jsp"><span class="icon-person"></span></a>
+                <a href="/TeamCommit/viewex/mypage/myReservation.jsp"><span class="icon-person"></span></a>
               </li>
             </ul>
 

@@ -30,13 +30,13 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="empReservation.jsp" class="logo"><strong>마이 페이지</strong> 업체 회원용</a>									
+									<a href="myReservation.jsp" class="logo"><strong>마이 페이지</strong></a>									
 								</header>
 								
 								<section>
 				                	<div class="container-fluid">
 				                    <!-- Page Heading -->
-				                    <h1 class="h3 mb-2 text-gray-800">예약 관리</h1>                    
+				                    <h1 class="h3 mb-2 text-gray-800">예약 내역</h1>                    
 									<div class="table-data__tool">
                                     <div class="table-data__tool-left">
                                         <div class="rs-select2--light rs-select2--md">
@@ -247,17 +247,12 @@
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<a href="empReservation.jsp">예약관리</a>
+										<li><a href="myReservation.jsp">예약 내역</a></li>
 										<li><a href="myBoard.jsp">내 게시글</a></li>
 										<li><a href="fixInfo.jsp">회원 정보 수정</a></li>
-										<li>
-											<!-- opener 에 원래 active 열고 닫게 할 수 있어야 함 -->
-											<span class="opener">풋살장 관리</span>
-											<ul>
-												<li><a href="empFutsal.jsp">풋살장 등록</a></li>
-												<li><a href="empFutsalFix.jsp">풋살장 수정</a></li>												
-											</ul>
-										</li>										
+										<li><a href="empFutsal.jsp">팀</a></li>
+										<li><a href="empFutsalFix.jsp">메시지</a></li>	
+										<li><a href="empFutsalFix.jsp">용병</a></li>											
 									</ul>
 								</nav>
 

@@ -32,8 +32,7 @@
 										      <br />
 										      <br />
 										      <div class="signupform" style="overflow:visible; width:980px; height:auto; border-radius: 10px;">
-										      	<input type="text" placeholder="아이디" />
-										      	<button>중복확인</button>
+										      	<input type="text" placeholder="아이디 나중에 값 불러오기" />
 										      	<input type="password" placeholder="비밀번호" />
 										      	<input type="password" placeholder="비밀번호확인" />
 										      	<input type="text" placeholder="업체 이름" />
@@ -46,6 +45,8 @@
 										      </div>
 										      <br />
 										      <button>수정하기</button>
+										      <br/>
+										      <a href="/TeamCommit/viewex/main/main.jsp">회원 탈퇴</a>
 										    </form>									     
 										 </div>
 				                 			                                  
