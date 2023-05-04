@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Insert title here</title>
+	<title>Kick off: 풋살장 예약 관리</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->		
 		<link rel="stylesheet" href="/TeamCommit/resource/emp/css/main.css" />
@@ -81,12 +81,12 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </th>
-                                                <th>name</th>
-                                                <th>email</th>
-                                                <th>description</th>
-                                                <th>date</th>
-                                                <th>status</th>
-                                                <th>price</th>
+                                                <th>예약자</th>
+                                                <th>예약장소</th>
+                                                <th>예약인원</th>
+                                                <th>예약일시</th>
+                                                <th>예약상태</th>
+                                                <!--<th>price</th> -->
                                                 <th></th>
                                             </tr>
                                         </thead>

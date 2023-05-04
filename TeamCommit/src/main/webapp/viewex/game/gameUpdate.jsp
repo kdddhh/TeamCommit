@@ -25,12 +25,11 @@
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/style.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+    <link rel="stylesheet" href="/TeamCommit/resource/game/css/style.css" type="text/css">
     
     <!-- calendar -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
     <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />    
@@ -38,19 +37,16 @@
 </head>
 
 <body>
-	<div class="header-container">
-		<%@include file="/resource/includes/header.jsp"%>
+<%@include file="/resource/includes/header.jsp"%>
+	<!-- Header -->
+	<div class="bg-dark py-5">
+		<div class="container px-4 px-lg-5 my-5">
+			<div class="text-center text-white">
+				<h1 class="display-4 fw-bolder">매칭 등록하기</h1>
+				<p class="lead fw-normal text-white-50 mb-0">KICK OFF</p>
+			</div>
+		</div>
 	</div>
-	
-	<!-- Title -->
-    <div class="bg-dark py-5" style="background-color: #7fb77e !important;">
-        <div class="container px-4 px-lg-5 my-5">
-            <div class="text-center text-white">
-                <h1 class="display-4 fw-bolder">매칭 등록</h1>
-                <p class="lead fw-normal text-white-50 mb-0">상대 팀과 겨루기 어쩌구</p>
-            </div>
-        </div>
-    </div>
 
     <!-- Section -->
     <section class="checkout spad">

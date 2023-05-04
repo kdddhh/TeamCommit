@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Insert title here</title>
+	<title>Kick off: 풋살장 수정</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!-- Custom styles for this page -->
     <link href="/TeamCommit/resource/emp/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">

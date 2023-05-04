@@ -28,18 +28,17 @@
 <script src="/TeamCommit/resource/includes/js/main.js"></script>
 <!-- 여기까지 복붙하기 -->
 
-<link rel="stylesheet"
-	href="/TeamCommit/resource/game/css/boardDetail.css" />
+<link rel="stylesheet"	href="/TeamCommit/resource/game/css/boardDetail.css" />
 
 </head>
 <body>
-	<%@include file="/resource/includes/header.jsp"%>
+<%@include file="/resource/includes/header.jsp"%>
 	<!-- Header -->
 	<div class="bg-dark py-5">
 		<div class="container px-4 px-lg-5 my-5">
 			<div class="text-center text-white">
-				<h1 class="display-4 fw-bolder">매칭 상세보기</h1>
-				<p class="lead fw-normal text-white-50 mb-0">KICK OFF</p>				
+				<h1 class="display-4 fw-bolder">매칭 상세 보기</h1>
+				<p class="lead fw-normal text-white-50 mb-0">KICK OFF</p>
 			</div>
 		</div>
 	</div>
