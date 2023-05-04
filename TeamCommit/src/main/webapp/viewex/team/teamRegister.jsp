@@ -67,7 +67,7 @@
                                <!-- readonly: 입력 필드 비활성화되지만 form으로 전송 가능 -->
                            	</div>
                            	<div class="checkout__input">
-                               <p>풋살팀 인원수<span>*</span></p>
+                               <p>모집 인원<span>*</span></p>
                                <input type="text" value="" id="teamNumber" onChange="selectNumber(this)">
                            	</div>
                           	<div class="checkout__input">

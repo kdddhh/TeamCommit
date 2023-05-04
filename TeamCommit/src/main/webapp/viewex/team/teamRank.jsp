@@ -43,6 +43,7 @@
           <div class="card my-4">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
               <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                <!-- <img class="trophy" src="/TeamCommit/resource/team/img/free-icon-trophy-3176355.png"/> -->
                 <h6 class="text-white text-capitalize ps-3">팀 랭킹</h6>
               </div>
             </div>
@@ -51,18 +52,18 @@
                 <table class="table align-items-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Function</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">랭킹</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">풋살팀</th>
                      
                     </tr>
                   </thead>
                   <tbody>
                     <tr>            
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Manager</p>
+                        <p class="font-weight-bold mb-0"><img src="/TeamCommit/resource/team/img/free-icon-gold-medal-1910528.png"/></p>
                       </td>
-                      <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success">Online</span>
+                      <td class="align-middle text-center text-sm"> <!-- width 값 조정 -->
+                        <span class="badge badge-sm bg-gradient-success">4조 FC</span>
                       </td>
                      
                     
@@ -70,7 +71,7 @@
                     <tr>
                 
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Programator</p>
+                        <p class="font-weight-bold mb-0"><img src="/TeamCommit/resource/team/img/free-icon-silver-medal-1910534.png"/></p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-secondary">Offline</span>
@@ -81,7 +82,7 @@
                     <tr>
                       
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Executive</p>
+                        <p class="font-weight-bold mb-0"><img src="/TeamCommit/resource/team/img/free-icon-bronze-medal-1910542.png"/></p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-success">Online</span>
@@ -91,7 +92,7 @@
                     <tr>
                       
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Programator</p>
+                        <p class="text-xs font-weight-bold">4위</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-success">Online</span>
@@ -102,7 +103,7 @@
                     <tr>
                       
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Manager</p>
+                        <p class="text-xs font-weight-bold">5위</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-secondary">Offline</span>
@@ -112,7 +113,7 @@
                     </tr>
                     <tr>
                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Programator</p>
+                        <p class="text-xs font-weight-bold">6위</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-secondary">Offline</span>
@@ -127,6 +128,8 @@
           </div>
         </div>
       </div>
+      
+      <button type="reset" class="btn_reset" onclick="location.href='/TeamCommit/viewex/team/team.jsp';">목록</button>
      
     </div>
   </main>

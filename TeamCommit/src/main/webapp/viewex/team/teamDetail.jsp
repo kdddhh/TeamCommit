@@ -28,7 +28,7 @@
 <!-- 여기까지 복붙하기 -->
 
 <link rel="stylesheet"
-	href="/TeamCommit/resource/board/css/boardDetail.css" />
+	href="/TeamCommit/resource/team/css/boardDetail.css" />
 
 </head>
 <body>
@@ -37,8 +37,8 @@
 	<div class="bg-dark py-5">
 		<div class="container px-4 px-lg-5 my-5">
 			<div class="text-center text-white">
-				<h1 class="display-4 fw-bolder">게시글 제목</h1>
-				<p class="lead fw-normal text-white-50 mb-0">작성자</p>
+				<h1 class="display-4 fw-bolder">풋살팀</h1>
+				<p class="lead fw-normal text-white-50 mb-0"></p>
 			</div>
 		</div>
 	</div>
@@ -54,71 +54,42 @@
 					</colgroup>
 					<tbody>
 						<tr>
-							<th scope="row">글 번호</th>
-							<td>글번호</td>
-							<th scope="row">조회수</th>
-							<td>조회수</td>
+							<th scope="row">풋살팀 이름</th>
+							<td></td>
+							<th scope="row">모집 상태</th>
+							<td style="color: red; font-weight: bold;">모집 완료</td>
 						</tr>
 						<tr>
-							<th scope="row">작성자</th>
-							<td>작성자</td>
-							<th scope="row">작성일</th>
-							<td>작성일</td>
+							<th scope="row">풋살팀 성별</th>
+							<td></td>
+							<th scope="row">모집 인원</th>
+							<td></td>
 						</tr>
 						<tr>
-							<th scope="row">제목</th>
-							<td colspan="3"><input type="text" id="title" name="title"
-								value="제목제목" /></td>
+							<th scope="row">풋살팀 소속 지역</th>
+							<td></td>
+							<th scope="row">풋살팀 등급</th>
+							<td></td>
 						</tr>
 						<tr>
+							<th scope="row">모집 시작일</th>
+							<td></td>
+							<th scope="row">모집 종료일</th>
+							<td></td>
+						</tr>
+						<tr>
+							<th scope="row">기타 사항</th>
 							<td colspan="4" class="view_text"><textarea title="내용"
 									id="contents" name="contents" value="내용내용"></textarea></td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<br />
-			<hr style="color: #B1D7B4;">
-			
-			<!-- 댓글 -->
-			<div class="reply">
-				<table id="tblListComment" class="table table-bordered">
-
-					<c:if test="${ clist.size() == 0 }">
-						<tr>
-							<td colspan="2">댓글이 없습니다.</td>
-						</tr>
-					</c:if>
-
-					<c:forEach items="${ clist }" var="cdto">
-						<tr>
-							<td>${ cdto.content } <span>${ cdto.name }. ${ cdto.regdate }</span>
-							</td>
-							<td><input type="button" value="삭제하기" class="btn btn-default"
-								onclick="location.href='/myapp/board/delcomment.do?seq=${ cdto.seq }&pseq=${ dto.seq }';" />
-							</td>
-						</tr>
-					</c:forEach>
-				</table>
-
-				<form method="POST" action="/myapp/board/addcomment.do">
-					<table id="tblAddComment" class="table table-bordered">
-						<tr>
-							<td>
-								<input type="text" name="content" id="content" class="form-control" required placeholder="댓글을 작성하세요. " />
-							</td>
-							<td>
-								<input type="button" id="btn btn-primary" class="btn btn-primary" value="댓글쓰기">
-							</td>
-						</tr>
-					</table>
-					<input type="hidden" name="pseq" value="${ dto.seq }" />
-				</form>
-			</div>
+	
+	
 
 			<div class="btn_boarddetail">
-				<button type="reset" class="btn_reset" onclick="location.href='/TeamCommit/viewex/board/board.jsp';">목록</button>
-				<button class="btn_delete" onclick="location.href='/TeamCommit/viewex/board/boardReport.jsp';">신고</button>
+				<button type="reset" class="btn_reset" onclick="location.href='/TeamCommit/viewex/team/team.jsp';">목록</button>
 			</div>
 		</div>
 	</form>
