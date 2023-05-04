@@ -12,7 +12,7 @@
     <title>Kick off: 풋살장 예약 수정</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/noto/specimen/Noto+Sans+KR?subset=korean&noto.script=Kore" rel="stylesheet">
 	
     <!-- Css Styles -->
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/bootstrap.min.css" type="text/css">
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/styles.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/style.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
     
@@ -35,9 +36,11 @@
 </head>
 
 <body>
-<%@include file="/resource/includes/header.jsp"%>
+	<div class="header-container">
+		<%@include file="/resource/includes/header.jsp"%>
+	</div>
 	<!-- Header -->
-    <div class="bg-dark py-5">
+     <div class="bg-dark py-5" style="background-color: #7fb77e !important;">
         <div class="container px-4 px-lg-5 my-5">
             <div class="text-center text-white">
                 <h1 class="display-4 fw-bolder">풋살장 예약 수정</h1>
@@ -127,7 +130,7 @@
                             <div class="checkout__input">
                                 <p>예약 상태<span>*</span></p>
                                 <label>
-                                	<input type="radio" name="status" value="예약 중" onclick='getStatus(event)' />&nbsp예약
+                                	<input type="radio" name="status" value="예약" onclick='getStatus(event)' />&nbsp예약
                                 </label>
                                 <label>
                                 	<input type="radio" name="status" value="예약 완료" onclick='getStatus(event)' />&nbsp예약 완료
@@ -155,7 +158,7 @@
 									<li>코트<span id="court"></span></li>
 									<li>위치<span>주소주소</span></li>
 									<li>형태<span id="placeForm"></span></li>
-									<li>예약 날짜<span id="getDate"></span></li>
+									<li>예약 날짜<span id="date"></span></li>
 									<li>시작 시간<span id="startTime"></span></li>
 									<li>종료 시간<span id="endTime"></span></li>
 									<li>예약 상태<span id="status">예약</span></li>
@@ -265,11 +268,11 @@
     <script src="/TeamCommit/resource/reservation/js/main.js"></script>
 	<script src="/TeamCommit/resource/reservation/js/common.js"></script>
 	
-    <script src="/TeamCommit/resource/main/js/vendor/jquery.lettering.js"></script>
-    <script src="/TeamCommit/resource/main/js/vendor/jquery.sticky.js"></script>
-    <script src="/TeamCommit/resource/main/js/vendor/ScrollMagic.min.js"></script>
-    <script src="/TeamCommit/resource/main/js/vendor/scrollmagic.animation.gsap.min.js"></script>
-    <script src="/TeamCommit/resource/main/js/main.js"></script>
+    <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
+    <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
+    <script src="/TeamCommit/resource/includes/js/ScrollMagic.min.js"></script>
+    <script src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
+    <script src="/TeamCommit/resource/includes/js/main.js"></script>
 	
 </body>
 		

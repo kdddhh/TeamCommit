@@ -212,11 +212,11 @@ small {
 
 /* header */
 .logo-wrap {
-	left: -110px !important;
+	left: 394px !important;
 }
 
 .site-nav-ul-wrap {
-	margin-left: 20px !important;
+	margin-left: 2px !important;
 	margin-top: -4px !important;
 }
 
@@ -269,10 +269,10 @@ h1.title {
 	margin-bottom: 0 !important;
 }
 
-.fw-bolder {
+/* .fw-bolder {
 	font-weight: bolder !important;
 }
-
+ */
 .fw-normal {
 	font-weight: 400 !important;
 }

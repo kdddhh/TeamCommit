@@ -8,7 +8,7 @@
 	<title>Kick off: 풋살장 예약 상세</title>
 	
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/noto/specimen/Noto+Sans+KR?subset=korean&noto.script=Kore" rel="stylesheet">
     
     <link href="/TeamCommit/resource/includes/css/style.css" rel="stylesheet" >
     <link href="/TeamCommit/resource/reservation/css/detail.css" rel="stylesheet" >

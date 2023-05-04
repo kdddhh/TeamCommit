@@ -46,18 +46,11 @@ function getPrice()  {
 	document.getElementById('price').innerText = text;
 }
 
-/* startDate */
-function getStartDate()  {
-	const text = document.getElementById('setStartDate').value;
+/* calendar */
+function getDate()  {
+	const text = document.getElementById('setDate').value;
 	
-	document.getElementById('startDate').innerText = text;
-}
-
-/* endDate */
-function getEndDate()  {
-	const text = document.getElementById('setEndDate').value;
-	
-	document.getElementById('endDate').innerText = text;
+	document.getElementById('date').innerText = text;
 }
 
 /* check */
