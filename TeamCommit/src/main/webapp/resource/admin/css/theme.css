@@ -27,8 +27,17 @@ input, textarea {
 }
 
 button {
-    border: none;
+    border: 1px solid #9a9b9c;
     background: none;
+    display: block;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+button.btn-out {
+	
 }
 
 img {
@@ -799,9 +808,7 @@ line-height: 45px;
     font-size: 20px;
 }
 
-.rs-select2--sm {
-    width: 114px;
-}
+
 
 .rs-select2--md {
     width: 160px;
