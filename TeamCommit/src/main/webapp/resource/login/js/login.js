@@ -4,34 +4,28 @@ const container = document.getElementById('container');
 
 signUpButton.addEventListener('click', () => {
   container.classList.add("right-panel-active");
-  window.open("loginpopup.jsp", "LOGINPOPUP", "width=700, height=1000");
 });
 
 signInButton.addEventListener('click', () => {
-  container.classList.remove("right-panel-active");
+  container.classList.remove("left-panel-active");
 });
 
-/*function signUp () {
-  document.querySelector(".background").className = "background show";
+function onClick() {
+	document.querySelector('.modal_wrap').style.display = 'block';
+	document.querySelector('.black_bg').style.display = 'block';
+}
+function offClick() {
+	document.querySelector('.modal_wrap').style.display = 'none';
+	document.querySelector('.black_bg').style.display = 'none';
 }
 
-function nextbutton () { 
-  document.querySelector(".background").className = "background";
-}
+document.getElementById('signUp').addEventListener('click', onClick);
+document.getElementById('nextbutton').addEventListener('click', offClick);
 
-document.querySelector("#signUp").addEventListener('click', signUp);
-document.querySelector("#nextbutton").addEventListener('click', nextbutton);
-*/
-/*const button = document.querySelector('#signUp');
 
-button.addEventListener("click", function(){
-	window.open("loginpopup.jsp", "LOGINPOPUP", "width=500, height=450, left=300");
-});
-*/
+/*//팝업 전체 동의'use strict';
 
-//팝업 전체 동의'use strict';
-
-/*const form = document.querySelector('#form__wrap');
+const form = document.querySelector('#form__wrap');
 const checkAll = document.querySelector('.terms__check__all input');
 const checkBoxes = document.querySelectorAll('.input__check input');
 const submitButton = document.querySelector('button');
@@ -42,7 +36,7 @@ const agreements = {
   allowPromotions: false,
 };
 
-form.addEventListener('submit', (e) => e.preventDefault()); // 새로고침(submit) 되는 것 막음
+//form.addEventListener('submit', (e) => e.preventDefault()); // 새로고침(submit) 되는 것 막음
 
 checkBoxes.forEach((item) => item.addEventListener('input', toggleCheckbox));
 

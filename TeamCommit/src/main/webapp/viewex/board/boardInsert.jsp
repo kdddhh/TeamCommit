@@ -24,7 +24,7 @@
     <script src="/TeamCommit/resource/includes/js/main.js"></script>
 <!-- 여기까지 복붙하기 -->    
 
-<link rel = "stylesheet" href = "/TeamCommit/resource/board/css/boardInsertstyle.css" />
+<link rel = "stylesheet" href = "/TeamCommit/resource/board/css/boardInsert.css" />
 
 </head>
 <body>
@@ -72,7 +72,8 @@
 		
 		<div class="btn_board">
 		<button type="reset" class="btn_reset" onclick="location.href='/TeamCommit/viewex/board/board.jsp';">취소</button>
-		<a href="boardDetail.jsp"><button type="submit" class="btn_submit">등록</button></a>
+		<!-- <a href="boardDetail.jsp"><button type="submit" class="btn_submit">등록</button></a> -->
+		<button type="reset" class="btn_reset" onclick="location.href='/TeamCommit/viewex/board/boardDetail.jsp';">등록</button>
 		</div>
 </div>
 			
