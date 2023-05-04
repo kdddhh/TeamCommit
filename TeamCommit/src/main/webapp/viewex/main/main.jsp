@@ -44,7 +44,7 @@
 
     <script src="/TeamCommit/resource/main/js/main.js"></script>
 
-    <title>kickoff main page</title>
+    <title>kickoff</title>
   </head>
   <body>
 

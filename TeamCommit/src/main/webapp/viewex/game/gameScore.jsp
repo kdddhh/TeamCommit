@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<title>Kick Off: 자유게시판 글 상세보기</title>
+<title>Kick Off: 매칭 기록</title>
 <!-- include할 문서에 스타일, js -->
 <link rel="stylesheet"
 	href="/TeamCommit/resource/includes/css/style.css">
