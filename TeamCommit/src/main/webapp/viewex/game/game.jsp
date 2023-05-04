@@ -9,9 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kick Off: 용병 목록</title>
+    <title>Kick Off: 매칭 목록</title>
 
 	<link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+	<link rel = "stylesheet" href = "/TeamCommit/resource/includes/css/footer.css" />
 	<link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
 
     <!-- Custom fonts for this template -->
@@ -542,6 +543,9 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                                <div class="btn_insert">
+                                <a href="gameScore.jsp"><button type="insert" class="btn_insert">점수 기록</button></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -553,7 +557,7 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-           
+           <%@include file="/resource/includes/footer.jsp"%>
             <!-- End of Footer -->
 
         </div>

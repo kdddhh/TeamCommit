@@ -12,6 +12,7 @@
     <title>Kick Off: 풋살팀 페이지</title>
 
 	<link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+	<link rel = "stylesheet" href = "/TeamCommit/resource/includes/css/footer.css" />
 	<link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
 
     <!-- Custom fonts for this template -->
@@ -557,13 +558,7 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
-                    </div>
-                </div>
-            </footer>
+            <%@include file="/resource/includes/footer.jsp"%>
             <!-- End of Footer -->
 
         </div>
