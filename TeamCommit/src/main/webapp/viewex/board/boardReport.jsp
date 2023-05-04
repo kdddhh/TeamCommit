@@ -10,6 +10,7 @@
 <title>Kick Off: 자유게시판 글 신고</title>
 <!-- include할 문서에 스타일, js -->
  <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+ <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
     
     <script src="/TeamCommit/resource/includes/js/jquery-3.3.1.min.js"></script>
 

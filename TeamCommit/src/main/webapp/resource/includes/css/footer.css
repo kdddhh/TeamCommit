@@ -1,0 +1,105 @@
+footer {
+  padding: 7rem 0;
+  font-size: 15px;​
+}
+
+footer h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+footer a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+footer a:hover {
+  color: #000;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer .form-subscribe .form-control {
+  background: none;
+  border-radius: 0;
+  border: 1px solid #ccc;
+}
+
+footer .form-subscribe .form-control:active, footer .form-subscribe .form-control:focus {
+  color: #000;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-control, .btn {
+  height: 45px;
+  border-radius: 0;
+}
+
+.readmore {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: .2rem;
+  padding: 10px 0;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+}
+
+.readmore:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #000;
+  bottom: 0;
+  width: 0%;
+  -webkit-transition: .3s width ease-in-out;
+  -o-transition: .3s width ease-in-out;
+  transition: .3s width ease-in-out;
+}
+
+.readmore:hover {
+  color: #000;
+}
+
+.readmore:hover:before {
+  width: 100%;
+}
+
+.readmore.dark {
+  color: #000;
+}
+
+.readmore.dark:before {
+  background: #000;
+}
+
+.readmore.dark:hover {
+  color: #000;
+}
+
+.readmore.primary {
+  color: #f7f6dc;
+}
+
+.readmore.primary:before {
+  background: #f7f6dc;
+}
+
+.readmore.primary:hover {
+  color: #f7f6dc;
+}
+
+.readmore.reverse:before {
+  width: 100%;
+}
+
+.readmore.reverse:hover:before {
+  width: 0;
+}

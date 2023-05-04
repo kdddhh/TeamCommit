@@ -14,6 +14,59 @@ a, a:hover {
   text-decoration: none !important;
 }
 
+.icons-top {
+  position: relative;
+  bottom: 40px;
+  right: 190px;
+}
+
+.icons-top, .icons-top li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.icons-top li {
+  display: inline-block;
+}
+
+.icons-top li a {
+  margin: 5px;
+  border-radius: 50%;
+  background: #fff;
+  color: #394f4b;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: relative;
+  opacity: .8;
+}
+
+.icons-top li a > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.icons-top li a:hover {
+  opacity: 1;
+}
+
+.icons-top.icons-dark li a {
+  color: #fff;
+  background: #000;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+}
+
+.icons-top.icons-dark li a:hover {
+  background: #ff896b;
+}
+
 /* Site Nav */
 .sticky-wrapper {
   z-index: 999;

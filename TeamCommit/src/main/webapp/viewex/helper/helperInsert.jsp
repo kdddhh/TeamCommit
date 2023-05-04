@@ -10,6 +10,7 @@
 
  <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
  <link rel="stylesheet" href="/TeamCommit/resource/helper/css/helperInsert.css">
+ <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
     
     <script src="/TeamCommit/resource/includes/js/jquery-3.3.1.min.js"></script>
     <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>

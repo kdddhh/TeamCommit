@@ -11,6 +11,7 @@
     function offClick() {
         document.querySelector('.modal_wrap').style.display ='none';
         document.querySelector('.black_bg').style.display ='none';
+
     }
  
     document.getElementById('reservation').addEventListener('click', onClick);

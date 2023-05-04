@@ -12,6 +12,7 @@
     <title>Kick Off: 풋살팀 페이지</title>
 
 	<link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+	<link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
 
     <!-- Custom fonts for this template -->
     <link href="/TeamCommit/resource/team/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">

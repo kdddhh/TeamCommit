@@ -79,7 +79,7 @@
           <div class="site-nav-ul-wrap text-center d-none d-lg-block">
             <ul class="site-nav-ul js-clone-nav">
               <li><a href="/TeamCommit/viewex/reservation/reservation.jsp">예약</a></li>
-				<li class="has-children">
+				<li>
                 <a href="/TeamCommit/viewex/game/game.jsp">매칭</a>
               </li>
               <li><a href="/TeamCommit/viewex/board/board.jsp">자유 게시판</a></li>
@@ -100,6 +100,14 @@
           </div>
           <div class="icons-wrap text-md-right">
 
+		     <ul class="icons-top d-none d-lg-block">              
+              <li>
+                <a href="/TeamCommit/viewex/login/login.jsp"><span class="icon-sign-in"></span></a>
+              </li>
+              <li>
+                <a href="/TeamCommit/viewex/mypage/myPage.jsp"><span class="icon-person"></span></a>
+              </li>
+            </ul>
 
             <!-- Mobile Toggle -->
             <a href="#" class="d-block d-lg-none burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -121,7 +129,7 @@
                   <div class="site-hero-contents text-center" data-aos="fade-up">
                     <h1 class="hero-heading">Kick Off</h1>
                     <div class="sub-text">
-                      <p class="text-white font-weight-bold">4조 짱 최고 커밋 조</p>
+                      <p class="text-white font-weight-bold">팀원을 찾고, 경기를 예약하고, 즐거움을 더하다</p>
                     </div>
                   </div>
                 </div>
@@ -134,7 +142,10 @@
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-7">
                   <div class="site-hero-contents text-center" data-aos="fade-up">
-                    <h1 class="hero-heading">킥오프 흥해라</h1>
+                    <h1 class="hero-heading">Kick Off</h1>
+                    <div class="sub-text">
+                      <p class="text-white font-weight-bold">풋살을 즐기는 모든 이들을 위한 Kick Off</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -146,7 +157,10 @@
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-10">
                   <div class="site-hero-contents text-center" data-aos="fade-up">
-                    <h1 class="hero-heading">코딩천재 스님 나무아미타불관세음보살</h1>
+                    <h1 class="hero-heading">Kick Off</h1>
+                    <div class="sub-text">
+                      <p class="text-white font-weight-bold">나만의 팀을 만들어 보세요</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -302,18 +316,23 @@
         <div class="TeamCommit--site-section">
           <div class="container">
             <div class="row">
-              <div class="col-md-4 section-heading" data-aos="fade-up">
-                <h3 class="text-left">News &amp; Events</h3>
-                <div class="w-75">
-                  <p>A hotel is an establishment that provides paid lodging on a short-term basis.</p>
-                  </div>
-                <p><a href="#" class="readmore">All Posts</a></p>
-              </div>
               <div class="col-md-4">
                 <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
-                  <a href="#" class="thumb"><img src="/TeamCommit/resource/main/images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="#" class="thumb"></a>
                   <div class="post-entry-contents">
-                    <h3><a href="#">How algorithms shape our world</a></h3>
+                    <h3><a href="#">지금 예약 가능해요! ⚽</a></h3>
+                    <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>
+                    <p>A hotel is an establishment that provides paid lodging on a short-term basis.</p>
+                    <p><a href="#" class="readmore">Read more</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
+                  <a href="#" class="thumb"></a>
+                  <div class="post-entry-contents">
+                    <h3><a href="#">최근 매치 등록 🏆</a></h3>
                     <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>
                     <p>A hotel is an establishment that provides paid lodging on a short-term basis.</p>
                     <p><a href="#" class="readmore">Read more</a></p>
@@ -323,9 +342,9 @@
 
               <div class="col-md-4">
                 <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
-                  <a href="#" class="thumb"><img src="/TeamCommit/resource/main/images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="#" class="thumb"></a>
                   <div class="post-entry-contents">
-                    <h3><a href="#">How algorithms shape our world</a></h3>
+                    <h3><a href="#">게시판 TOP 10 🔥</a></h3>
                     <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>
                     <p>A hotel is an establishment that provides paid lodging on a short-term basis.</p>
                     <p><a href="#" class="readmore">Read more</a></p>
@@ -346,7 +365,7 @@
             <div class="col-md-4 pr-md-5">
               <h3>KICK OFF</h3>
               <p>풋살만을 위한 사이트</p>
-              <p><a href="#" class="readmore">Read more</a></p>
+              <p><a href="/TeamCommit/viewex/main/main.jsp" class="readmore">Go Home</a></p>
               <!-- Read more => 이용약관으로 변환 -->
             </div>
             <div class="col-md-8 ml-auto">
@@ -354,19 +373,18 @@
                 <div class="col-md-3">
                   <h3>Navigation</h3>
                   <ul class="list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Amenities</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/TeamCommit/viewex/reservation/reservation.jsp">예약</a></li>
+                    <li><a href="/TeamCommit/viewex/game/game.jsp">매칭</a></li>
+                    <li><a href="/TeamCommit/viewex/board/board.jsp">자유 게시판</a></li>
+                    <li><a href="/TeamCommit/viewex/team/team.jsp">팀</a></li>
+                    <li><a href="/TeamCommit/viewex/helper/helperList.jsp">용병</a></li>
                   </ul>
                 </div>
                 <div class="col-md-9 ml-auto">
                   <div class="row mb-3">
                     <div class="col-md-6">
                       <h3>Address</h3>
-                      <address>273 South Riverview Rd. <br> New York, NY 10011</address>
+                      <address>멀티캠퍼스 백엔드 7th 4조. <br> 서울 강남구 테헤란로 212</address>
                     </div>
                     <div class="col-md-6">
                       <h3>Telephone</h3>
