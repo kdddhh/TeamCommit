@@ -11,6 +11,7 @@
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="/TeamCommit/resource/teamApply/css/bootstrap.min.css" type="text/css">

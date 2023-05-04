@@ -753,6 +753,7 @@ a, a:hover {
 }
 
 .icons-top li a {
+  margin: 5px;
   border-radius: 50%;
   background: #fff;
   color: #394f4b;
