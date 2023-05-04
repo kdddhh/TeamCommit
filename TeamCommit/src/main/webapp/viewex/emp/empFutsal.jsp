@@ -15,13 +15,20 @@
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-
+	
+	<!-- calendar -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+	
     <!-- Css Styles 
     <link rel="stylesheet" href="/TeamCommit/resource/emp/css/empFutsal/bootstrap.min.css" type="text/css">-->
     <link rel="stylesheet" href="/TeamCommit/resource/emp/css/empFutsal/nice-select.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/emp/css/empFutsal/style.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/emp/css/empFutsal/jquery-ui.min.css" type="text/css"> 
-
+	
+     
 </head>
 
 <body>
@@ -89,7 +96,7 @@
 						                            </div>
 						                            <div class="checkout__input">
 						                                <p>예약 날짜<span>*</span></p>
-						                                <input type="text" class="">
+						                                <input id="setDate" onChange="getDate()" />
 						                            </div>
 						                            <div class="row">
 						                                <div class="col-lg-6">
@@ -198,6 +205,14 @@
 					</div>
 
 			</div>
+			
+			<script type="text/javascript">
+		/* calendar */
+		$('#setDate').datepicker({
+			format: "yyyy-mm-dd",
+		    uiLibrary: 'bootstrap4',
+		});
+	</script>
 	
 
 		<!-- Scripts -->
