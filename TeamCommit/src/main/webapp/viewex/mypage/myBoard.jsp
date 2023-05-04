@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Insert title here</title>
+	<title>Kick Off: 마이페이지 내 게시글</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!-- Custom styles for this page -->
     <link href="/TeamCommit/resource/emp/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
@@ -23,14 +23,14 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="empReservation.jsp" class="logo"><strong>마이 페이지</strong> 업체 회원용</a>									
+									<a href="myReservation.jsp" class="logo"><strong>마이 페이지</strong></a>									
 								</header>
 							
 							<!-- Begin Page Content -->
 			                	<section>
 				                	<div class="container-fluid">
 				                    <!-- Page Heading -->
-				                    <h1 class="h3 mb-2 text-gray-800">게시글 관리</h1>                    
+				                    <h1 class="h3 mb-2 text-gray-800">내 게시글</h1>                    
 				
 				                    <!-- DataTales Example -->
 				                    <div class="card shadow mb-4">
@@ -537,38 +537,18 @@
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="empReservation.jsp">예약관리</a></li>
+										<li><a href="myReservation.jsp">예약 내역</a></li>
 										<li><a href="myBoard.jsp">내 게시글</a></li>
 										<li><a href="fixInfo.jsp">회원 정보 수정</a></li>
-										<li>
-											<!-- opener 에 원래 active 열고 닫게 할 수 있어야 함 -->
-											<span class="opener active">풋살장 관리</span>
-											<ul>
-												<li><a href="empFutsal.jsp">풋살장 등록</a></li>
-												<li><a href="empFutsalFix.jsp">풋살장 수정</a></li>												
-											</ul>
-										</li>										
+										<li><a href="empFutsal.jsp">팀</a></li>
+										<li><a href="empFutsalFix.jsp">메시지</a></li>	
+										<li><a href="empFutsalFix.jsp">용병</a></li>											
 									</ul>
 								</nav>
 
 							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-									<ul class="contact">
-										<li class="fa-envelope-o"><a href="#">information@untitled.tld</a></li>
-										<li class="fa-phone">(000) 000-0000</li>
-										<li class="fa-home">1234 Somewhere Road #8254<br />
-										Nashville, TN 00000-0000</li>
-									</ul>
-								</section>
 
 							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
 
 						</div>
 					</div>
