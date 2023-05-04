@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Kick Off: 마이페이지 예약 내역</title>
+	<title>Kick Off: 마이페이지 팀</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->		
 		<link rel="stylesheet" href="/TeamCommit/resource/emp/css/main.css" />
@@ -36,7 +36,7 @@
 								<section>
 				                	<div class="container-fluid">
 				                    <!-- Page Heading -->
-				                    <h1 class="h3 mb-2 text-gray-800">예약 내역</h1>                    
+				                    <h1 class="h3 mb-2 text-gray-800">속한 팀 이름 가져오기</h1>                    
 									<div class="table-data__tool">
                                     <div class="table-data__tool-left">
                                         <div class="rs-select2--light rs-select2--md">
