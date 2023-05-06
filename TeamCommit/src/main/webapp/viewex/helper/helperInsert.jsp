@@ -111,8 +111,8 @@
 		</div>
 		
 		<div class = "btnbtn">
-		<button type = "button" class = "btn" id = "btn">등록</button>
-		<button type = "button" class = "btn" id = "btn">취소</button>
+		<a href = "/TeamCommit/viewex/helper/helperList.jsp"><button type = "button" class = "btn" id = "btn">등록</button></a>
+		<a href = "/TeamCommit/viewex/helper/helperList.jsp"><button type = "button" class = "btn" id = "btn">취소</button></a>
 		</div>
 
 </form>
