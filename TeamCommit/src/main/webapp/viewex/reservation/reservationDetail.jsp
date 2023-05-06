@@ -10,6 +10,7 @@
     <!-- Google Font -->
     <link href="https://fonts.google.com/noto/specimen/Noto+Sans+KR?subset=korean&noto.script=Kore" rel="stylesheet">
     
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
     <link href="/TeamCommit/resource/includes/css/style.css" rel="stylesheet" >
     <link href="/TeamCommit/resource/reservation/css/detail.css" rel="stylesheet" >
 </head>
@@ -55,7 +56,6 @@
 					</div>
 				</div>
 				<div class="container">
-					<hr>
 					<h5 class="title">
 						구장시설<span>*</span>
 					</h5>
@@ -65,19 +65,51 @@
 							<div class="img-wrap">
 								<img src="/TeamCommit/resource/reservation/images/court.png">
 							</div>
-							<b class="text-dark">코트이름</b> <small>A코트</small>
+							<b class="text-dark">코트</b><small>A코트</small>
+						</div>
+						<div class="facility-wrap">
+							<div class="img-wrap">
+								<img src="/TeamCommit/resource/reservation/images/size.png">
+							</div>
+							<b class="text-dark">규격</b><small>30 x 27</small>
 						</div>
 						<div class="facility-wrap">
 							<div class="img-wrap">
 								<img src="/TeamCommit/resource/reservation/images/vs.png">
 							</div>
-							<b class="text-dark">경기형태</b> <small>6 vs 6</small>
+							<b class="text-dark">경기</b><small>6 vs 6</small>
 						</div>
 						<div class="facility-wrap">
 							<div class="img-wrap">
 								<img src="/TeamCommit/resource/reservation/images/loading.png">
 							</div>
-							<b class="text-dark">예약상태</b> <small>예약 대기</small>
+							<b class="text-dark">예약</b><small>예약대기</small>
+						</div>
+						<div class="facility-wrap">
+							<div class="img-wrap">
+								<img src="/TeamCommit/resource/reservation/images/form.png">
+							</div>
+							<b class="text-dark">바닥</b><small>천연잔디</small>
+						</div>
+						<div class="facility-wrap">
+							<div class="img-wrap">
+								<img src="/TeamCommit/resource/reservation/images/personnel.png">
+							</div>
+							<b class="text-dark">인원</b><small>12명</small>
+						</div>
+						<div class="facility-wrap">
+							<div class="img-wrap">
+								<!-- 실외, 실내 따라 각 아이콘 가져오기 -->
+								<img src="/TeamCommit/resource/reservation/images/sunlight.png">
+								<!-- <img src="/TeamCommit/resource/reservation/images/no sunlight.png"> -->
+							</div>
+							<b class="text-dark">공간</b><small>실외</small>
+						</div>
+						<div class="facility-wrap">
+							<div class="img-wrap">
+								<img src="/TeamCommit/resource/reservation/images/lighting.png">
+							</div>
+							<b class="text-dark">조명</b><small>YES</small>
 						</div>
 					</div>
 				</div>
@@ -95,16 +127,19 @@
 
 				<!-- button -->
 				<div class="btn-container">
-					<a href="#this" id="list" class="btn">목록</a>
-					<a href="#this" id="booking" class="btn">예약</a>
+					<!-- <a href="#this" id="list" class="btn">목록</a> -->
+					<a href="reservationUpdate.jsp" id="update" class="btn">수정</a>
+					<a href="reservationRequest.jsp" id="booking" class="btn">예약</a>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<!-- footer -->
-	<footer> <!-- (임시)나중에 detail.css에서 footer 지우자 -->
-		<span>이것이 푸터다. 내가 바로 푸터임.</span>
+	<footer class="footer">
+		<div class="footer-container">
+		<%-- 	<%@include file="/resource/includes/footer.jsp"%> --%>
+		</div>
 	</footer>
 
 	<!-- script -->
