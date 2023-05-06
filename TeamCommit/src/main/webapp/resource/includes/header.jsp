@@ -24,10 +24,10 @@
 		 <div class="icons-wrap text-md-right">
 		     <ul class="icons-top d-none d-lg-block">              
               <li>
-                <a href="/TeamCommit/viewex/login/login.jsp"><span class="icon-sign-in"></span></a>
+                <a href="/TeamCommit/viewex/login/loginAll.jsp"><span class="icon-sign-in"></span></a>
               </li>
               <li>
-                <a href="/TeamCommit/viewex/mypage/myPage.jsp"><span class="icon-person"></span></a>
+                <a href="/TeamCommit/viewex/mypage/myInfo.jsp"><span class="icon-person"></span></a>
               </li>
             </ul>
 		</div>

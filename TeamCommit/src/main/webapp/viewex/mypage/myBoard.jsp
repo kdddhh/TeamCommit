@@ -12,6 +12,7 @@
 	rel="stylesheet">
 <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 <link rel="stylesheet" href="/TeamCommit/resource/myPage/css/main.css" />
+<link rel="stylesheet" href="/TeamCommit/resource/myPage/css/font-awesome.min.css" />
 <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
