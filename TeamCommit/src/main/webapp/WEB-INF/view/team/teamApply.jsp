@@ -7,302 +7,112 @@
     <meta name="keywords" content="Ogani, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TeamApply page</title>
+    <title>Kick Off: 팀 지원</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="/TeamCommit/teamApplyRes/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/teamApplyRes/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/teamApplyRes/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/teamApplyRes/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/teamApplyRes/css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/teamApplyRes/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/teamApplyRes/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/teamApplyRes/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamApply/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit//resource/teamApply/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamApply/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamApply/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamApply/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamApply/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamApply/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamApply/css/style.css" type="text/css">
+    
+    <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
+    
+    <script src="/TeamCommit/resource/teamApply/js/common.js"></script>
+    <script src="/TeamCommit/resource/teamApply/js/jquery.slicknav.js"></script>
+    
+    <script src="/TeamCommit/resource/includes/js/jquery-3.3.1.min.js"></script>
+
+    <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
+    <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
+
+    <script src="/TeamCommit/resource/includes/js/ScrollMagic.min.js"></script>
+    <script src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
+
+    <script src="/TeamCommit/resource/includes/js/main.js"></script>
 </head>
 
 <body>
 	
-    <!-- Header Section Begin / 추후 메인과 통일-->
-    <header class="header">       
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="untree_co--site-wrap">
-		<!-- 상단바 -->
-      <nav class="untree_co--site-nav js-sticky-nav">
-        <div class="container d-flex align-items-center">
-          <div class="logo-wrap">
-            <a href="index.html" class="untree_co--site-logo">Kick Off</a>
-          </div>
-          <div class="site-nav-ul-wrap text-center d-none d-lg-block">
-            <ul class="site-nav-ul js-clone-nav">
-              <li class="active"><a href="index.html">예약</a></li>
-              <li class="has-children">
-                <a href="rooms.html">매칭</a>
-                <!-- 마우스 대면 세부 메뉴 나옴 
-                <ul class="dropdown">
-                  <li class="has-children">
-                    <a href="#">King Bedroom</a>
-                    <ul class="dropdown">
-                      <li>
-                        <a href="#">King Bedroom</a>
-                      </li>
-                      <li>
-                        <a href="#">Queen &amp; Double Bedroom</a>
-                      </li>
-                      <li>
-                        <a href="#">Le Voila Suite</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">Queen &amp; Double Bedroom</a>
-                  </li>
-                  <li>
-                    <a href="#">Le Voila Suite</a>
-                  </li>
-                </ul>
-              </li>-->
-              <li><a href="amenities.html">자유 게시판</a></li>
-              <li><a href="gallery.html">팀</a></li>
-              <li><a href="about.html">용병</a></li>
-            </ul>
-          </div>
-          <div class="icons-wrap text-md-right">
-
-                </div>
-                <div class="col-lg-3">
-                    <div class="header__cart">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-                        </ul>
-                        <div class="header__cart__price">item: <span>$150.00</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="humberger__open">
-                <i class="fa fa-bars"></i>
+    <%@include file="/resource/includes/header.jsp"%>
+    
+    <!-- Header -->
+    <div class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">풋살팀 팀원 지원</h1>
+                <p class="lead fw-normal text-white-50 mb-0">함께 열정적인 풋살을 즐길 수 있는 팀에 지원하세요.</p>
             </div>
         </div>
-    </header>
-    <!-- Header Section End -->
-          
-
+    </div>
+    
     <!-- Checkout Section Begin -->
     <section class="checkout spad">
         <div class="container">
             <div class="checkout__form">
-                <h4>팀 지원하기</h4>
+                <h4>팀 지원</h4>
                 <form action="#">
                     <div class="row">
                         <div class="col-lg-8 col-md-6">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Fist Name<span>*</span></p>
-                                        <input type="text">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Last Name<span>*</span></p>
-                                        <input type="text">
-                                    </div>
-                                </div>
+                            <div class="checkout__input">
+                                  <p>이름<span>*</span></p>
+                                  <input type="text" placeholder="이름">
                             </div>
                             <div class="checkout__input">
-                                <p>Country<span>*</span></p>
-                                <input type="text">
+                                 <p>성별<span>*</span></p>
+                                 	<input type="text" placeholder="성별">
                             </div>
                             <div class="checkout__input">
-                                <p>Address<span>*</span></p>
-                                <input type="text" placeholder="Street Address" class="checkout__input__add">
-                                <input type="text" placeholder="Apartment, suite, unite ect (optinal)">
+                                <p>핸드폰 번호<span>*</span></p>
+                                <input type="text" placeholder="핸드폰 번호">
                             </div>
                             <div class="checkout__input">
-                                <p>Town/City<span>*</span></p>
-                                <input type="text">
+                                <p>포지션<span>*</span></p>
+                                <select id="position" name="position" onChange="selectPosition(this)">
+                                			<option placeholder="">포지션 선택</option>
+      										<option placeholder="pivo">PIVO(피보): 공격수</option>
+      										<option placeholder="ala">ALA(아라): 미드필더</option>
+      										<option placeholder="fixo">FIXO(픽소): 수비수</option>
+      										<option placeholder="goleiro">GOLEIRO(골레이로): 골키퍼</option>
+      							</select>
                             </div>
                             <div class="checkout__input">
-                                <p>Country/State<span>*</span></p>
-                                <input type="text">
-                            </div>
-                            <div class="checkout__input">
-                                <p>Postcode / ZIP<span>*</span></p>
-                                <input type="text">
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Phone<span>*</span></p>
-                                        <input type="text">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Email<span>*</span></p>
-                                        <input type="text">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="checkout__input__checkbox">
-                                <label for="acc">
-                                    Create an account?
-                                    <input type="checkbox" id="acc">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-                            <p>Create an account by entering the information below. If you are a returning customer
-                                please login at the top of the page</p>
-                            <div class="checkout__input">
-                                <p>Account Password<span>*</span></p>
-                                <input type="text">
-                            </div>
-                            <div class="checkout__input__checkbox">
-                                <label for="diff-acc">
-                                    Ship to a different address?
-                                    <input type="checkbox" id="diff-acc">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-                            <div class="checkout__input">
-                                <p>Order notes<span>*</span></p>
-                                <input type="text"
-                                    placeholder="Notes about your order, e.g. special notes for delivery.">
-                            </div>
+                                <p>하고 싶은 말<span>*</span></p>
+                                <textarea id="teamApply_content" name="teamApply_content" cols="100" rows="100" class="form-content" placeholder="팀장에게 하고 싶은 말을 적어주세요."></textarea>
+                            </div> 
+                            
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="checkout__order">
-                                <h4>Your Order</h4>
-                                <div class="checkout__order__products">Products <span>Total</span></div>
-                                <ul>
-                                    <li>Vegetable’s Package <span>$75.99</span></li>
-                                    <li>Fresh Vegetable <span>$151.99</span></li>
-                                    <li>Organic Bananas <span>$53.99</span></li>
-                                </ul>
-                                <div class="checkout__order__subtotal">Subtotal <span>$750.99</span></div>
-                                <div class="checkout__order__total">Total <span>$750.99</span></div>
-                                <div class="checkout__input__checkbox">
-                                    <label for="acc-or">
-                                        Create an account?
-                                        <input type="checkbox" id="acc-or">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna aliqua.</p>
-                                <div class="checkout__input__checkbox">
-                                    <label for="payment">
-                                        Check Payment
-                                        <input type="checkbox" id="payment">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </div>
-                                <div class="checkout__input__checkbox">
-                                    <label for="paypal">
-                                        Paypal
-                                        <input type="checkbox" id="paypal">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </div>
-                                <button type="submit" class="site-btn">PLACE ORDER</button>
-                            </div>
-                        </div>
+                        
+                        <!-- Check List -->
+						<div class="col-lg-4 col-md-6">
+							<div class="checkout__order">
+								<h4>Check List</h4>
+								<div class="checkout__order__products">
+									Title<span>Content</span>
+								</div>
+								<ul>
+									<li>이름<span>이름 가져오기</span></li>
+									<li>성별<span>성별 가져오기</span></li>
+									<li>핸드폰 번호<span>번호 가져오기</span></li>
+									<li>포지션<span id="position"></span></li>
+								</ul>
+									<a href="#this" id="insert" class="site-btn-insert">등록</a>
+									<a href="#this" id="cancle" class="site-btn-cancle">취소</a>
+							</div>
+						</div>
                     </div>
                 </form>
             </div>
         </div>
     </section>
     <!-- Checkout Section End -->
-
-    <!-- Footer Section Begin / 메인과 통일-->
-    <footer class="footer spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="footer__about">
-                        <div class="footer__about__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <ul>
-                            <li>Address: 60-49 Road 11378 New York</li>
-                            <li>Phone: +65 11.188.888</li>
-                            <li>Email: hello@colorlib.com</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
-                    <div class="footer__widget">
-                        <h6>Useful Links</h6>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">About Our Shop</a></li>
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="footer__widget">
-                        <h6>Join Our Newsletter Now</h6>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
-                        <form action="#">
-                            <input type="text" placeholder="Enter your mail">
-                            <button type="submit" class="site-btn">Subscribe</button>
-                        </form>
-                        <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer__copyright">
-                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Section End -->
-
-    <!-- Js Plugins -->
-    <script src="/TeamCommit/teamApplyRes/js/jquery-3.3.1.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/bootstrap.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/jquery.nice-select.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/jquery-ui.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/jquery.slicknav.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/mixitup.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/owl.carousel.min.js"></script>
-    <script src="/TeamCommit/teamApplyRes/js/main.js"></script>
-
- 
 
 </body>
 

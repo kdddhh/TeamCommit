@@ -13,38 +13,39 @@
 
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500i,700|Roboto:300,400,500,700&display=swap" rel="stylesheet">
 
-    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/icomoon/style.css">
-    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/owl.carousel.min.css">
-    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/aos.css">
-    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/animate.min.css">
-    <link rel = "stylesheet" href = "/TeamCommit/res/css/vendor/bootstrap.css">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/owl.carousel.min.css">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/aos.css">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/animate.min.css">
+    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/bootstrap.css">
 
     <!-- Theme Style -->
-    <link rel="stylesheet" href="/TeamCommit/res/css/style.css">
+    <link rel="stylesheet" href="/TeamCommit/resource/main/css/style.css">
     
-    <script src="/TeamCommit/res/js/vendor/jquery-3.3.1.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/popper.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/bootstrap.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/popper.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/bootstrap.min.js"></script>
 
-    <script src="/TeamCommit/res/js/vendor/owl.carousel.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/owl.carousel.min.js"></script>
     
-    <script src="/TeamCommit/res/js/vendor/jarallax.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/jarallax-element.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/ofi.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/jarallax.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/jarallax-element.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/ofi.min.js"></script>
 
-    <script src="/TeamCommit/res/js/vendor/aos.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/aos.js"></script>
 
-    <script src="/TeamCommit/res/js/vendor/jquery.lettering.js"></script>
-    <script src="/TeamCommit/res/js/vendor/jquery.sticky.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/jquery.lettering.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/jquery.sticky.js"></script>
+    
+    <script src="/TeamCommit/resource/main/js/vendor/TweenMax.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/ScrollMagic.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/scrollmagic.animation.gsap.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/vendor/debug.addIndicators.min.js"></script>
 
-    <script src="/TeamCommit/res/js/vendor/TweenMax.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/ScrollMagic.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/scrollmagic.animation.gsap.min.js"></script>
-    <script src="/TeamCommit/res/js/vendor/debug.addIndicators.min.js"></script>
+    <script src="/TeamCommit/resource/main/js/main.js"></script>
+    
 
-    <script src="/TeamCommit/res/js/main.js"></script>
-
-    <title>kickoff main page</title>
+    <title>kickoff</title>
   </head>
   <body>
 
@@ -78,40 +79,36 @@
           </div>
           <div class="site-nav-ul-wrap text-center d-none d-lg-block">
             <ul class="site-nav-ul js-clone-nav">
-              <li class="active"><a href="index.html">예약</a></li>
-              <li class="has-children">
-                <a href="rooms.html">매칭</a>
-                <!-- 마우스 대면 세부 메뉴 나옴 
+              <li><a href="/TeamCommit/viewex/reservation/reservation.jsp">예약</a></li>
+				<li>
+                <a href="/TeamCommit/viewex/game/game.jsp">매칭</a>
+              </li>
+              <li><a href="/TeamCommit/viewex/board/board.jsp">자유 게시판</a></li>
+              <li><a href="/TeamCommit/viewex/team/team.jsp">팀</a></li>
+              <li class = "has-children"><a href="/TeamCommit/viewex/helper/helperList.jsp">용병</a>
+
                 <ul class="dropdown">
-                  <li class="has-children">
-                    <a href="#">King Bedroom</a>
-                    <ul class="dropdown">
-                      <li>
-                        <a href="#">King Bedroom</a>
-                      </li>
-                      <li>
-                        <a href="#">Queen &amp; Double Bedroom</a>
-                      </li>
-                      <li>
-                        <a href="#">Le Voila Suite</a>
-                      </li>
-                    </ul>
+                  <li>
+                    <a href="/TeamCommit/viewex/helper/helperList.jsp">모집 목록</a>
                   </li>
                   <li>
-                    <a href="#">Queen &amp; Double Bedroom</a>
-                  </li>
-                  <li>
-                    <a href="#">Le Voila Suite</a>
+                    <a href="/TeamCommit/viewex/helper/helperInsert.jsp">용병 모집 등록</a>
                   </li>
                 </ul>
-              </li>-->
-              <li><a href="amenities.html">자유 게시판</a></li>
-              <li><a href="gallery.html">팀</a></li>
-              <li><a href="about.html">용병</a></li>
+              </li>
+              
             </ul>
           </div>
           <div class="icons-wrap text-md-right">
 
+		     <ul class="icons-top d-none d-lg-block">              
+              <li>
+                <a href="/TeamCommit/viewex/login/loginAll.jsp"><span class="icon-sign-in"></span></a>
+              </li>
+              <li>
+                <a href="/TeamCommit/viewex/mypage/myReservation.jsp"><span class="icon-person"></span></a>
+              </li>
+            </ul>
 
             <!-- Mobile Toggle -->
             <a href="#" class="d-block d-lg-none burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -126,14 +123,14 @@
 
         <div class="owl-carousel owl-hero">
 
-          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/res/images/main1.jpg')">
+          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/resource/main/images/main1.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-8">
                   <div class="site-hero-contents text-center" data-aos="fade-up">
                     <h1 class="hero-heading">Kick Off</h1>
                     <div class="sub-text">
-                      <p class="text-white font-weight-bold">4조 짱 최고 커밋 조</p>
+                      <p class="text-white font-weight-bold">팀원을 찾고, 경기를 예약하고, 즐거움을 더하다</p>
                     </div>
                   </div>
                 </div>
@@ -141,24 +138,30 @@
             </div>
           </div>
 
-          <div class="untree_co--site-hero overlay"  style="background-image: url('/TeamCommit/res/images/main2.jpg')">
+          <div class="untree_co--site-hero overlay"  style="background-image: url('/TeamCommit/resource/main/images/main2.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-7">
                   <div class="site-hero-contents text-center" data-aos="fade-up">
-                    <h1 class="hero-heading">킥오프 흥해라</h1>
+                    <h1 class="hero-heading">Kick Off</h1>
+                    <div class="sub-text">
+                      <p class="text-white font-weight-bold">풋살을 즐기는 모든 이들을 위한 Kick Off</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/res/images/main3.jpg')">
+          <div class="untree_co--site-hero overlay" style="background-image: url('/TeamCommit/resource/main/images/main3.jpg')">
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-md-10">
                   <div class="site-hero-contents text-center" data-aos="fade-up">
-                    <h1 class="hero-heading">코딩천재 스님 나무아미타불관세음보살</h1>
+                    <h1 class="hero-heading">Kick Off</h1>
+                    <div class="sub-text">
+                      <p class="text-white font-weight-bold">나만의 팀을 만들어 보세요</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -314,33 +317,53 @@
         <div class="TeamCommit--site-section">
           <div class="container">
             <div class="row">
-              <div class="col-md-4 section-heading" data-aos="fade-up">
-                <h3 class="text-left">News &amp; Events</h3>
-                <div class="w-75">
-                  <p>A hotel is an establishment that provides paid lodging on a short-term basis.</p>
-                  </div>
-                <p><a href="#" class="readmore">All Posts</a></p>
-              </div>
               <div class="col-md-4">
                 <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
-                  <a href="#" class="thumb"><img src="/TeamCommit/res/images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="#" class="thumb"></a>
                   <div class="post-entry-contents">
-                    <h3><a href="#">How algorithms shape our world</a></h3>
-                    <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>
-                    <p>A hotel is an establishment that provides paid lodging on a short-term basis.</p>
-                    <p><a href="#" class="readmore">Read more</a></p>
+                    <h3><a href="#">지금 예약 가능해요! ⚽</a></h3>
+                    <table class="bluetop">
+					  <tr> <th>업체명</th> <th>지역</th> <th>조명</th> <th>형태</th> </tr>
+					  <tr> <td>서울 풋살장</td> <td>서울</td> <td>유</td> <td>실내</td> </tr>
+					  <tr><td>부산 풋살장</td><td>부산</td> <td>유</td> <td>실외</td></tr>
+					  <tr><td>대구 풋살장</td><td>대구</td> <td>유</td> <td>실내</td></tr>
+					  <tr><td>울산 풋살장</td><td>울산</td> <td>유</td> <td>실외</td></tr>
+					</table>
+                    <p><a href="/TeamCommit/viewex/reservation/reservation.jsp" class="readmore">Read more</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
+                  <a href="#" class="thumb"></a>
+                  <div class="post-entry-contents">
+                    <h3><a href="#">최근 매치 등록 🏆</a></h3>
+                    <table class="bluetop">
+					  <tr> <th>업체명</th> <th>지역</th> <th>팀 레벨</th> <th>경기 방식</th> </tr>
+					  <tr> <td>서울 풋살장</td> <td>서울</td> <td>1</td> <td>3 vs 3</td> </tr>
+					  <tr><td>부산 풋살장</td><td>부산</td> <td>2</td> <td>5 vs 5</td> </tr>
+					  <tr><td>대구 풋살장</td><td>대구</td> <td>3</td> <td>3 vs 3</td> </tr>
+					  <tr><td>울산 풋살장</td><td>울산</td> <td>4</td> <td>6 vs 6</td> </tr>
+					</table>
+                    <p><a href="/TeamCommit/viewex/game/game.jsp" class="readmore">Read more</a></p>
                   </div>
                 </div>
               </div>
 
               <div class="col-md-4">
                 <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
-                  <a href="#" class="thumb"><img src="/TeamCommit/res/images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="#" class="thumb"></a>
                   <div class="post-entry-contents">
-                    <h3><a href="#">How algorithms shape our world</a></h3>
-                    <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>
-                    <p>A hotel is an establishment that provides paid lodging on a short-term basis.</p>
-                    <p><a href="#" class="readmore">Read more</a></p>
+                    <h3><a href="#">게시판 TOP 10 🔥</a></h3>
+                    <table class="bluetop">
+					  <tr> <th>제목</th> <th>작성자</th> <th>조회수</th> <th>작성일</th> </tr>
+					  <tr> <td>서울 풋살장</td> <td>서울</td> <td>유</td> <td>실내</td> </tr>
+					  <tr><td>부산 풋살장</td><td>부산</td> <td>유</td> <td>실외</td></tr>
+					  <tr><td>대구 풋살장</td><td>대구</td> <td>유</td> <td>실내</td></tr>
+					  <tr><td>울산 풋살장</td><td>울산</td> <td>유</td> <td>실외</td></tr>
+					</table>
+                    <p><a href="/TeamCommit/viewex/board/board.jsp" class="readmore">Read more</a></p>
                   </div>
                 </div>
               </div>
@@ -358,7 +381,7 @@
             <div class="col-md-4 pr-md-5">
               <h3>KICK OFF</h3>
               <p>풋살만을 위한 사이트</p>
-              <p><a href="#" class="readmore">Read more</a></p>
+              <p><a href="/TeamCommit/viewex/main/main.jsp" class="readmore">Go Home</a></p>
               <!-- Read more => 이용약관으로 변환 -->
             </div>
             <div class="col-md-8 ml-auto">
@@ -366,19 +389,18 @@
                 <div class="col-md-3">
                   <h3>Navigation</h3>
                   <ul class="list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Amenities</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/TeamCommit/viewex/reservation/reservation.jsp">예약</a></li>
+                    <li><a href="/TeamCommit/viewex/game/game.jsp">매칭</a></li>
+                    <li><a href="/TeamCommit/viewex/board/board.jsp">자유 게시판</a></li>
+                    <li><a href="/TeamCommit/viewex/team/team.jsp">팀</a></li>
+                    <li><a href="/TeamCommit/viewex/helper/helperList.jsp">용병</a></li>
                   </ul>
                 </div>
                 <div class="col-md-9 ml-auto">
                   <div class="row mb-3">
                     <div class="col-md-6">
                       <h3>Address</h3>
-                      <address>273 South Riverview Rd. <br> New York, NY 10011</address>
+                      <address>멀티캠퍼스 백엔드 7th 4조. <br> 서울 강남구 테헤란로 212</address>
                     </div>
                     <div class="col-md-6">
                       <h3>Telephone</h3>
