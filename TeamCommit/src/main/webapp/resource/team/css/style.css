@@ -30,6 +30,14 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+.display-4 {
+  font-size: calc(1rem + 2vw);
+    font-weight: 450;
+    line-height: 1.2;
+}
+
+
+
 html,
 body {
 	height: 100%;
@@ -154,7 +162,7 @@ ol {
 .text-white p,
 .text-white span,
 .text-white li,
-.text-white a {
+.text-white {
 	color: #fff;
 }
 
@@ -322,7 +330,7 @@ ol {
 	content: "";
 }
 
-.header__top__right__social a {
+.header__top__right__social  {
 	font-size: 14px;
 	display: inline-block;
 	color: #1c1c1c;
@@ -397,7 +405,7 @@ ol {
 	list-style: none;
 }
 
-.header__top__right__language ul li a {
+.header__top__right__language ul li  {
 	font-size: 14px;
 	color: #ffffff;
 	padding: 5px 10px;
@@ -407,7 +415,7 @@ ol {
 	display: inline-block;
 }
 
-.header__top__right__auth a {
+.header__top__right__auth  {
 	display: block;
 	font-size: 14px;
 	color: #1c1c1c;
@@ -421,7 +429,7 @@ ol {
 	padding: 15px 0;
 }
 
-.header__logo a {
+.header__logo {
 	display: inline-block;
 }
 
@@ -458,18 +466,18 @@ ol {
 	display: block;
 }
 
-.header__menu ul li .header__menu__dropdown li:hover>a {
+.header__menu ul li .header__menu__dropdown li:hover>{
 	color: #7fad39;
 }
 
-.header__menu ul li .header__menu__dropdown li a {
+.header__menu ul li .header__menu__dropdown li {
 	text-transform: capitalize;
 	color: #ffffff;
 	font-weight: 400;
 	padding: 5px 15px;
 }
 
-.header__menu ul li.active a {
+.header__menu ul li.active {
 	color: #7fad39;
 }
 
@@ -479,7 +487,7 @@ ol {
 	visibility: visible;
 }
 
-.header__menu ul li:hover>a {
+.header__menu ul li:hover>{
 	color: #7fad39;
 }
 
@@ -487,7 +495,7 @@ ol {
 	margin-right: 0;
 }
 
-.header__menu ul li a {
+.header__menu ul li {
 	font-size: 14px;
 	color: #252525;
 	text-transform: uppercase;
@@ -522,7 +530,7 @@ ol {
 	margin-right: 0;
 }
 
-.header__cart ul li a {
+.header__cart ul li {
 	position: relative;
 }
 
@@ -568,7 +576,7 @@ ol {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: #7fb77e !important;
+  background-color: #7fb77e!important;
 }
 
 /*---------------------
@@ -595,7 +603,7 @@ ol {
 	margin-right: 5px;
 }
 
-.checkout h6 a {
+.checkout h6 {
 	text-decoration: underline;
 	color: #999999;
 }
@@ -896,7 +904,7 @@ select:disabled,
 	.humberger__menu__logo {
 		margin-bottom: 30px;
 	}
-	.humberger__menu__logo a {
+	.humberger__menu__logo {
 		display: inline-block;
 	}
 	.humberger__menu__contact {
@@ -925,7 +933,7 @@ select:disabled,
 	.humberger__menu__cart ul li:last-child {
 		margin-right: 0;
 	}
-	.humberger__menu__cart ul li a {
+	.humberger__menu__cart ul li  {
 		position: relative;
 	}
 	.humberger__menu__cart ul li a i {
@@ -976,7 +984,7 @@ select:disabled,
 	.humberger__menu__wrapper .slicknav_btn {
 		display: none;
 	}
-	.humberger__menu__wrapper .slicknav_nav .slicknav_item a {
+	.humberger__menu__wrapper .slicknav_nav .slicknav_item {
 		border-bottom: none !important;
 	}
 	.humberger__menu__wrapper .slicknav_nav {
@@ -990,7 +998,7 @@ select:disabled,
 	.humberger__menu__wrapper .slicknav_nav ul {
 		margin: 0;
 	}
-	.humberger__menu__wrapper .slicknav_nav a {
+	.humberger__menu__wrapper .slicknav_nav {
 		color: #1c1c1c;
 		font-size: 16px;
 		font-weight: 600;
@@ -1004,7 +1012,7 @@ select:disabled,
 		color: #7fad39;
 	}
 	.humberger__menu__wrapper .slicknav_nav .slicknav_row,
-	.humberger__menu__wrapper .slicknav_nav a {
+	.humberger__menu__wrapper .slicknav_nav {
 		padding: 8px 0;
 	}
 	.humberger__menu__overlay {
@@ -1154,7 +1162,7 @@ select:disabled,
 	.humberger__menu__logo {
 		margin-bottom: 30px;
 	}
-	.humberger__menu__logo a {
+	.humberger__menu__logo {
 		display: inline-block;
 	}
 	.humberger__menu__contact {
@@ -1183,7 +1191,7 @@ select:disabled,
 	.humberger__menu__cart ul li:last-child {
 		margin-right: 0;
 	}
-	.humberger__menu__cart ul li a {
+	.humberger__menu__cart ul li {
 		position: relative;
 	}
 	.humberger__menu__cart ul li a i {
@@ -1234,7 +1242,7 @@ select:disabled,
 	.humberger__menu__wrapper .slicknav_btn {
 		display: none;
 	}
-	.humberger__menu__wrapper .slicknav_nav .slicknav_item a {
+	.humberger__menu__wrapper .slicknav_nav .slicknav_item {
 		border-bottom: none !important;
 	}
 	.humberger__menu__wrapper .slicknav_nav {
@@ -1248,7 +1256,7 @@ select:disabled,
 	.humberger__menu__wrapper .slicknav_nav ul {
 		margin: 0;
 	}
-	.humberger__menu__wrapper .slicknav_nav a {
+	.humberger__menu__wrapper .slicknav_nav {
 		color: #1c1c1c;
 		font-size: 16px;
 		font-weight: 600;
@@ -1262,7 +1270,7 @@ select:disabled,
 		color: #7fad39;
 	}
 	.humberger__menu__wrapper .slicknav_nav .slicknav_row,
-	.humberger__menu__wrapper .slicknav_nav a {
+	.humberger__menu__wrapper .slicknav_nav {
 		padding: 8px 0;
 	}
 	.humberger__menu__overlay {

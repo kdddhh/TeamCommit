@@ -16,13 +16,13 @@
 
     <!-- Css Styles -->
     <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
-    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="/TeamCommit/resource/reservation/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamInsert/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamInsert/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamInsert/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamInsert/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamInsert/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamInsert/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/TeamCommit/resource/teamInsert/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/team/css/style.css" type="text/css">
     <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
 </head>
@@ -51,6 +51,7 @@
         <div class="container px-4 px-lg-5 my-5">
             <div class="text-center text-white">
                 <h1 class="display-4 fw-bolder">풋살팀 등록</h1>
+                <p class="lead fw-normal text-white-50 mb-0">팀 등록을 통해 새로운 팀원들을 만나 승리를 경험해보세요.</p>
             </div>
         </div>
     </div>
@@ -69,11 +70,11 @@
                            	</div>
                            	<div class="checkout__input">
                                <p>모집 인원<span>*</span></p>
-                               <input type="text" value="" id="teamNumber" onChange="selectNumber(this)">
+                               <input type="text" value="" id="team-number" onChange="selectNumber(this)">
                            	</div>
                           	<div class="checkout__input">
                                 <p>풋살팀 성별<span>*</span></p>
-                                <select id="teamGender" onChange="selectGender(this)">
+                                <select id="team-gender" onChange="selectGender(this)">
                                 	<option value="">성별 선택하기</option>
                                 	<option value="A">남성</option>
                                 	<option value="B">여성</option>
@@ -82,7 +83,7 @@
                             </div>
                            	<div class="checkout__input">
                                 <p>풋살팀 소속지역<span>*</span></p>
-                                <select id="teamLocal" onChange="selectTeam(this)">
+                                <select id="team-local" onChange="selectTeam(this)">
                                 	<option>서울</option>
                                    <option>경기</option>
                                    <option>인천</option>
@@ -105,19 +106,19 @@
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
                                         <p>모집 시작일<span>*</span></p>
-                                        	<input type="date" id="openDate" name="openDate" onChange="getStartDate(this)">
+                                        	<input type="date" id="open-date" name="open-date" onChange="getStartDate(this)">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
                                         <p>모집 종료일<span>*</span></p>
-                                        	<input type="date" id="closeDate" name="closeDate" onChange="getEndDate(this)">
+                                        	<input type="date" id="close-date" name="close-date" onChange="getEndDate(this)">
                                     </div>
                                 </div>
                             </div>
                             <div class="checkout__input">
                                 <p>팀장 포지션<span>*</span></p>
-                                <select id="teamGender" onChange="selectGender(this)">
+                                <select id="master-position" onChange="selectGender(this)">
                                 	<option>PIVO(피보):공격수</option>
                                    <option>ALA(아라):미드필더</option>
                                    <option>FIXO(픽소):수비수</option>
@@ -147,14 +148,14 @@
 									Title<span>Content</span>
 								</div>
 								<ul>
-									<li>풋살장<span>이름이름</span></li>
-									<li>코트<span id="court"></span></li>
-									<li>위치<span>주소주소</span></li>
-									<li>형태<span id="placeForm"></span></li>
-									<li>예약 날짜<span></span></li>
-									<li>시작 시간<span id="startTime"></span></li>
-									<li>종료 시간<span id="endTime"></span></li>
-									<li>가격<span id="price"></span></li>
+									<li>풋살팀 이름<span>이름이름</span></li>
+									<li>모집 인원<span id="tema-number"></span></li>
+									<li>풋살팀 성별<span></span></li>
+									<li>풋살팀 소속 지역<span id="team-local"></span></li>
+									<li>모집 시작일<span id="open-date"></span></li>
+									<li>모집 종료일<span id="close-date"></span></li>
+									<li>팀장 포지션<span id="master-position"></span></li>
+									<li>모집 상태<span></span></li>
 								</ul>
 								<a href="#this" id="insert" class="site-btn-insert">등록</a>
 								<a href="#this" id="cancle" class="site-btn-cancle">취소</a>

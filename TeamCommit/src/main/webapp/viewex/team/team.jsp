@@ -547,7 +547,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <button onclick="location.href='/TeamCommit/viewex/team/teamRegister.jsp';">팀 등록</button>
+                            <button onclick="location.href='/TeamCommit/viewex/team/teamInsert.jsp';">팀 등록</button>
                         </div>
                     </div>
 
