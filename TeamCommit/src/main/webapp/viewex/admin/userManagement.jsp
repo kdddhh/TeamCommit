@@ -80,11 +80,12 @@
                                                             <span class="au-checkmark"></span>
                                                         </label>
                                                     </td>
-                                                    <td>name</td>
-                                                    <td>role</td>
-                                                    <td>cancel</td>
-                                                    <td>status</td>
-                                                    <td>management</td>
+                                                    <td>이름/이메일</td>
+                                                    <td>구분</td>
+                                                    <td>취소 횟수</td>
+                                                    <td>정지 횟수</td>
+                                                    <td>상태</td>
+                                                    <td>관리</td>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -108,6 +109,9 @@
                                                     </td>
                                                     <td>
                                                         <span class="cancel-number">0회</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="rest-number">0회</span>
                                                     </td>
                                                     <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
@@ -142,6 +146,9 @@
                                                         <span class="cancel-number">0회</span>
                                                     </td>
                                                     <td>
+                                                        <span class="rest-number">0회</span>
+                                                    </td>
+                                                    <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
                                                            <span class="status-active">활동</span>
                                                             <div class="dropDownSelect2"></div>
@@ -172,6 +179,9 @@
                                                     </td>
                                                      <td>
                                                         <span class="cancel-number">10회</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="rest-number">1회</span>
                                                     </td>
                                                     <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
@@ -206,6 +216,9 @@
                                                         <span class="cancel-number">3회</span>
                                                     </td>
                                                     <td>
+                                                        <span class="rest-number">0회</span>
+                                                    </td>
+                                                    <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
                                                            		<span class="status-active">활동</span>
                                                             <div class="dropDownSelect2"></div>
@@ -236,6 +249,9 @@
                                                     </td>
                                                      <td>
                                                         <span class="cancel-number">0회</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="rest-number">0회</span>
                                                     </td>
                                                     <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
