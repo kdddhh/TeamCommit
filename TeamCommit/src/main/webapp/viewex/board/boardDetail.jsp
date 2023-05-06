@@ -20,15 +20,13 @@
 
 
 <script src="/TeamCommit/resource/includes/js/ScrollMagic.min.js"></script>
-<script
-	src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
+<script src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
 
 
 <script src="/TeamCommit/resource/includes/js/main.js"></script>
 <!-- 여기까지 복붙하기 -->
 
 <link rel="stylesheet" href="/TeamCommit/resource/board/css/boardDetail.css" />
-
 </head>
 <body>
 	<%@include file="/resource/includes/header.jsp"%>
