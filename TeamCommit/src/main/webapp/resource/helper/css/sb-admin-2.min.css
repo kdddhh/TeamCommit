@@ -145,16 +145,18 @@ sup {
 }
 
 button {
-  border-radius: 18px;
-  border: 1px solid #B1D7B4;
-  background-color: #B1D7B4;
-  color: #FFFFFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 12px 45px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  transition: transform 80ms ease-in;
+  	border-radius: 20px;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 800;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 13px 30px 12px;
+	background: #B1D7B4;
+	border: none;
+	margin: 0 auto;
+	margin-bottom: 3em;
+	margin-top: 3em;
 }
 
 /* button.btn_insert {

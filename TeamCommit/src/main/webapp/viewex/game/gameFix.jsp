@@ -37,20 +37,6 @@
 
 <body>
 <%@include file="/resource/includes/header.jsp"%>
-	<!-- 상단바 -->
-	<nav class="untree_co--site-nav js-sticky-nav">
-		<div class="container d-flex align-items-center">
-			<div class="site-nav-ul-wrap text-center d-none d-lg-block">
-				<ul class="site-nav-ul js-clone-nav">
-					<li class="active"><a href="index.html">예약</a></li>
-					<li class="has-children"><a href="rooms.html">매칭</a></li>
-					<li><a href="amenities.html">자유 게시판</a></li>
-					<li><a href="gallery.html">팀</a></li>
-					<li><a href="about.html">용병</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
 
 	<div class="icons-wrap text-md-right"></div>
 
@@ -187,8 +173,8 @@
 									<li>종료 시간<span id="endTime"></span></li>
 									<li>매칭 상태<span id="status">매칭 중</span></li>									
 								</ul>
-								<a href="#this" id="insert" class="site-btn-insert">수정</a>
-								<a href="#this" id="cancle" class="site-btn-cancle">취소</a>
+								<a href="gameFix.jsp" id="insert" class="site-btn-insert">수정</a>
+								<a href="gameDetail.jsp" id="cancle" class="site-btn-cancle">취소</a>
 							</div>
 						</div>
 					</div>
