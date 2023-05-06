@@ -53,17 +53,19 @@
                                     <div class="filters m-b-45">
                                         <div class="rs-select2--dark rs-select2--md m-r-10 rs-select2--border">
                                             <select class="js-select2" name="property">
-                                                <option selected="selected">All Properties</option>
-                                                <option value="">Products</option>
-                                                <option value="">Services</option>
+                                                <option selected="selected">모두</option>
+                                                <option value="">개인 회원</option>
+                                                <option value="">개인 회원-팀장</option>
+                                                <option value="">업체 회원</option>
+                                                <option value="">관리자</option>
                                             </select>
                                             <div class="dropDownSelect2"></div>
                                         </div>
-                                        <div class="rs-select2--dark rs-select2--sm rs-select2--border">
-                                            <select class="js-select2 au-select-dark" name="time">
-                                                <option selected="selected">All Time</option>
-                                                <option value="">By Month</option>
-                                                <option value="">By Day</option>
+                                        <div class="rs-select2--dark rs-select2--md m-r-10 rs-select2--border">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">모두</option>
+                                                <option value="">활동 회원</option>
+                                                <option value="">정지 회원</option>
                                             </select>
                                             <div class="dropDownSelect2"></div>
                                         </div>
@@ -80,6 +82,7 @@
                                                     </td>
                                                     <td>name</td>
                                                     <td>role</td>
+                                                    <td>cancel</td>
                                                     <td>status</td>
                                                     <td>management</td>
                                                 </tr>
@@ -96,7 +99,7 @@
                                                         <div class="table-data__info">
                                                             <h6>lori lynch</h6>
                                                             <span>
-                                                                <a href="#">johndoe@gmail.com</a>
+                                                                <a>johndoe@gmail.com</a>
                                                             </span>
                                                         </div>
                                                     </td>
@@ -104,8 +107,43 @@
                                                         <span class="role admin">admin</span>
                                                     </td>
                                                     <td>
+                                                        <span class="cancel-number">0회</span>
+                                                    </td>
+                                                    <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
                                                             <span class="status-active">활동</span>
+                                                            <div class="dropDownSelect2"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn-stop">정지</button>
+                                                        <button class="btn-out">탈퇴</button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label class="au-checkbox">
+                                                            <input type="checkbox">
+                                                            <span class="au-checkmark"></span>
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        <div class="table-data__info">
+                                                            <h6>lori lynch</h6>
+                                                            <span>
+                                                                <a>johndoe@gmail.com</a>
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="role master">Master</span>
+                                                    </td>
+                                                     <td>
+                                                        <span class="cancel-number">0회</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="rs-select2--trans rs-select2--sm">
+                                                           <span class="status-active">활동</span>
                                                             <div class="dropDownSelect2"></div>
                                                         </div>
                                                     </td>
@@ -125,12 +163,15 @@
                                                         <div class="table-data__info">
                                                             <h6>lori lynch</h6>
                                                             <span>
-                                                                <a href="#">johndoe@gmail.com</a>
+                                                                <a>johndoe@gmail.com</a>
                                                             </span>
                                                         </div>
                                                     </td>
                                                     <td>
                                                         <span class="role user">user</span>
+                                                    </td>
+                                                     <td>
+                                                        <span class="cancel-number">10회</span>
                                                     </td>
                                                     <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
@@ -154,12 +195,15 @@
                                                         <div class="table-data__info">
                                                             <h6>lori lynch</h6>
                                                             <span>
-                                                                <a href="#">johndoe@gmail.com</a>
+                                                                <a>johndoe@gmail.com</a>
                                                             </span>
                                                         </div>
                                                     </td>
                                                     <td>
                                                         <span class="role user">User</span>
+                                                    </td>
+                                                     <td>
+                                                        <span class="cancel-number">3회</span>
                                                     </td>
                                                     <td>
                                                         <div class="rs-select2--trans rs-select2--sm">
@@ -183,12 +227,15 @@
                                                         <div class="table-data__info">
                                                             <h6>lori lynch</h6>
                                                             <span>
-                                                                <a href="#">johndoe@gmail.com</a>
+                                                                <a>johndoe@gmail.com</a>
                                                             </span>
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <span class="role member">Master</span>
+                                                        <span class="role emp">Emp</span>
+                                                    </td>
+                                                     <td>
+                                                        <span class="cancel-number">0회</span>
                                                     </td>
                                                     <td>
                                                         <div class="rs-select2--trans rs-select2--sm">

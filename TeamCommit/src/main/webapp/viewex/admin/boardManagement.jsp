@@ -39,32 +39,24 @@
 				                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 				                                    <thead>
 				                                        <tr>
-				                                            <th>Name</th>
-				                                            <th>Position</th>
-				                                            <th>Office</th>
-				                                            <th>Age</th>
-				                                            <th>Start date</th>
-				                                            <th>Salary</th>
+				                                            <th>제목</th>
+				                                            <th>작성자</th>
+				                                            <th>날짜</th>
+				                                            <th>신고 횟수</th>
+				                                            <th>신고 사유</th>
+				                                            <th>관리</th>
 				                                        </tr>
 				                                    </thead>
-				                                    <tfoot>
-				                                        <tr>
-				                                            <th>Name</th>
-				                                            <th>Position</th>
-				                                            <th>Office</th>
-				                                            <th>Age</th>
-				                                            <th>Start date</th>
-				                                            <th>Salary</th>
-				                                        </tr>
-				                                    </tfoot>
 				                                    <tbody>
 				                                        <tr>
-				                                            <td>Tiger Nixon</td>
+				                                            <td>4조 최고 짱짱</td>
 				                                            <td>System Architect</td>
 				                                            <td>Edinburgh</td>
 				                                            <td>61</td>
 				                                            <td>2011/04/25</td>
-				                                            <td>$320,800</td>
+				                                            <td>
+				                                            <button class="btn-remove">삭제</button>
+                                                        	</td>
 				                                        </tr>
 				                                        <tr>
 				                                            <td>Garrett Winters</td>
