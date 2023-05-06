@@ -544,7 +544,7 @@
                                     </tbody>
                                 </table>
                                 <div class="btn_insert">
-                                <a href="#"><button type="button" class="btn_insert">등록</button></a>
+                                <a href="/TeamCommit/viewex/helper/helperInsert.jsp"><button type="button" class="btn_insert">등록</button></a>
                                 </div>
                             </div>
                         </div>
