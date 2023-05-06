@@ -10,27 +10,6 @@
 
   <meta name="description" content="" />
   <meta name="keywords" content="" />
-  
-<style>
-	.bluetop {
-  		border-collapse: collapse;
-  		border-top: 3px solid #ffc090​;
-	}  
-	.bluetop th {
-  		color: #fff;
-  		background: #b1d7b4;
-	}
-	.bluetop th, .bluetop td {
-  		padding: 10px;
-  		border-bottom: 1px solid #ddd;
-	}
-	.bluetop th:first-child, .bluetop td:first-child {
-  		border-left: 0;
-	}
-	.bluetop th:last-child, .bluetop td:last-child {
-  		border-right: 0;
-	}
-</style>
 
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500i,700|Roboto:300,400,500,700&display=swap" rel="stylesheet">
 
