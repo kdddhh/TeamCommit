@@ -194,6 +194,7 @@ ol {
 .site-btn-insert:hover,
 .site-btn-cancle:hover {
 	background: #ffc090;
+	color: #ffffff;
 }
 
 .request,
@@ -213,6 +214,7 @@ ol {
 .request:hover,
 .cancle:hover {
 	background: #ffc090;
+	color: #ffffff;
 }
 
 
@@ -615,7 +617,7 @@ ol {
 
 .checkout {
 	padding-top: 80px;
-	padding-bottom: 60px;
+	padding-bottom: 10rem;
 }
 
 .checkout h6 {

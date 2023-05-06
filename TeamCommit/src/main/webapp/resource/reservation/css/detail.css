@@ -36,6 +36,7 @@ body {
 	dispaly: flex;
 	flex-direction: column;
 	min-width: 360px;
+	margin-bottom: 10rem;
 }
 
 .root * {

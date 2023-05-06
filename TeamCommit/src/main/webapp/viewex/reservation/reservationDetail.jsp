@@ -136,11 +136,7 @@
 	</div>
 
 	<!-- footer -->
-	<footer class="footer">
-		<div class="footer-container">
-		<%-- 	<%@include file="/resource/includes/footer.jsp"%> --%>
-		</div>
-	</footer>
+	<%@include file="/resource/includes/footer.jsp"%>
 
 	<!-- script -->
 	<script src="/TeamCommit/resource/includes/js/jquery-3.3.1.min.js"></script>
