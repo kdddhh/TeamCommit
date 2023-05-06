@@ -11,7 +11,7 @@ h5 {
 	padding-bottom: 5px;
 }
 
-span {
+h5 span {
 	color: #bb0000;
 }
 
@@ -109,6 +109,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	background-color: #fff;
+	border-bottom: solid 3px rgba(210, 215, 217, 0.75);
 }
 
 .p-0 {
@@ -142,6 +143,7 @@ h3.price {
 
 .facility-content {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
@@ -211,10 +213,6 @@ small {
 }
 
 /* header */
-.logo-wrap {
-	left: 394px !important;
-}
-
 .site-nav-ul-wrap {
 	margin-left: 2px !important;
 	margin-top: -4px !important;
@@ -277,10 +275,4 @@ h1.title {
 	font-weight: 400 !important;
 }
 
-/* footer(나중에 이거 지우자) */
-footer {
-	height: 300px;
-	text-align: center;
-	margin-top: 80px;
-}
 

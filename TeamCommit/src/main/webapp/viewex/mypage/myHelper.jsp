@@ -31,7 +31,7 @@
 
 				<!-- Header -->
 				<header id="header">
-					<a href="myTeam.jsp" class="logo"><strong>소속팀</strong></a>
+					<a href="myHelper.jsp" class="logo"><strong>용병 지원</strong></a>
 				</header>
 
 				<section class="section">
@@ -42,11 +42,9 @@
 								<div class="rs-select2--light rs-select2--md">
 									<select class="js-select2" name="property">
 										<option selected="selected">ALL</option>
-										<option value="member">직책</option>
-										<option value="name">이름</option>
-										<option value="position">포지션</option>
-										<option value="gender">성별</option>
-										<option value="adress">거주지</option>
+										<option value="game">매치</option>
+										<option value="helper">용병</option>
+										<option value="team">팀</option>
 									</select>
 									<div class="dropDownSelect2"></div>
 								</div>
@@ -54,89 +52,79 @@
 									<i class="zmdi zmdi-filter-list"></i>filters
 								</button> -->
 							</div>
-							<div class="facility-wrap">
-								<p class="info">
-									인원<span>4/30</span>
-								</p>
-								<p class="info">
-									지역<span>경기 수원시</span>
-								</p>
-								<p class="info">
-									성별<span>혼성</span>
-								</p>
+							<div class="message-btn-wrap">
+								<button class="au-btn-b1 au-btn-icon au-btn--white au-btn--small">
+									<i class="zmdi zmdi-refresh"></i>
+								</button>
+								<button class="au-btn-b1 au-btn-icon au-btn--white au-btn--small">삭제</button>
 							</div>
 						</div>
-						<div class="table-responsive table-responsive-data2">
+						<div class="table-responsive table-responsive-data2 mar">
 							<table class="table table-data2">
 								<thead>
 									<tr>
-										<th class="title">직책</th>
-										<th class="title">이름</th>
-										<th class="title">포지션</th>
-										<th class="title">성별</th>
-										<th class="title">거주지</th>
-										<th class="title">관리</th>
+										<th>
+											<label class="au-checkbox">
+												<input type="checkbox">
+                                                <span class="au-checkmark check"></span>
+                                            </label>
+                                        </th>
+                                        <th class="title">분류</th>
+										<th class="title">경기</th>
+										<th class="title">풋살장</th>										
+										<th class="title">지역</th>
+										<th class="title">경기일자</th>
+										<th class="title">모집인원</th>
+										<th class="level">팀레벨</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr class="tr-shadow">
-										<td>팀장</td>
-										<td><span class="block-email">김팀장</span></td>
-										<td class="desc">골레이로(Goleiro)</td>
-										<td>남</td>
-										<td>수원</td>
 										<td>
-											<div class="table-data-feature">
-												<button class="out" data-toggle="tooltip" data-placement="top" title="Send">
-													<i>방출</i>
-												</button>
-											</div>
-										</td>
-									</tr>
-									<tr class="spacer"></tr>
-									<tr class="tr-shadow">
-										<td>팀원</td>
-										<td><span class="block-email">이팀원</span></td>
-										<td class="desc">피보(Pivo)</td>
-										<td>여</td>
+                                            <label class="au-checkbox">
+                                            	<input type="checkbox">
+                                                <span class="au-checkmark"></span>
+                                            </label>
+                                        </td>
+										<td><span class="block-email">수락</span></td>
+										<td>3vs3</td>
+										<td>4조 풋살장</td>
 										<td>서울</td>
-										<td>
-											<div class="table-data-feature">
-												<button class="out" data-toggle="tooltip" data-placement="top" title="Send">
-													<i>방출</i>
-												</button>
-											</div>
-										</td>
+										<td class="desc">23.05.01</td>
+										<td>1명</td>
+										<td>레벨 1</td>
 									</tr>
 									<tr class="spacer"></tr>
 									<tr class="tr-shadow">
-										<td>팀원</td>
-										<td><span class="block-email">최팀원</span></td>
-										<td class="desc">아라(Ala)</td>
-										<td>남</td>
-										<td>인천</td>
 										<td>
-											<div class="table-data-feature">
-												<button class="out" data-toggle="tooltip" data-placement="top" title="Send">
-													<i>방출</i>
-												</button>
-											</div>
-										</td>
-									</tr>
-									<tr class="spacer"></tr>
-									<tr class="tr-shadow">
-										<td>팀원</td>
-										<td><span class="block-email">장팀원</span></td>
-										<td class="desc">픽소(Fixo)</td>
-										<td>남</td>
+                                            <label class="au-checkbox">
+                                            	<input type="checkbox">
+                                                <span class="au-checkmark"></span>
+                                            </label>
+                                        </td>
+										<td><span class="block-email">거절</span></td>
+										<td>5vs5</td>
+										<td>서울 풋살장</td>
 										<td>서울</td>
+										<td class="desc">23.05.03</td>
+										<td>2명</td>
+										<td>레벨 5</td>
+									</tr>
+									<tr class="spacer"></tr>
+									<tr class="tr-shadow">
 										<td>
-											<div class="table-data-feature">
-												<button class="out" data-toggle="tooltip" data-placement="top" title="Send">
-													<i>방출</i>
-												</button>
-											</div>
-										</td>
+                                            <label class="au-checkbox">
+                                            	<input type="checkbox">
+                                                <span class="au-checkmark"></span>
+                                            </label>
+                                        </td>
+										<td><span class="block-email">수락</span></td>
+										<td>5vs5</td>
+										<td>파주 풋살장</td>
+										<td>파주</td>
+										<td class="desc">23.05.05</td>
+										<td>1명</td>
+										<td>레벨 3</td>
 									</tr>
 								</tbody>
 							</table>

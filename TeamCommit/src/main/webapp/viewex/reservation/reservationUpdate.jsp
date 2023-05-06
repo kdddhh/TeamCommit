@@ -33,6 +33,7 @@
     <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
     <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />    
 	
+ 	<link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
 </head>
 
 <body>
@@ -137,7 +138,7 @@
                                 </label>
                             </div>
                             <div class="checkout__input">
-                                <p>가격<span>*</span></p>
+                                <p>대관비<span>*</span></p>
                                 <input type="number" class="inputPrice" id="inputPrice" onChange="getPrice()" placeholder="ex) 50000">
                             </div>
                             <div class="checkout__input">
@@ -162,7 +163,7 @@
 									<li>시작 시간<span id="startTime"></span></li>
 									<li>종료 시간<span id="endTime"></span></li>
 									<li>예약 상태<span id="status">예약</span></li>
-									<li>가격<span id="price"></span></li>
+									<li>대관비<span id="price"></span></li>
 								</ul>
 								<a href="#this" id="insert" class="site-btn-insert">수정</a>
 								<a href="#this" id="cancle" class="site-btn-cancle">취소</a>

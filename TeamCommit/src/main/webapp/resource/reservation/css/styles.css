@@ -75,6 +75,22 @@
   box-sizing: border-box;
 }
 
+.court-insert {
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: 800;
+	display: inline-block;
+	padding: 13px 30px 12px;
+	background: #7fb77e;
+	border: none;
+	border-radius: 5px;
+    text-align: center;
+}
+
+.court-insert:hover {
+	background: #ffc090;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -103,10 +119,6 @@ body {
 }
 
 /* header */
-.logo-wrap {
-	left: 380px !important;
-}
-
 .site-nav-ul-wrap {
 	margin-left: 20px !important;
 	margin-top: -4px !important;
@@ -115,7 +127,7 @@ body {
 .header-container {
 	padding-top: 1rem;
 	border-bottom: 1px solid #f2f2f2;
-	height: 50px;
+	height: 60px;
 }
 
 hr {
@@ -135,12 +147,6 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
-}
-
-.header-container {
-	padding-top: 1rem;
-	border-bottom: 1px solid #f2f2f2;
-	height: 50px;
 }
 
 @media (min-width: 1200px) {
@@ -361,6 +367,14 @@ th {
 label {
   display: inline-block;
 }
+
+.col-lg-8-1 {
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+} 
 
 button {
   border-radius: 0;
@@ -698,6 +712,25 @@ progress {
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 .row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.row-request-container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.row-request-container > * {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
@@ -1320,6 +1353,11 @@ progress {
   	flex: 0 0 66.666667%;
   	max-width: 66.666667%;
   }
+  .col-lg-8-1 {
+    flex: 0 0 66.666667%;
+  	max-width: 66.666667%;
+  	margin: 0 auto;
+  }  
   .col-lg-9 {
     flex: 0 0 auto;
     width: 75%;
@@ -8018,6 +8056,11 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+}
+
+.text-center.insert {
+	text-align: right !important;
+	margin-bottom: 1rem;
 }
 
 .text-decoration-none {
