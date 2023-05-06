@@ -10,6 +10,27 @@
 
   <meta name="description" content="" />
   <meta name="keywords" content="" />
+  
+<style>
+	.bluetop {
+  		border-collapse: collapse;
+  		border-top: 3px solid #ffc090​;
+	}  
+	.bluetop th {
+  		color: #fff;
+  		background: #b1d7b4;
+	}
+	.bluetop th, .bluetop td {
+  		padding: 10px;
+  		border-bottom: 1px solid #ddd;
+	}
+	.bluetop th:first-child, .bluetop td:first-child {
+  		border-left: 0;
+	}
+	.bluetop th:last-child, .bluetop td:last-child {
+  		border-right: 0;
+	}
+</style>
 
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500i,700|Roboto:300,400,500,700&display=swap" rel="stylesheet">
 
@@ -43,6 +64,7 @@
     <script src="/TeamCommit/resource/main/js/vendor/debug.addIndicators.min.js"></script>
 
     <script src="/TeamCommit/resource/main/js/main.js"></script>
+    
 
     <title>kickoff</title>
   </head>
@@ -321,9 +343,14 @@
                   <a href="#" class="thumb"></a>
                   <div class="post-entry-contents">
                     <h3><a href="#">지금 예약 가능해요! ⚽</a></h3>
-                    <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>
-                    <p>A hotel is an establishment that provides paid lodging on a short-term basis.</p>
-                    <p><a href="#" class="readmore">Read more</a></p>
+                    <table class="bluetop">
+					  <tr> <th>업체명</th> <th>지역</th> <th>조명</th> <th>형태</th> </tr>
+					  <tr> <td>서울 풋살장</td> <td>서울</td> <td>유</td> <td>실내</td> </tr>
+					  <tr><td>부산 풋살장</td><td>부산</td> <td>유</td> <td>실외</td></tr>
+					  <tr><td>대구 풋살장</td><td>대구</td> <td>유</td> <td>실내</td></tr>
+					  <tr><td>울산 풋살장</td><td>울산</td> <td>유</td> <td>실외</td></tr>
+					</table>
+                    <p><a href="/TeamCommit/viewex/reservation/reservation.jsp" class="readmore">Read more</a></p>
                   </div>
                 </div>
               </div>
@@ -333,9 +360,14 @@
                   <a href="#" class="thumb"></a>
                   <div class="post-entry-contents">
                     <h3><a href="#">최근 매치 등록 🏆</a></h3>
-                    <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>
-                    <p>A hotel is an establishment that provides paid lodging on a short-term basis.</p>
-                    <p><a href="#" class="readmore">Read more</a></p>
+                    <table class="bluetop">
+					  <tr> <th>업체명</th> <th>지역</th> <th>팀 레벨</th> <th>경기 방식</th> </tr>
+					  <tr> <td>서울 풋살장</td> <td>서울</td> <td>1</td> <td>3 vs 3</td> </tr>
+					  <tr><td>부산 풋살장</td><td>부산</td> <td>2</td> <td>5 vs 5</td> </tr>
+					  <tr><td>대구 풋살장</td><td>대구</td> <td>3</td> <td>3 vs 3</td> </tr>
+					  <tr><td>울산 풋살장</td><td>울산</td> <td>4</td> <td>6 vs 6</td> </tr>
+					</table>
+                    <p><a href="/TeamCommit/viewex/game/game.jsp" class="readmore">Read more</a></p>
                   </div>
                 </div>
               </div>
@@ -345,9 +377,14 @@
                   <a href="#" class="thumb"></a>
                   <div class="post-entry-contents">
                     <h3><a href="#">게시판 TOP 10 🔥</a></h3>
-                    <div class="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div>
-                    <p>A hotel is an establishment that provides paid lodging on a short-term basis.</p>
-                    <p><a href="#" class="readmore">Read more</a></p>
+                    <table class="bluetop">
+					  <tr> <th>제목</th> <th>작성자</th> <th>조회수</th> <th>작성일</th> </tr>
+					  <tr> <td>서울 풋살장</td> <td>서울</td> <td>유</td> <td>실내</td> </tr>
+					  <tr><td>부산 풋살장</td><td>부산</td> <td>유</td> <td>실외</td></tr>
+					  <tr><td>대구 풋살장</td><td>대구</td> <td>유</td> <td>실내</td></tr>
+					  <tr><td>울산 풋살장</td><td>울산</td> <td>유</td> <td>실외</td></tr>
+					</table>
+                    <p><a href="/TeamCommit/viewex/board/board.jsp" class="readmore">Read more</a></p>
                   </div>
                 </div>
               </div>
