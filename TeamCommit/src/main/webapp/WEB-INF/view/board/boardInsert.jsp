@@ -3,83 +3,111 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 
 
+<%-- <%@include file="../includes/header.jsp"%>--%>
+
+
 <!doctype html>
 <html>
 <head>
 <meta charset="UTF-8" />
-<title>Kick Off: 자유게시판 글 등록</title>
-<!-- include할 문서에 스타일, js -->
- <link rel="stylesheet" href="/TeamCommit/resource/includes/css/style.css">
-    
-    <link rel = "stylesheet" href = "/TeamCommit/resource/main/css/vendor/icomoon/style.css">
-    
-    <script src="/TeamCommit/resource/includes/js/jquery-3.3.1.min.js"></script>
-
-    <script src="/TeamCommit/resource/includes/js/jquery.lettering.js"></script>
-    <script src="/TeamCommit/resource/includes/js/jquery.sticky.js"></script>
-
-
-    <script src="/TeamCommit/resource/includes/js/ScrollMagic.min.js"></script>
-    <script src="/TeamCommit/resource/includes/js/scrollmagic.animation.gsap.min.js"></script>
-
-
-    <script src="/TeamCommit/resource/includes/js/main.js"></script>
-<!-- 여기까지 복붙하기 -->    
-
-<link rel = "stylesheet" href = "/TeamCommit/resource/board/css/boardInsert.css" />
-
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+	* {
+		font-family: 'Noto Sans KR', sans-serif;
+		padding: 0; 
+		margin: 0;
+	}
+	panel, panel-body
+	button
+	h1 {
+		text-align: center;
+		font-style: bold;
+	}
+	
+	.formInline {
+		margin-bottom : 1em;
+		width: 90px;
+	}
+	
+	.form-control {
+		width: 400px;
+	}
+	
+	body {
+		position: relative;
+		top: 30%;
+		left: 25%;
+		margin-top: 5em;
+		margin-bottom: 10em;
+	}
+	
+	#boardWriter {
+		float: right;
+		position: absolute;
+		right: 60%;
+	}
+	
+	.upload {
+		clear: both;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}	
+	
+	.table-responsive {
+		margin-top: 3em;
+	}
+	
+	label {
+		font-style: bold;
+	}
+	
+	button {
+		margin: 0 auto;
+	}
+	
+	textarea {
+		resize: none;
+	}
+	
+	
+</style>
 </head>
-<body>
-<%@include file="/resource/includes/header.jsp"%>
-<!-- Header -->
-    <div class="bg-dark py-5">
-        <div class="container px-4 px-lg-5 my-5">
-            <div class="text-center text-white">
-                <h1 class="display-4 fw-bolder">자유게시판 게시글 등록</h1>
-                <p class="lead fw-normal text-white-50 mb-0">풋살 관련 이야기할 주제들을 자유롭게 게시해주세요.</p>
-            </div>
-        </div>
-    </div>
+<body style="overflow-x: hidden">
 
-<br>
-<br>
+<h1>등록 페이지</h1>
+
 <form role="form" action="/board/create_action" method="post">
-<h4>게시글 등록</h4>
 <div class="table-responsive">
 		
-		<div class="board_title">
 		<span class="formInline">
 		<label for="board_title">제목</label>
-		<input type="text" id="board_title" name="board_title" class="form-control">
+		<input type="text" id="board_title"
+				name="board_title" class="form-control">
 		</span>
-		</div>
 		
-		<div class="writer">
 		<span id="boardWriter" class="formWriter">
 		<label for="board_writer" class="writer">작성자</label>
 		</span>
-		</div>
 		
-		<div class="filebox bs3-primary preview-image">
-              <input class="upload-name" value="파일선택" disabled="disabled" style="width: 200px;">
-
-              <label for="input_file">업로드</label> 
-              <input type="file" id="input_file" class="upload-hidden"> 
-        </div>
+		<div class="upload">
+			<legend>사진 첨부</legend>
+            <input type="file" name="upload_file" accept="image/*">
+		</div>
 		
 		<div class="content">
 		<label for="board_content">내용</label><br>
-			<textarea id="board_content" name="board_content" cols="100" rows="20" class="form-content"></textarea>
+			<textarea id="board_content" name="board_content" cols="100" rows="10"
+					class="form-content"></textarea>
 		</div>
 		
-		<div class="btn_board">
-		<button type="reset" class="btn_reset" onclick="location.href='/TeamCommit/viewex/board/board.jsp';">취소</button>
-		<!-- <a href="boardDetail.jsp"><button type="submit" class="btn_submit">등록</button></a> -->
-		<button type="reset" class="btn_reset" onclick="location.href='/TeamCommit/viewex/board/boardDetail.jsp';">등록</button>
-		</div>
-</div>
+		
 			
 </div>
+<div>
+	<button type="submit" class="btn_submit">등록</button>
+	<button type="reset" class="btn_reset">취소</button>
+</div>
+
 </form>
 
 </body>
