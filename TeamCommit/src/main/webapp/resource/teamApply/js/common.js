@@ -1,4 +1,3 @@
-
 input-text 엔터키 submit 방지 
 $('input[type="text"]').keydown(function() {
 	if (event.keyCode === 13) {
