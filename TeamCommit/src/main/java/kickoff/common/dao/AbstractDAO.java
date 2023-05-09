@@ -1,4 +1,4 @@
-package dao;
+package kickoff.common.dao;
 
 import java.awt.List;
 

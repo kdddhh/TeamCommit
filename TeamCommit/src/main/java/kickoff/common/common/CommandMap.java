@@ -1,4 +1,4 @@
-package common;
+package kickoff.common.common;
 
 import java.util.HashMap;
 import java.util.Map;

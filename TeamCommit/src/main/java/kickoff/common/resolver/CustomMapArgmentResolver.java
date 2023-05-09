@@ -1,4 +1,4 @@
-/*package resolver;
+package kickoff.common.resolver;
 
 import java.util.Enumeration;
 
@@ -10,9 +10,11 @@ import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.method.support.ModelAndViewContainer;
 
-import common.CommandMap;
+import kickoff.common.common.CommandMap;
 
-public class CustomMapArgumentResolver implements HandlerMethodArgumentResolver {
+
+
+public class CustomMapArgmentResolver implements HandlerMethodArgumentResolver {
 	@Override
 	public boolean supportsParameter(MethodParameter parameter) {
 		return CommandMap.class.isAssignableFrom(parameter.getParameterType());
@@ -36,4 +38,4 @@ public class CustomMapArgumentResolver implements HandlerMethodArgumentResolver 
 		}
 		return commandMap;
 	}
-}*/
+}
